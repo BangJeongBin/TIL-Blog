@@ -1,5 +1,5 @@
 # 설정
-title: Not Pure Poole
+title: TIL Blog
 description: 블로그를 위한 간단하고 아름다우며 강력한 Jekyll 테마
 url: https://bangjeongbin.github.io/TIL-Blog
 avatar: /avatar.jpeg
@@ -54,6 +54,6 @@ sass:
 
 # 블로그 게시물의 작성자 정보 지정
 author:
-  name: Songzi Vong  # 작성자 이름
-  url: https://github.com/vszhub/  # 작성자 프로필 URL
-  email: vszhub@gmail.com  # 작성자 이메일
+  name: Jeongbin Bang  # 작성자 이름
+  url: https://github.com/BangJeongBin/  # 작성자 프로필 URL
+  email: bangjungbin@gmail.com  # 작성자 이메일
