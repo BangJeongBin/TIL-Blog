@@ -1,59 +1,59 @@
-# Setup
+# 설정
 title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
+description: 블로그를 위한 간단하고 아름다우며 강력한 Jekyll 테마
 url: https://bangjeongbin.github.io/TIL-Blog
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
 
-# Gems
+# 젬 (플러그인)
 plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-gist  # GitHub Gist를 삽입할 수 있도록 지원
+  - jekyll-paginate  # 페이지네이션(페이지 나누기) 기능 추가
+  - jekyll-seo-tag  # SEO(검색 엔진 최적화) 태그 자동 생성
+  - jekyll-feed  # RSS 피드 자동 생성
+  - jekyll-sitemap  # 사이트맵 자동 생성
 
-# Optimize Jekyll
+# Jekyll 최적화
 exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-  - scripts/
-  - not-pure-poole.gemspec
+  - .editorconfig  # 코드 스타일 가이드 설정 파일 제외
+  - .git  # Git 저장소 폴더 제외
+  - .jekyll-cache  # Jekyll 캐시 파일 제외
+  - Gemfile  # Bundler가 사용하는 Gemfile 제외
+  - Gemfile.lock  # Gemfile.lock 파일 제외
+  - LICENSE.md  # 라이선스 파일 제외
+  - README.md  # README 문서 제외
+  - scripts/  # 스크립트 폴더 제외
+  - not-pure-poole.gemspec  # 젬 사양 파일 제외
 
-# Optimize Jekyl SEO Tag
+# Jekyll SEO 태그 최적화
 twitter:
-  username: vszhub
-  card: summary
+  username: vszhub  # 트위터 사용자명 설정
+  card: summary  # 트위터 카드 타입 설정
 logo: logo.png
 social:
-  name: Songzi Vong
-  links:
+  name: Songzi Vong  # 소셜 미디어에 표시할 이름
+  links:  # 소셜 미디어 링크
     - https://twitter.com/vszhub
     - https://github.com/vszhub
-google_site_verification: xxxxx
-lang: en
+google_site_verification: xxxxx  # 구글 사이트 소유권 확인 코드
+lang: en  # 사이트 언어 설정
 
 sass:
-  sass_dir: _sass
-  style: :compressed
+  sass_dir: _sass  # Sass 파일이 위치한 디렉터리
+  style: :compressed  # CSS를 압축하여 최소화
 
-# Options
+# 옵션
 
-# Replace this value and uncomment to enable Google Analytics tracking
+# Google Analytics 추적 활성화를 위해 값을 변경하고 주석을 해제하세요.
 # google_analytics: UA-000000-0
 
-# Replace this value and uncomment to enable Disqus
+# Disqus(댓글 시스템) 활성화를 위해 값을 변경하고 주석을 해제하세요.
 # disqus: xxxxxx
 
-# Specify the author for blog posts
+# 블로그 게시물의 작성자 정보 지정
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Songzi Vong  # 작성자 이름
+  url: https://github.com/vszhub/  # 작성자 프로필 URL
+  email: vszhub@gmail.com  # 작성자 이메일
