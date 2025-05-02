@@ -5,6 +5,18 @@ layout: default
 {% include home-header.html %}
 
 <div class="posts">
+
+  <div class="debug">
+    <h3>Paginator Debug Info</h3>
+    <ul>
+      <li>Total Posts: {{ paginator.total_posts }}</li>
+      <li>Total Pages: {{ paginator.total_pages }}</li>
+      <li>Current Page: {{ paginator.page }}</li>
+      <li>Posts Count on this Page: {{ paginator.posts | size }}</li>
+    </ul>
+  </div>
+  
+
   {% for post in paginator.posts %}
   <section class="post-entry">
     <h2 class="post-title">
