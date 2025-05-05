@@ -3,7 +3,7 @@ title: TIL Blog
 description: 블로그를 위한 간단하고 아름다우며 강력한 Jekyll 테마
 url: https://bangjeongbin.github.io/TIL-Blog
 avatar: /avatar.jpeg
-paginate: 5
+paginate: 3
 paginate_path: "/page:num/"  # 페이지네이션된 페이지의 URL 형식 (예: /page2/, /page3/)
 permalink: pretty
 cover_image: /bg.jpeg
