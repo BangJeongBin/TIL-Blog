@@ -3,10 +3,7 @@ name: Release notes
 on:
   push:
     branches:
-      - main
-
-permissions:
-  contents: write  # <-- 이 줄이 중요합니다
+      - master
 
 jobs:
   update_release_draft:
