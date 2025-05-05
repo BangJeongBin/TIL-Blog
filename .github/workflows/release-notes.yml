@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write  # <-- 이 줄이 중요합니다
+
 jobs:
   update_release_draft:
     runs-on: ubuntu-latest
@@ -12,4 +15,3 @@ jobs:
       - uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
