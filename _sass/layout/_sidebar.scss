@@ -16,7 +16,14 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   height: 100%;
   overflow-y: auto;
   width: v.$sidebar-width;
-  background: var(--sidebar-bg);
+
+
+  // 사이드 바 백그라운드 이미지
+  background: url('/assets/img/aurora.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+
+
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for IE, Edge and Firefox */
@@ -94,6 +101,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     }
   }
 
+  // 타이틀
   .site-title {
     @extend %clickable-transition;
     @extend %sidebar-link-hover;
@@ -102,13 +110,14 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     font-weight: 900;
     font-size: 1.75rem;
     line-height: 1.2;
-    letter-spacing: 0.25px;
+    letter-spacing: 2px;
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
     width: fit-content;
-    color: var(--site-title-color);
+    color: rgba(254, 254, 254, 99%);
   }
 
+  // 타이틀 아래 카테고리? 들
   .site-subtitle {
     font-size: 95%;
     color: var(--site-subtitle-color);
