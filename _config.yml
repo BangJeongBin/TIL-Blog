@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://bangjeongbin.github.io"
+url: "https://bangjeongbin.github.io/TIL-Blog"
 
 github:
   username: BangJeongBin # change to your GitHub username
@@ -95,7 +95,7 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: 
+img_cdn: https://cdn.jsdelivr.net/gh/BangJeongBin/TIL-Blog@main
 
 # the avatar on sidebar, support local or CORS resources
 avatar: assets/img/genbacat.jpg
@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "/TIL-Blog"
+baseurl: #"/TIL-Blog" # baseUrl을 쓸건지 아니면 url에 다 넣을건지 고민해봐야함 왜냐하면 이미지 올릴때 문제 생길듯
 
 # ------------ The following options are not recommended to be modified ------------------
 

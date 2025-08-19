@@ -8,10 +8,10 @@ tags: [typography]
 pin: true
 math: true
 mermaid: true
-image:
-  path: /commons/devices-mockup.png
-  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: cdn 사용 안해서 안나옴
+image: /assets/img/posts/test-image.jpg
+  # path: /commons/devices-mockup.png
+  # lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  # alt: cdn 사용 안해서 안나옴
 ---
 
 ## Headings
@@ -165,9 +165,10 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 ## Images
 
 ### Default (with caption)
-
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
+![Image](https://github.com/user-attachments/assets/581196f7-f868-4581-8128-9cdf766eefd7)
+<!-- ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" } -->
 _Full screen width and center alignment_
+<!-- {: style="max-width: 30%"} -->
 
 ### Left aligned
 
