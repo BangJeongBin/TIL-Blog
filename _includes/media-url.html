@@ -2,54 +2,36 @@
   Generate media resource final URL based on `site.cdn`, `page.media_subpath`
 
   Arguments:
-    src      - required, media path (absolute '/assets/...' or relative 'img.png' or full 'https://...')
-    subpath  - optional, per-post media base (e.g. '/posts/20180809')
-    absolute - optional, boolean. If true, prepend site.url (+ baseurl)
+    src - required, basic media resources path
+    subpath - optional, relative path of media resources
+    absolute - optional, boolean, if true, generate absolute URL
 
-  Behavior:
-    - If src is full URL (contains '://'), return as-is (no baseurl/subpath)
-    - If src starts with '/', treat as root-absolute; DO NOT prefix subpath
-    - If src is relative, prefix subpath when provided
-    - Prepend site.cdn if configured; then skip baseurl
-    - Prepend baseurl only once, and only when non-empty
+  Return:
+    media resources URL
 {%- endcomment -%}
 
-{% assign url = include.src | to_s %}
+{% assign url = include.src %}
 
 {%- if url -%}
-  {%- unless url contains '://' -%}
+  {% unless url contains ':' %}
+    {%- comment -%} Add media resources subpath prefix {%- endcomment -%}
+    {% assign url = include.subpath | default: '' | append: '/' | append: url %}
 
-    {%- assign first_char = url | slice: 0, 1 -%}
-
-    {%- comment -%} Only add subpath for relative paths (no leading '/') {%- endcomment -%}
-    {%- if first_char != '/' and include.subpath and include.subpath != '' -%}
-      {% assign url = include.subpath | append: '/' | append: url %}
-    {%- endif -%}
-
-    {%- comment -%} Prepend CDN if configured {%- endcomment -%}
-    {%- if site.cdn and site.cdn != '' -%}
+    {%- comment -%} Prepend CND URL {%- endcomment -%}
+    {% if site.cdn %}
       {% assign url = site.cdn | append: '/' | append: url %}
-    {%- endif -%}
+    {% endif %}
 
-    {%- comment -%} Normalize double slashes without breaking protocol {%- endcomment -%}
-    {% assign url = url | replace: '://', '§§' | replace: '///', '/' | replace: '//', '/' | replace: '§§', '://' %}
+    {% assign url = url | replace: '///', '/' | replace: '//', '/' | replace: ':/', '://' %}
 
-    {%- comment -%} If we now have a full URL (CDN), stop here {%- endcomment -%}
-    {%- unless url contains '://' -%}
-      {%- if include.absolute -%}
-        {% assign prefix = site.url | append: site.baseurl %}
-        {% assign url = prefix | append: url %}
-      {%- else -%}
-        {%- if site.baseurl and site.baseurl != '' -%}
-          {%- comment -%} Avoid double-prepending baseurl {%- endcomment -%}
-          {%- if url | slice: 0, site.baseurl.size != site.baseurl -%}
-            {% assign url = site.baseurl | append: url %}
-          {%- endif -%}
-        {%- endif -%}
-      {%- endif -%}
-    {%- endunless -%}
-
-  {%- endunless -%}
+    {% unless url contains '://' %}
+      {% if include.absolute %}
+        {% assign url = site.url | append: site.baseurl | append: url %}
+      {% else %}
+        {% assign url = site.baseurl | append: url %}
+      {% endif %}
+    {% endunless %}
+  {% endunless %}
 {%- endif -%}
 
 {{- url -}}
