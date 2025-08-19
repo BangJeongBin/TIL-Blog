@@ -15,21 +15,23 @@
 {%- if url -%}
   {% unless url contains '://' %}
     {%- assign first_char = url | slice: 0, 1 -%}
-    
-    {%- comment -%} Only add subpath for relative paths (not starting with '/') {%- endcomment -%}
+
+    {%- comment -%} Add subpath only for relative paths (not starting with '/') {%- endcomment -%}
     {% if first_char != '/' and include.subpath and include.subpath != '' %}
       {% assign url = include.subpath | append: '/' | append: url %}
     {% endif %}
 
-    {%- comment -%} Prepend CDN if configured, for absolute paths starting with '/' {%- endcomment -%}
+    {%- comment -%} Prepend CDN for absolute paths starting with '/' and if CDN is configured {%- endcomment -%}
     {% if site.cdn and site.cdn != '' and first_char == '/' %}
       {% assign url = site.cdn | append: url %}
+    {% elsif site.cdn and site.cdn != '' and first_char != '/' %}
+      {% assign url = site.cdn | append: '/' | append: url %}
     {% endif %}
 
     {%- comment -%} Clean up multiple slashes, preserving protocol {%- endcomment -%}
     {% assign url = url | replace: '://', '§§' | replace: '///', '/' | replace: '//', '/' | replace: '§§', '://' %}
 
-    {%- comment -%} Add site.url for absolute URLs if requested {%- endcomment -%}
+    {%- comment -%} Add site.url for absolute URLs if requested, without baseurl {%- endcomment -%}
     {% if include.absolute and url and not url contains '://' %}
       {% assign url = site.url | append: url %}
     {% endif %}
