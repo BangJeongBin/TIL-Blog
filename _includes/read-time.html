@@ -1,37 +1,39 @@
-<!-- Calculate the post's reading time, and display the word count in tooltip -->
+{%- comment -%}
+  Generate media resource final URL based on `site.cdn`, `page.media_subpath`
 
-{% assign words = include.content | strip_html | number_of_words: 'auto' %}
+  Arguments:
+    src - required, basic media resources path
+    subpath - optional, relative path of media resources
+    absolute - optional, boolean, if true, generate absolute URL
 
-<!-- words per minute -->
+  Return:
+    media resources URL
+{%- endcomment -%}
 
-{% assign wpm = 180 %}
-{% assign min_time = 1 %}
+{% assign url = include.src | to_s %}
 
-{% assign read_time = words | divided_by: wpm %}
+{%- if url -%}
+  {% unless url contains '://' %}
+    {%- assign first_char = url | slice: 0, 1 -%}
+    
+    {%- comment -%} Only add subpath for relative paths (not starting with '/') {%- endcomment -%}
+    {% if first_char != '/' and include.subpath and include.subpath != '' %}
+      {% assign url = include.subpath | append: '/' | append: url %}
+    {% endif %}
 
-{% unless read_time > 0 %}
-  {% assign read_time = min_time %}
-{% endunless %}
+    {%- comment -%} Prepend CDN if configured, for absolute paths starting with '/' {%- endcomment -%}
+    {% if site.cdn and site.cdn != '' and first_char == '/' %}
+      {% assign url = site.cdn | append: url %}
+    {% endif %}
 
-{% capture read_prompt %}
-  {{- site.data.locales[include.lang].post.read_time.prompt -}}
-{% endcapture %}
+    {%- comment -%} Clean up multiple slashes, preserving protocol {%- endcomment -%}
+    {% assign url = url | replace: '://', '§§' | replace: '///', '/' | replace: '//', '/' | replace: '§§', '://' %}
 
-<!-- return element -->
-<span
-  class="readtime"
-  data-bs-toggle="tooltip"
-  data-bs-placement="bottom"
-  title="{{ words }} {{ site.data.locales[include.lang].post.words }}"
->
-  <em>
-    {{- read_time -}}
-    {{ ' ' }}
-    {{- site.data.locales[include.lang].post.read_time.unit -}}
-  </em>
-  {%- if include.prompt -%}
-    {%- assign _prompt_words = read_prompt | number_of_words: 'auto' -%}
-    {%- unless _prompt_words > 1 -%}{{ ' ' }}{%- endunless -%}
-    {{ read_prompt }}
-  {%- endif -%}
-</span>
+    {%- comment -%} Add site.url for absolute URLs if requested {%- endcomment -%}
+    {% if include.absolute and url and not url contains '://' %}
+      {% assign url = site.url | append: url %}
+    {% endif %}
+  {% endunless %}
+{%- endif -%}
+
+{{- url -}}
