@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: #"/TIL-Blog" # baseUrl을 쓸건지 아니면 url에 다 넣을건지 고민해봐야함 왜냐하면 이미지 올릴때 문제 생길듯
+# baseurl: "/TIL-Blog" # baseUrl을 쓸건지 아니면 url에 다 넣을건지 고민해봐야함 왜냐하면 이미지 올릴때 문제 생길듯
 
 # ------------ The following options are not recommended to be modified ------------------
 
