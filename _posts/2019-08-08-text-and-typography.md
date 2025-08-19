@@ -165,7 +165,7 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 ## Images
 
 ### Default (with caption)
-![Image](https://github.com/user-attachments/assets/581196f7-f868-4581-8128-9cdf766eefd7)
+![test](/assets/img/posts/test-post.jpg)
 <!-- ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" } -->
 _Full screen width and center alignment_
 <!-- {: style="max-width: 30%"} -->
@@ -193,7 +193,7 @@ The image below will toggle dark/light mode based on theme preference, notice it
 
 ## Video
 
-{% include embed/youtube.html id='Balreaj8Yqs' %}
+{% include embed/youtube.html id='L4MNRgJ13b0' %}
 
 ## Reverse Footnote
 
