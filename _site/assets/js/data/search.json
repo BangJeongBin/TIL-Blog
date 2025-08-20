@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 7287] 등록",
+    "url": "/posts/boj-7287/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-18 12:00:00 +0900",
+    "content": "Baekjoon Online Judge 7287(Java 11) <br> [등록] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 10699] 오늘 날짜",
     "url": "/posts/boj-10699/",
     "categories": "Algorithm Test, BOJ",
@@ -97,15 +106,6 @@
     "tags": "BOJ, Java",
     "date": "2025-05-18 10:00:00 +0900",
     "content": "Baekjoon Online Judge 1008(Java 11) <br> [A/B] 문제 풀이"
-  },
-  
-  {
-    "title": "Boj 7287",
-    "url": "/posts/boj-7287/",
-    "categories": "",
-    "tags": "",
-    "date": "2025-05-18 00:00:00 +0900",
-    "content": " "
   },
   
   {
