@@ -82,12 +82,21 @@
   },
   
   {
+    "title": "[BOJ 1008] A/B",
+    "url": "/posts/boj-1008/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-18 10:00:00 +0900",
+    "content": "Baekjoon Online Judge 1008(Java 11) <br> [A/B] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 10998] A×B",
     "url": "/posts/boj-10998/",
     "categories": "Algorithm Test, BOJ",
     "tags": "BOJ, Java",
     "date": "2025-05-17 10:00:00 +0900",
-    "content": "Baekjoon Online Judge 10998(Java 11)<br> [A×B] 문제 풀이"
+    "content": "Baekjoon Online Judge 10998(Java 11) <br> [A×B] 문제 풀이"
   },
   
   {

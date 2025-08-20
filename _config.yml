@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 img_cdn: #https://cdn.jsdelivr.net/gh/BangJeongBin/TIL-Blog@main
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://bangjeongbin.github.io/TIL-Blog/assets/img/genbacat.jpg
+avatar: https://bangjeongbin.github.io/TIL-Blog/assets/img/genbacat.jpg # CDN 사용을 안하면 이렇게 직접 경로를 붙여줘야 함. post도 마찬가지.
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
