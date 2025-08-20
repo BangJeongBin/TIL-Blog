@@ -6,6 +6,11 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
+bin:
+  name: Jeongbin Bang
+  twitter: 
+  url: https://github.com/BangJeongBin
+
 cotes:
   name: Cotes Chung
   twitter: cotes2020
