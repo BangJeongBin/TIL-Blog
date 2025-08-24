@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 2420] 사파리월드",
+    "url": "/posts/boj-2420/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-22 14:00:00 +0900",
+    "content": "Baekjoon Online Judge 2420(Java 11) <br> [사파리월드] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 14681] 사분면 고르기",
     "url": "/posts/boj-14681/",
     "categories": "Algorithm Test, BOJ",
