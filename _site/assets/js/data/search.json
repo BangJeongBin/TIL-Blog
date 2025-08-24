@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 2741] N 찍기",
+    "url": "/posts/boj-2741/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-22 16:00:00 +0900",
+    "content": "Baekjoon Online Judge 2741(Java 11) <br> [N 찍기] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 10872] 팩토리얼",
     "url": "/posts/boj-10872/",
     "categories": "Algorithm Test, BOJ",
