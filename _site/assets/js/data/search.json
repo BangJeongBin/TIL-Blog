@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 10952] A+B - 5",
+    "url": "/posts/boj-10952/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-22 18:00:00 +0900",
+    "content": "Baekjoon Online Judge 10952(Java 11) <br> [A+B - 5] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 10950] A+B - 3",
     "url": "/posts/boj-10950/",
     "categories": "Algorithm Test, BOJ",
