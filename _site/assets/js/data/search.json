@@ -82,12 +82,21 @@
   },
   
   {
+    "title": "[BOJ 9498] 시험 성적",
+    "url": "/posts/boj-9498/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-22 11:00:00 +0900",
+    "content": "Baekjoon Online Judge 9498(Java 11) <br> [시험 성적] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 1330] 두 수 비교하기",
     "url": "/posts/boj-1330/",
     "categories": "Algorithm Test, BOJ",
     "tags": "BOJ, Java",
     "date": "2025-05-22 10:00:00 +0900",
-    "content": "Baekjoon Online Judge 1330(Java 11) <br> 두 수 비교하기 문제 풀이"
+    "content": "Baekjoon Online Judge 1330(Java 11) <br> [두 수 비교하기] 문제 풀이"
   },
   
   {
