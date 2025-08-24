@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 10871] X보다 작은 수",
+    "url": "/posts/boj-10871/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-25 10:00:00 +0900",
+    "content": "Baekjoon Online Judge 10871(Java 11) <br> [X보다 작은 수] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 15552] 빠른 A+B",
     "url": "/posts/boj-15552/",
     "categories": "Algorithm Test, BOJ",
