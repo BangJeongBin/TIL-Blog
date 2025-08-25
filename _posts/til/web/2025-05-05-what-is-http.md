@@ -141,7 +141,6 @@ Content-Type: text/html
 <!DOCTYPE html... (contains a site-customized page helping the user to find the missing resource)
 ```
 
-> [!info]+
 > 상태 코드에 대한 정보는 [[HTTP 상태코드에 대하여]]
 
 <br>
