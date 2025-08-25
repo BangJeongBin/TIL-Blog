@@ -9,8 +9,7 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://www.google.com/url?sa=i&url=https%3A%2F%2Fko.wikipedia.org%2Fwiki%2FHTTP&psig=AOvVaw0PFaS29nCBK-qaPVlm17-0&ust=1756208572243000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPCryMnxpY8DFQAAAAAdAAAAABAE
-#  path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png
+ path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png
  alt: Baekjoon Online Judge
 ---
 
