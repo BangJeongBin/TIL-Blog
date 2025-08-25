@@ -100,7 +100,9 @@ Content-Type: text/html
 
 <!DOCTYPE html... (here comes the 29769 bytes of the requested web page)
 ```
-	
+
+<br>
+
 요청 자원이 영구적으로 옮겨졌다는 내용의 알림 `301 Moved Permanently`
 ```
 HTTP/1.1 301 Moved Permanently
@@ -126,7 +128,9 @@ Content-Length: 325 (the content contains a default page to display if the user-
 <address>Apache/2.2.3 (Red Hat) Server at developer.mozilla.org Port 80</address>
 </body></html>
 ```
-	
+
+<br>
+
 요청된 자원이 존재하지 않는다는 내용의 알림 `404 Not Found`
 ```
 HTTP/1.1 404 Not Found
@@ -140,6 +144,8 @@ Content-Type: text/html
 
 <!DOCTYPE html... (contains a site-customized page helping the user to find the missing resource)
 ```
+
+<br>
 
 > 상태 코드에 대한 정보는 [[HTTP 상태코드에 대하여]]
 
