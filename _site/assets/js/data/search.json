@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 2744] 대소문자 바꾸기",
+    "url": "/posts/boj-2744/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-27 10:00:00 +0900",
+    "content": "Baekjoon Online Judge 2744(Java 11) <br> [대소문자 바꾸기] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 2743] 단어 길이 재기",
     "url": "/posts/boj-2743/",
     "categories": "Algorithm Test, BOJ",
