@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 11720] 숫자의 합",
+    "url": "/posts/boj-11720/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-06-02 10:00:00 +0900",
+    "content": "Baekjoon Online Judge 11720(Java 11) <br> [숫자의 합] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 4153] 직각삼각형",
     "url": "/posts/boj-4153/",
     "categories": "Algorithm Test, BOJ",
