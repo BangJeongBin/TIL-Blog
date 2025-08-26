@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 15964] 이상한 기호",
+    "url": "/posts/boj-15964/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-30 10:00:00 +0900",
+    "content": "Baekjoon Online Judge 15964(Java 11) <br> [이상한 기호] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 9086] 문자열",
     "url": "/posts/boj-9086/",
     "categories": "Algorithm Test, BOJ",
