@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 9086] 문자열",
+    "url": "/posts/boj-9086/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-29 11:00:00 +0900",
+    "content": "Baekjoon Online Judge 9086(Java 11) <br> [문자열] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 11718] 그대로 출력하기",
     "url": "/posts/boj-11718/",
     "categories": "Algorithm Test, BOJ",
