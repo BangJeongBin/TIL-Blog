@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 2475] 검증수",
+    "url": "/posts/boj-2475/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-30 11:00:00 +0900",
+    "content": "Baekjoon Online Judge 2475(Java 11) <br> [검증수] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 15964] 이상한 기호",
     "url": "/posts/boj-15964/",
     "categories": "Algorithm Test, BOJ",
