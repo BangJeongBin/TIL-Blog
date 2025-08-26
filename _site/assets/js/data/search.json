@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 2338] 긴자리 계산",
+    "url": "/posts/boj-2338/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-05-31 10:00:00 +0900",
+    "content": "Baekjoon Online Judge 2338(Java 11) <br> [긴자리 계산] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 2475] 검증수",
     "url": "/posts/boj-2475/",
     "categories": "Algorithm Test, BOJ",
