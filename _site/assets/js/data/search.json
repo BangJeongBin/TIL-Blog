@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 2577] 숫자의 개수",
+    "url": "/posts/boj-2577/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-06-05 11:00:00 +0900",
+    "content": "Baekjoon Online Judge 2577(Java 11) <br> [숫자의 개수] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 10818] 최소, 최대",
     "url": "/posts/boj-10818/",
     "categories": "Algorithm Test, BOJ",
