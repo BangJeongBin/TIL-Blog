@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 10809] 알파벳 찾기",
+    "url": "/posts/boj-10809/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-06-07 10:00:00 +0900",
+    "content": "Baekjoon Online Judge 10809(Java 11) <br> [알파벳 찾기] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 2675] 문자열 반복",
     "url": "/posts/boj-2675/",
     "categories": "Algorithm Test, BOJ",
