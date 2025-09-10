@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 2675] 문자열 반복",
+    "url": "/posts/boj-2675/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-06-06 10:00:00 +0900",
+    "content": "Baekjoon Online Judge 2675(Java 11) <br> [문자열 반복] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 2920] 음계",
     "url": "/posts/boj-2920/",
     "categories": "Algorithm Test, BOJ",
