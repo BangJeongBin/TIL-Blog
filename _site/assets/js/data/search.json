@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 8958] OX퀴즈",
+    "url": "/posts/boj-8958/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-06-08 10:00:00 +0900",
+    "content": "Baekjoon Online Judge 8958(Java 11) <br> [OX퀴즈] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 10809] 알파벳 찾기",
     "url": "/posts/boj-10809/",
     "categories": "Algorithm Test, BOJ",
