@@ -161,8 +161,8 @@ HTTP 동사라고도 불리는 HTTP 메서드는 HTTP 요청이 쿼리된 서버
 
 ## Reference
 ---
-- https://developer.mozilla.org/ko/
-- https://www.cloudflare.com/ko-kr/learning/ssl/what-is-https/
+- [MDN Web Docs](https://developer.mozilla.org/ko/)
+- [Cloudflare Learning Center](https://www.cloudflare.com/ko-kr/learning/)
 
 [^1]: 출처 : https://developer.mozilla.org/ko/docs/Web/HTTP/Guides/Overview
 [^2]: 출처 : https://www.cloudflare.com/ko-kr/learning/ddos/glossary/hypertext-transfer-protocol-http/

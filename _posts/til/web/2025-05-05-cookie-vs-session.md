@@ -25,7 +25,10 @@ image:
 ---
 쿠키는 이용자가 웹사이트를 열람하는 동안 해당 웹사이트가 전달되어 이용자의 웹 브라우저를 통해 그의 PC에 저장하는 매우 작은 크기의 텍스트 (.txt)파일입니다.
 
-또한 웹 사이트에 사용자에 대한 정보를 제공하여 웹 사이트에서 사용자 경험을 맞춤화하는 데 도움이 됩니다. 예를 들어, 전자 상거래 웹 사이트에서는 쿠키를 사용하여 사용자가 장바구니에 어떤 상품을 담았는지 파악합니다. 또한 인증 쿠키와 같이 보안을 위해 필요한 쿠키도 있습니다. 일반적으로는 사용자의 로그인 정보를 저장하여 사용자의 편의를 보장하는데 많이 사용됩니다.
+또한 웹 사이트에 사용자에 대한 정보를 제공하여 웹 사이트에서 사용자 경험을 맞춤화하는 데 도움이 됩니다. 예를 들어, 전자 상거래 웹 사이트에서는 쿠키를 사용하여 사용자가 장바구니에 어떤 상품을 담았는지 파악합니다. 또한 인증 쿠키와 같이 보안을 위해 필요한 쿠키도 있습니다. 일반적으로는 사용자의로그인 정보를 저장하여 사용자의 편의를 보장하는데 많이 사용됩니다.
+
+![Cookie](https://raonctf.com/static/essential/images/network/network_cookie_01.jpg)
+쿠키[^1]
 
 <br>
 
@@ -85,6 +88,9 @@ Host: example.com
 Cookie: theme=dark
 ```
 
+![risk_of_cookie](https://raonctf.com/static/essential/images/network/network_cookie_02.jpg)
+쿠키의 취약성[^1]
+
 <br>
 
 ## 세션(Session)이란?
@@ -94,7 +100,10 @@ Cookie: theme=dark
 앞서 살펴본 쿠키는 클라이언트 측의 컴퓨터에 모든 데이터를 저장합니다. 하지만 세션은 서비스가 돌아가는 서버 측에 데이터를 저장하고, 실제 데이터가 아닌 세션의 키값만을 클라이언트 측에 남겨둡니다. 브라우저는 필요할 때마다 이 키값을 이용하여 서버에 저장된 데이터를 사용하게 됩니다.
 
  이러한 세션은 보안에 취약한 쿠키를 보완해주는 역할을 하고 있습니다.
- 
+
+![session](https://raonctf.com/static/essential/images/network/network_session_01.jpg)
+세션[^2]
+
 <br>
 
 ### 세션의 동작방식
@@ -152,6 +161,9 @@ sequenceDiagram
     Server-->>Browser: 로그인 유지된 응답
 ```
 
+![risk_of_session](https://raonctf.com/static/essential/images/network/network_session_02.jpg)
+세션의 취약성[^2]
+
 <br>
 
 ## 쿠키와 세션의 차이
@@ -197,6 +209,10 @@ sequenceDiagram
 
 ## Reference
 ---
-- https://tcpschool.com/php/php_cookieSession_session
-- https://developer.mozilla.org/ko/docs/Web/HTTP/Guides/Session
-- https://velog.io/@jangut600/%EC%84%B8%EC%85%98Session%EC%9D%B4%EB%9E%80
+- [tcpschool.com](https://tcpschool.com)
+- [MDN Web Docs](https://developer.mozilla.org/ko/)
+- [Cloudflare Learning Center](https://www.cloudflare.com/ko-kr/learning/)
+- [세션(Session)이란?](https://velog.io/@jangut600/%EC%84%B8%EC%85%98Session%EC%9D%B4%EB%9E%80)
+
+[^1]: 출처 : https://raonctf.com/essential/study/web/cookie_connection
+[^2]: 출처 : https://raonctf.com/essential/study/web/session_connection
