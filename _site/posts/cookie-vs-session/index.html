@@ -38,18 +38,18 @@
 <link rel="canonical" href="http://localhost:4000/posts/cookie-vs-session/" />
 <meta property="og:url" content="http://localhost:4000/posts/cookie-vs-session/" />
 <meta property="og:site_name" content="TIL-Blog" />
-<meta property="og:image" content="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/baekjoon-logo.png" />
+<meta property="og:image" content="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png" />
 <meta property="og:image:alt" content="Baekjoon Online Judge" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-05-05T10:00:00+09:00" />
+<meta property="article:published_time" content="2025-05-06T10:00:00+09:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/baekjoon-logo.png" />
+<meta property="twitter:image" content="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png" />
 <meta name="twitter:image:alt" content="Baekjoon Online Judge" />
 <meta property="twitter:title" content="세션과 쿠키의 차이" />
 <meta name="twitter:site" content="@BangJeongBin" />
 <meta name="twitter:creator" content="@Jeongbin Bang" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2025-05-05T10:00:00+09:00","datePublished":"2025-05-05T10:00:00+09:00","description":"세션과 쿠키의 차이","headline":"세션과 쿠키의 차이","image":{"alt":"Baekjoon Online Judge","url":"https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/baekjoon-logo.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/cookie-vs-session/"},"url":"http://localhost:4000/posts/cookie-vs-session/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2025-05-06T10:00:00+09:00","datePublished":"2025-05-06T10:00:00+09:00","description":"세션과 쿠키의 차이","headline":"세션과 쿠키의 차이","image":{"alt":"Baekjoon Online Judge","url":"https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/cookie-vs-session/"},"url":"http://localhost:4000/posts/cookie-vs-session/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -724,6 +724,76 @@
 
       
     
+
+    
+  
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
       
 
       
@@ -838,13 +908,19 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
-  
-
-  
-  
-
   
 
   
@@ -887,13 +963,13 @@
 
 <time
   
-  data-ts="1746406800"
+  data-ts="1746493200"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  May  5, 2025
+  May  6, 2025
 </time>
 
       </span>
@@ -909,7 +985,7 @@
         
 
         <div class="mt-3 mb-3">
-          <a href="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/baekjoon-logo.png" class="popup img-link preview-img shimmer"><img src="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/baekjoon-logo.png"  alt="Baekjoon Online Judge" width="1200" height="630"  loading="lazy"></a><figcaption class="text-center pt-2 pb-2">Baekjoon Online Judge</figcaption></div>
+          <a href="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png" class="popup img-link preview-img shimmer"><img src="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png"  alt="Baekjoon Online Judge" width="1200" height="630"  loading="lazy"></a><figcaption class="text-center pt-2 pb-2">Baekjoon Online Judge</figcaption></div>
       
 
       <div class="d-flex justify-content-between">
@@ -965,21 +1041,53 @@
   
 
   <div class="content">
-    <h1 id="세션session과-쿠키cookie의-차이">세션(Session)과 쿠키(Cookie)의 차이</h1>
+    <h2 id="세션session과-쿠키cookie의-차이"><span class="me-2">세션(Session)과 쿠키(Cookie)의 차이</span><a href="#세션session과-쿠키cookie의-차이" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<hr />
+<p>웹 애플리케이션을 개발하다 보면, “사용자의 상태를 어떻게 유지할까?” 하는 문제가 반드시 등장합니다.  HTTP 프로토콜은 기본적으로 <strong>무상태(stateless)</strong> 이기 때문에, 요청마다 사용자를 새롭게 인식합니다.</p>
 
-<p>웹 애플리케이션을 개발하다 보면, <strong>사용자의 상태를 어떻게 유지할까?</strong> 하는 문제가 반드시 등장합니다.<br />
-HTTP 프로토콜은 기본적으로 <strong>무상태(stateless)</strong> 이기 때문에, 요청마다 사용자를 새롭게 인식합니다.<br />
-이때 사용자의 상태를 유지하는 대표적인 방법이 바로 <strong>쿠키(Cookie)</strong> 와 <strong>세션(Session)</strong> 입니다.</p>
+<p>이때 사용자의 상태를 유지하는 대표적인 방법이 바로  <strong>쿠키(Cookie)</strong> 와 <strong>세션(Session)</strong> 입니다.</p>
 
+<p><br /></p>
+
+<h2 id="쿠키cookie란"><span class="me-2">쿠키(Cookie)란?</span><a href="#쿠키cookie란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<hr />
+<p>쿠키는 이용자가 웹사이트를 열람하는 동안 해당 웹사이트가 전달되어 이용자의 웹 브라우저를 통해 그의 PC에 저장하는 매우 작은 크기의 텍스트 (.txt)파일입니다.</p>
+
+<p>또한 웹 사이트에 사용자에 대한 정보를 제공하여 웹 사이트에서 사용자 경험을 맞춤화하는 데 도움이 됩니다. 예를 들어, 전자 상거래 웹 사이트에서는 쿠키를 사용하여 사용자가 장바구니에 어떤 상품을 담았는지 파악합니다. 또한 인증 쿠키와 같이 보안을 위해 필요한 쿠키도 있습니다. 일반적으로는 사용자의 로그인 정보를 저장하여 사용자의 편의를 보장하는데 많이 사용됩니다.</p>
+
+<p><br /></p>
+
+<h3 id="쿠키의-목적"><span class="me-2">쿠키의 목적</span><a href="#쿠키의-목적" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
 
-<h2 id="-1-쿠키cookie란"><span class="me-2">📌 1. 쿠키(Cookie)란?</span><a href="#-1-쿠키cookie란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h4 id="세션-관리session-management"><span class="me-2">세션 관리(Session management)</span><a href="#세션-관리session-management" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<hr />
+<p>쿠키는 웹 사이트 활동을 <strong>특정 사용자와 연결</strong>하는 데 도움이 됩니다.세션 쿠키에는 사용자 세션과 해당 사용자의 관련 데이터 및 콘텐츠를 일치시키는 고유 문자열(문자와 숫자의 조합)이 포함되어 있습니다.</p>
 
-<p>쿠키는 <strong>클라이언트(브라우저)에 저장되는 작은 데이터 조각</strong>입니다.<br />
-주로 key=value 형태로 저장되며, 서버가 응답할 때 <code class="language-plaintext highlighter-rouge">Set-Cookie</code> 헤더를 통해 브라우저에 전달됩니다.</p>
+<p>웹 사이트 홈페이지에서 사용자는 자신의 계정에 로그인합니다. 그럼 사용자에 대한 HTTP 요청이 웹 사이트로 전송되면 요청에 로그인 한 사용자의 세션 쿠키가 포함됩니다. 웹 사이트에 이 쿠키가 있으므로 사용자가 인식되고 새 페이지가 로드될 때 다시 로그인할 필요가 없습니다.</p>
 
-<h3 id="-쿠키의-특징"><span class="me-2">🔹 쿠키의 특징</span><a href="#-쿠키의-특징" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p><br /></p>
 
+<h4 id="개인화personalization"><span class="me-2">개인화(Personalization)</span><a href="#개인화personalization" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<hr />
+<p>쿠키가 웹 사이트에서 사용자 행동 또는 사용자 기본 설정이 “기억”되는 데 도움이 되므로 웹 사이트에서 사용자 경험이 맞춤화될 수 있습니다.</p>
+
+<p>사용자가 쇼핑 웹 사이트에서 로그아웃하면 사용자 이름이 쿠키에 저장되어 웹 브라우저로 전송될 수 있습니다. 다음에 해당 웹 사이트를 로드할 때 웹 브라우저에서는 이 쿠키가 웹 서버로 전송되고, 웹 서버에는 지난번에 사용한 사용자 이름으로 <strong>로그인</strong>하라는 메시지가 표시됩니다. 또한 사용자의 <strong>선호목록</strong>, <strong>설정된 테마</strong> 등이 세팅됩니다.</p>
+
+<p><br /></p>
+
+<h4 id="트래킹tracking"><span class="me-2">트래킹(Tracking)</span><a href="#트래킹tracking" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<hr />
+<p>일부 쿠키에는 사용자가 방문한 웹 사이트가 기록됩니다.이 정보는 다음에 브라우저가 해당 서버에서 콘텐츠를 로드할 때 쿠키를 생성한 서버로 전송됩니다.타사 추적 쿠키를 사용하면 브라우저가 해당 추적 서비스를 사용하는 웹 사이트를 로드할 때마다 이 프로세스가 수행됩니다.</p>
+
+<p>사용자가 이전에 추적 쿠키를 전송한 웹 사이트를 방문한 적이 있는 경우, 이 추적 서비스를 사용하는 웹 사이트를 로드할 때 맞춤형 광고가 표시될 수 있습니다.
+
+그러나 쿠키를 추적하는 데 광고만이 사용되는 것은 아닙니다.또한 많은 분석 서비스에서 추적 쿠키를 사용하여 익명으로 사용자 활동을 기록합니다.</p>
+
+<p><br /></p>
+
+<h3 id="쿠키의-특징"><span class="me-2">쿠키의 특징</span><a href="#쿠키의-특징" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
 <ul>
   <li>
     <p>저장 위치: 클라이언트(브라우저)</p>
@@ -995,20 +1103,10 @@ HTTP 프로토콜은 기본적으로 <strong>무상태(stateless)</strong> 이�
   </li>
 </ul>
 
-<h3 id="-쿠키-사용-예시"><span class="me-2">🔹 쿠키 사용 예시</span><a href="#-쿠키-사용-예시" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p><br /></p>
 
-<ul>
-  <li>
-    <p>아이디 자동 입력</p>
-  </li>
-  <li>
-    <p>다크모드/언어 설정 유지</p>
-  </li>
-  <li>
-    <p>장바구니 임시 저장</p>
-  </li>
-</ul>
-
+<h3 id="사용-예시"><span class="me-2">사용 예시</span><a href="#사용-예시" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
 <div class="language-http highlighter-rouge"><div class="code-header">
         <span data-label-text="Http"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
@@ -1029,14 +1127,53 @@ HTTP 프로토콜은 기본적으로 <strong>무상태(stateless)</strong> 이�
 <span class="na">Cookie</span><span class="p">:</span> <span class="s">theme=dark</span>
 </pre></td></tr></tbody></table></code></div></div>
 
+<p><br /></p>
+
+<h2 id="세션session이란"><span class="me-2">세션(Session)이란?</span><a href="#세션session이란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
+<p>세션(session)이란 웹 사이트의 여러 페이지에 걸쳐 사용되는 사용자 정보를 저장하는 방법을 의미합니다. 사용자가 브라우저를 닫아 서버와의 연결을 끝내는 시점까지를 세션이라고 합니다.</p>
 
-<h2 id="-2-세션session이란"><span class="me-2">📌 2. 세션(Session)이란?</span><a href="#-2-세션session이란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>앞서 살펴본 쿠키는 클라이언트 측의 컴퓨터에 모든 데이터를 저장합니다. 하지만 세션은 서비스가 돌아가는 서버 측에 데이터를 저장하고, 실제 데이터가 아닌 세션의 키값만을 클라이언트 측에 남겨둡니다. 브라우저는 필요할 때마다 이 키값을 이용하여 서버에 저장된 데이터를 사용하게 됩니다.</p>
 
-<p>세션은 <strong>서버에서 관리하는 사용자 상태 정보</strong>입니다.<br />
-클라이언트에는 단순히 세션을 식별할 수 있는 <strong>세션 ID</strong>만 전달되고, 실제 데이터는 서버에서 관리합니다.</p>
+<p>이러한 세션은 보안에 취약한 쿠키를 보완해주는 역할을 하고 있습니다.</p>
 
-<h3 id="-세션의-특징"><span class="me-2">🔹 세션의 특징</span><a href="#-세션의-특징" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p><br /></p>
+
+<h3 id="세션의-동작방식"><span class="me-2">세션의 동작방식</span><a href="#세션의-동작방식" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
+<h4 id="세션-생성"><span class="me-2">세션 생성</span><a href="#세션-생성" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<ul>
+  <li>사용자가 로그인하면 서버는 고유한 세션 ID를 생성</li>
+  <li>세션 ID는 UUID와 같이 예측할 수 없는 값으로 생성</li>
+  <li>서버는 이 세션ID를 키(key)로 하고, 사용자 정보를 값(value)으로 하는 세션을 저장소에 저장</li>
+</ul>
+
+<h4 id="세션-유지"><span class="me-2">세션 유지</span><a href="#세션-유지" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<ul>
+  <li>서버는 생성된 세션ID를 클라이언트에게 쿠기를 통해 전달.</li>
+  <li>클라이언트는 이후 요청 시마다 이 쿠키(세션ID)를 서버에 전송.</li>
+</ul>
+
+<h4 id="세션-확인"><span class="me-2">세션 확인</span><a href="#세션-확인" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<ul>
+  <li>서버는 요청에서 전달된 세션ID를 확인하고, 세션 저장소에서 해당 세션을 조회</li>
+  <li>세션이 유효하면 사용자 정보를 가져와 인증 및 인가를 처리</li>
+</ul>
+
+<h4 id="세션-종료"><span class="me-2">세션 종료</span><a href="#세션-종료" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<ul>
+  <li>로그아웃하거나 세션이 만료되면 서버는 해당 세션을 삭제</li>
+  <li>클라이언트의 쿠키에 저장된 세션ID는 더 이상 유효하지 않음</li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="세션의-특징"><span class="me-2">세션의 특징</span><a href="#세션의-특징" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
 
 <ul>
   <li>
@@ -1053,8 +1190,9 @@ HTTP 프로토콜은 기본적으로 <strong>무상태(stateless)</strong> 이�
   </li>
 </ul>
 
-<h3 id="-세션-동작-흐름-mermaid-다이어그램"><span class="me-2">🔹 세션 동작 흐름 (Mermaid 다이어그램)</span><a href="#-세션-동작-흐름-mermaid-다이어그램" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
+<p><br /></p>
+<h3 id="세션-동작흐름"><span class="me-2">세션 동작흐름</span><a href="#세션-동작흐름" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
 <pre><code class="language-mermaid">sequenceDiagram
     participant User
     participant Browser
@@ -1069,9 +1207,10 @@ HTTP 프로토콜은 기본적으로 <strong>무상태(stateless)</strong> 이�
     Server--&gt;&gt;Browser: 로그인 유지된 응답
 </code></pre>
 
-<hr />
+<p><br /></p>
 
-<h2 id="-3-쿠키와-세션의-차이"><span class="me-2">📌 3. 쿠키와 세션의 차이</span><a href="#-3-쿠키와-세션의-차이" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="쿠키와-세션의-차이"><span class="me-2">쿠키와 세션의 차이</span><a href="#쿠키와-세션의-차이" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<hr />
 
 <div class="table-wrapper"><table>
   <thead>
@@ -1115,176 +1254,55 @@ HTTP 프로토콜은 기본적으로 <strong>무상태(stateless)</strong> 이�
   </tbody>
 </table></div>
 
+<p><br /></p>
+
+<h2 id="쿠키와-세션의-사용-용도"><span class="me-2">쿠키와 세션의 사용 용도</span><a href="#쿠키와-세션의-사용-용도" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
 
-<h2 id="-4-로그인-예제-시나리오"><span class="me-2">📌 4. 로그인 예제 시나리오</span><a href="#-4-로그인-예제-시나리오" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<h3 id="-쿠키-기반-로그인"><span class="me-2">🔹 쿠키 기반 로그인</span><a href="#-쿠키-기반-로그인" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<ol>
-  <li>
-    <p>사용자가 로그인하면 서버가 사용자 정보를 암호화하여 쿠키에 저장.</p>
-  </li>
-  <li>
-    <p>이후 요청 시 쿠키를 자동 전송.</p>
-  </li>
-  <li>
-    <p>서버는 쿠키에 담긴 정보를 읽어 인증 수행.</p>
-  </li>
-</ol>
-
-<p>⚠️ 문제점: 쿠키 자체에 사용자 정보가 들어 있기 때문에 탈취 시 위험.</p>
-
-<h3 id="-세션-기반-로그인"><span class="me-2">🔹 세션 기반 로그인</span><a href="#-세션-기반-로그인" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<ol>
-  <li>
-    <p>사용자가 로그인하면 서버는 세션 생성 후 세션 ID 발급.</p>
-  </li>
-  <li>
-    <p>브라우저는 세션 ID만 쿠키에 저장.</p>
-  </li>
-  <li>
-    <p>이후 요청 시 세션 ID를 전달.</p>
-  </li>
-  <li>
-    <p>서버는 세션 저장소에서 사용자 상태를 확인 후 인증.</p>
-  </li>
-</ol>
-
-<p>✅ 장점: 쿠키에는 세션 ID만 있으므로 보안성이 더 높음.</p>
-
+<h3 id="쿠키-사용에-적합한-경우"><span class="me-2">쿠키 사용에 적합한 경우</span><a href="#쿠키-사용에-적합한-경우" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
-
-<h2 id="-5-쿠키와-세션을-함께-쓰는-경우"><span class="me-2">📌 5. 쿠키와 세션을 함께 쓰는 경우</span><a href="#-5-쿠키와-세션을-함께-쓰는-경우" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<p>실무에서는 <strong>쿠키와 세션을 함께 조합</strong>하여 사용합니다.</p>
-
 <ul>
   <li>
-    <p>세션 ID를 쿠키에 저장 (대표적)</p>
+    <p>비민감한 데이터 저장 (테마, 언어 설정)</p>
   </li>
   <li>
-    <p>토큰 기반 인증(JWT)에서도 Access Token을 쿠키에 저장 가능</p>
-  </li>
-  <li>
-    <p>사용자 경험 개선: 세션은 로그인 상태 관리, 쿠키는 UI 환경 저장</p>
+    <p>페이지 뷰 카운트, 방문 이력 추적</p>
   </li>
 </ul>
 
+<p><br /></p>
+
+<h3 id="세션-사용에-적합한-경우"><span class="me-2">세션 사용에 적합한 경우</span><a href="#세션-사용에-적합한-경우" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
-
-<h2 id="-6-보안-관련-고려사항"><span class="me-2">📌 6. 보안 관련 고려사항</span><a href="#-6-보안-관련-고려사항" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
 <ul>
   <li>
-    <p><strong>쿠키 보안 옵션</strong></p>
-
-    <ul>
-      <li>
-        <p><code class="language-plaintext highlighter-rouge">HttpOnly</code>: 자바스크립트로 접근 불가 (XSS 방어)</p>
-      </li>
-      <li>
-        <p><code class="language-plaintext highlighter-rouge">Secure</code>: HTTPS 연결에서만 전송</p>
-      </li>
-      <li>
-        <p><code class="language-plaintext highlighter-rouge">SameSite</code>: 크로스 사이트 요청 제한 (CSRF 방어)</p>
-      </li>
-    </ul>
+    <p>로그인 상태 유지</p>
   </li>
   <li>
-    <p><strong>세션 보안</strong></p>
-
-    <ul>
-      <li>
-        <p>세션 고정 공격(Session Fixation) 방어: 로그인 시 세션 재발급</p>
-      </li>
-      <li>
-        <p>세션 하이재킹 방어: 세션 ID를 자주 갱신</p>
-      </li>
-      <li>
-        <p>서버 자원 관리: 세션 만료 시간 설정 필수</p>
-      </li>
-    </ul>
+    <p>사용자 권한/역할 관리</p>
+  </li>
+  <li>
+    <p>민감 데이터 관리</p>
   </li>
 </ul>
 
+<p><br /></p>
+
+<h2 id="-추천-게시물"><span class="me-2"><i class="fa-solid fa-notes-medical"></i> 추천 게시물</span><a href="#-추천-게시물" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
-
-<h2 id="-7-언제-쿠키를-쓰고-언제-세션을-쓸까"><span class="me-2">📌 7. 언제 쿠키를 쓰고, 언제 세션을 쓸까?</span><a href="#-7-언제-쿠키를-쓰고-언제-세션을-쓸까" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
 <ul>
-  <li>
-    <p><strong>쿠키 사용에 적합한 경우</strong></p>
-
-    <ul>
-      <li>
-        <p>비민감한 데이터 저장 (테마, 언어 설정)</p>
-      </li>
-      <li>
-        <p>페이지 뷰 카운트, 방문 이력 추적</p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>세션 사용에 적합한 경우</strong></p>
-
-    <ul>
-      <li>
-        <p>로그인 상태 유지</p>
-      </li>
-      <li>
-        <p>사용자 권한/역할 관리</p>
-      </li>
-      <li>
-        <p>민감 데이터 관리</p>
-      </li>
-    </ul>
-  </li>
+  <li><a href="https://bangjeongbin.github.io/TIL-Blog/posts/what-is-http">HTTP란 무엇인가?</a></li>
 </ul>
 
+<p><br /></p>
+
+<h2 id="reference"><span class="me-2">Reference</span><a href="#reference" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
-
-<h2 id="-8-핵심-요약"><span class="me-2">📌 8. 핵심 요약</span><a href="#-8-핵심-요약" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<ol>
-  <li>
-    <p><strong>쿠키</strong>는 브라우저에 저장되는 작은 데이터 조각 → “사용자 로컬 메모”</p>
-  </li>
-  <li>
-    <p><strong>세션</strong>은 서버에서 관리하는 사용자 상태 → “서버 캐비닛 + 열쇠는 쿠키에”</p>
-  </li>
-  <li>
-    <p>로그인/보안이 필요한 경우는 세션, 간단한 설정은 쿠키가 적합</p>
-  </li>
-</ol>
-
-<hr />
-
-<h2 id="-9-참고-자료"><span class="me-2">📌 9. 참고 자료</span><a href="#-9-참고-자료" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
 <ul>
-  <li>
-    <p><a href="https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies">MDN Web Docs - Cookies</a></p>
-  </li>
-  <li>
-    <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Session">MDN Web Docs - Sessions</a></p>
-  </li>
-  <li>
-    <p><a href="https://owasp.org/www-project-cheat-sheets/cheatsheets/Session_Management_Cheat_Sheet.html">OWASP - Session Management</a></p>
-  </li>
+  <li>https://tcpschool.com/php/php_cookieSession_session</li>
+  <li>https://developer.mozilla.org/ko/docs/Web/HTTP/Guides/Session</li>
+  <li>https://velog.io/@jangut600/%EC%84%B8%EC%85%98Session%EC%9D%B4%EB%9E%80</li>
 </ul>
-
-<hr />
-
-<h2 id="️-마무리"><span class="me-2">✍️ 마무리</span><a href="#️-마무리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<p>쿠키와 세션은 웹 개발에서 <strong>사용자 상태를 유지하는 핵심 개념</strong>입니다.<br />
-보안, 성능, 사용자 경험을 종합적으로 고려해 <strong>상황에 맞는 방식을 선택</strong>하는 것이 중요합니다.</p>
-
-<blockquote>
-  <p>다음 포스팅에서는 <strong>JWT와 세션 기반 인증의 차이</strong>를 다루며, 현대적인 인증 방식으로 어떻게 발전했는지 알아보겠습니다.</p>
-</blockquote>
 
   </div>
 
@@ -1840,19 +1858,19 @@ HTTP 프로토콜은 기본적으로 <strong>무상태(stateless)</strong> 이�
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1910,21 +1928,21 @@ HTTP 프로토콜은 기본적으로 <strong>무상태(stateless)</strong> 이�
 
   
     <a
-      href="/posts/customize-the-favicon/"
+      href="/posts/what-is-http/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>Customize the Favicon</p>
+      <p>HTTP란 무엇인가?</p>
     </a>
   
 
   
     <a
-      href="/posts/what-is-http/"
+      href="/posts/boj-10998/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
-      <p>HTTP란 무엇인가?</p>
+      <p>[BOJ 10998] A×B</p>
     </a>
   
 </nav>

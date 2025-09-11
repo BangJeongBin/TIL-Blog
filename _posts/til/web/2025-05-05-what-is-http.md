@@ -144,7 +144,7 @@ Content-Type: text/html
 
 <!DOCTYPE html... (contains a site-customized page helping the user to find the missing resource)
 ```
-
+  
 <br>
 
 > 상태 코드에 대한 정보는 [[HTTP 상태코드에 대하여]]
@@ -161,6 +161,9 @@ HTTP 동사라고도 불리는 HTTP 메서드는 HTTP 요청이 쿼리된 서버
 
 ## Reference
 ---
+- https://developer.mozilla.org/ko/
+- https://www.cloudflare.com/ko-kr/learning/ssl/what-is-https/
+
 [^1]: 출처 : https://developer.mozilla.org/ko/docs/Web/HTTP/Guides/Overview
 [^2]: 출처 : https://www.cloudflare.com/ko-kr/learning/ddos/glossary/hypertext-transfer-protocol-http/
 [^3]: 출처 : https://velog.io/@andy3400/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EA%B5%AC%EC%A1%B0-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC

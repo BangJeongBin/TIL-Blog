@@ -550,21 +550,21 @@
   },
   
   {
+    "title": "세션과 쿠키의 차이",
+    "url": "/posts/cookie-vs-session/",
+    "categories": "TIL, Web",
+    "tags": "Web, session, cookie",
+    "date": "2025-05-06 10:00:00 +0900",
+    "content": "세션과 쿠키의 차이"
+  },
+  
+  {
     "title": "HTTP란 무엇인가?",
     "url": "/posts/what-is-http/",
     "categories": "TIL, Web",
     "tags": "Web, session, cookie",
     "date": "2025-05-05 10:00:00 +0900",
     "content": "HTTP의 정의와 구조 설명"
-  },
-  
-  {
-    "title": "세션과 쿠키의 차이",
-    "url": "/posts/cookie-vs-session/",
-    "categories": "TIL, Web",
-    "tags": "Web, session, cookie",
-    "date": "2025-05-05 10:00:00 +0900",
-    "content": "세션과 쿠키의 차이"
   },
   
   {
