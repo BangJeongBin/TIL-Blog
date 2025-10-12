@@ -82,6 +82,15 @@
   },
   
   {
+    "title": "[BOJ 30802] 웰컴 키트",
+    "url": "/posts/boj-30802/",
+    "categories": "Algorithm Test, BOJ",
+    "tags": "BOJ, Java",
+    "date": "2025-06-11 10:00:00 +0900",
+    "content": "Baekjoon Online Judge 30802(Java 11) <br> [웰컴 키트] 문제 풀이"
+  },
+  
+  {
     "title": "[BOJ 10250] ACM 호텔",
     "url": "/posts/boj-10250/",
     "categories": "Algorithm Test, BOJ",
