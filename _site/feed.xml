@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-10-12T12:57:23+09:00</updated>
+  <updated>2025-10-15T17:46:17+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -20,131 +20,131 @@
 
   
   <entry>
-    <title>수정하기</title>
-    <link href="http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="수정하기" />
-    <published>2025-08-13T01:15:50+09:00</published>
+    <title>[BOJ 2231] 분해합</title>
+    <link href="http://localhost:4000/posts/boj-2231/" rel="alternate" type="text/html" title="[BOJ 2231] 분해합" />
+    <published>2025-06-12T10:00:00+09:00</published>
   
-    <updated>2025-08-19T19:27:37+09:00</updated>
+    <updated>2025-06-12T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0/</id>
-    <content type="text/html" src="http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0/" />
+    <id>http://localhost:4000/posts/boj-2231/</id>
+    <content type="text/html" src="http://localhost:4000/posts/boj-2231/" />
     <author>
-      <name>cotes</name>
+      <name>bin</name>
     </author>
 
   
     
-    <category term="Bang" />
+    <category term="Algorithm Test" />
     
-    <category term="Jeong" />
+    <category term="BOJ" />
     
   
 
-  <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.  Generate the favicon  Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
+  <summary>Baekjoon Online Judge 2231(Java 11) <br> [분해합] 문제 풀이</summary>
 
   </entry>
 
   
   <entry>
-    <title>수정하기</title>
-    <link href="http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy/" rel="alternate" type="text/html" title="수정하기" />
-    <published>2025-08-13T01:15:50+09:00</published>
+    <title>[BOJ 1978] 소수 찾기</title>
+    <link href="http://localhost:4000/posts/boj-1978/" rel="alternate" type="text/html" title="[BOJ 1978] 소수 찾기" />
+    <published>2025-06-11T11:00:00+09:00</published>
   
-    <updated>2025-08-13T01:15:50+09:00</updated>
+    <updated>2025-06-11T11:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy/</id>
-    <content type="text/html" src="http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy/" />
+    <id>http://localhost:4000/posts/boj-1978/</id>
+    <content type="text/html" src="http://localhost:4000/posts/boj-1978/" />
     <author>
-      <name>cotes</name>
+      <name>bin</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="Algorithm Test" />
     
-    <category term="Tutorial" />
+    <category term="BOJ" />
     
   
 
-  <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.  Generate the favicon  Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
+  <summary>Baekjoon Online Judge 1978(Java 11) <br> [소수 찾기] 문제 풀이</summary>
 
   </entry>
 
   
   <entry>
-    <title>수정하기</title>
-    <link href="http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy-8/" rel="alternate" type="text/html" title="수정하기" />
-    <published>2025-08-13T01:15:50+09:00</published>
+    <title>[BOJ 30802] 웰컴 키트</title>
+    <link href="http://localhost:4000/posts/boj-30802/" rel="alternate" type="text/html" title="[BOJ 30802] 웰컴 키트" />
+    <published>2025-06-11T10:00:00+09:00</published>
   
-    <updated>2025-08-13T01:15:50+09:00</updated>
+    <updated>2025-06-11T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy-8/</id>
-    <content type="text/html" src="http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy-8/" />
+    <id>http://localhost:4000/posts/boj-30802/</id>
+    <content type="text/html" src="http://localhost:4000/posts/boj-30802/" />
     <author>
-      <name>cotes</name>
+      <name>bin</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="Algorithm Test" />
     
-    <category term="Tutorial" />
+    <category term="BOJ" />
     
   
 
-  <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.  Generate the favicon  Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
+  <summary>Baekjoon Online Judge 30802(Java 11) <br> [웰컴 키트] 문제 풀이</summary>
 
   </entry>
 
   
   <entry>
-    <title>수정하기</title>
-    <link href="http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy-7/" rel="alternate" type="text/html" title="수정하기" />
-    <published>2025-08-13T01:15:50+09:00</published>
+    <title>[BOJ 10250] ACM 호텔</title>
+    <link href="http://localhost:4000/posts/boj-10250/" rel="alternate" type="text/html" title="[BOJ 10250] ACM 호텔" />
+    <published>2025-06-10T11:00:00+09:00</published>
   
-    <updated>2025-08-13T01:15:50+09:00</updated>
+    <updated>2025-06-10T11:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy-7/</id>
-    <content type="text/html" src="http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy-7/" />
+    <id>http://localhost:4000/posts/boj-10250/</id>
+    <content type="text/html" src="http://localhost:4000/posts/boj-10250/" />
     <author>
-      <name>cotes</name>
+      <name>bin</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="Algorithm Test" />
     
-    <category term="Tutorial" />
+    <category term="BOJ" />
     
   
 
-  <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.  Generate the favicon  Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
+  <summary>Baekjoon Online Judge 10250(Java 11) <br> [ACM 호텔] 문제 풀이</summary>
 
   </entry>
 
   
   <entry>
-    <title>수정하기</title>
-    <link href="http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy-6/" rel="alternate" type="text/html" title="수정하기" />
-    <published>2025-08-13T01:15:50+09:00</published>
+    <title>[BOJ 3052] 나머지</title>
+    <link href="http://localhost:4000/posts/boj-3052/" rel="alternate" type="text/html" title="[BOJ 3052] 나머지" />
+    <published>2025-06-10T10:00:00+09:00</published>
   
-    <updated>2025-08-13T01:15:50+09:00</updated>
+    <updated>2025-06-10T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy-6/</id>
-    <content type="text/html" src="http://localhost:4000/posts/%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-copy-6/" />
+    <id>http://localhost:4000/posts/boj-3052/</id>
+    <content type="text/html" src="http://localhost:4000/posts/boj-3052/" />
     <author>
-      <name>cotes</name>
+      <name>bin</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="Algorithm Test" />
     
-    <category term="Tutorial" />
+    <category term="BOJ" />
     
   
 
-  <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.  Generate the favicon  Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
+  <summary>Baekjoon Online Judge 3052(Java 11) <br> [나머지] 문제 풀이</summary>
 
   </entry>
 
