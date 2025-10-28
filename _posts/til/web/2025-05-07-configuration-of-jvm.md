@@ -164,6 +164,7 @@ Runtime Data Area 2[^3]
 <br>
 
 
+
 ## <i class="fa-solid fa-notes-medical"></i> 추천 게시물
 ---
 - [JVM(자바 가상 머신)이란?](https://bangjeongbin.github.io/TIL-Blog/posts/what-is-jvm/)
