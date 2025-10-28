@@ -496,6 +496,15 @@
   },
   
   {
+    "title": "JVM(자바 가상 머신)의 구성 요소들",
+    "url": "/posts/configuration-of-jvm/",
+    "categories": "TIL, Language",
+    "tags": "Language, Java, JVM",
+    "date": "2025-05-07 10:00:00 +0900",
+    "content": "JVM의 구성 요소와 각각의 기능들을 정리"
+  },
+  
+  {
     "title": "JVM(자바 가상 머신)이란?",
     "url": "/posts/what-is-jvm/",
     "categories": "TIL, Language",

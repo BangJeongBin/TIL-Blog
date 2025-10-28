@@ -30,30 +30,30 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="[BOJ 2741] N 찍기" />
+<meta property="og:title" content="JVM(자바 가상 머신)의 구성 요소들" />
 <meta name="author" content="Jeongbin Bang" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Baekjoon Online Judge 2741(Java 11) [N 찍기] 문제 풀이" />
-<meta property="og:description" content="Baekjoon Online Judge 2741(Java 11) [N 찍기] 문제 풀이" />
-<link rel="canonical" href="http://localhost:4000/posts/boj-2741/" />
-<meta property="og:url" content="http://localhost:4000/posts/boj-2741/" />
+<meta name="description" content="JVM의 구성 요소와 각각의 기능들을 정리" />
+<meta property="og:description" content="JVM의 구성 요소와 각각의 기능들을 정리" />
+<link rel="canonical" href="http://localhost:4000/posts/configuration-of-jvm/" />
+<meta property="og:url" content="http://localhost:4000/posts/configuration-of-jvm/" />
 <meta property="og:site_name" content="TIL-Blog" />
-<meta property="og:image" content="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/baekjoon-logo.png" />
+<meta property="og:image" content="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png" />
 <meta property="og:image:alt" content="Baekjoon Online Judge" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-05-22T16:00:00+09:00" />
+<meta property="article:published_time" content="2025-05-07T10:00:00+09:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/baekjoon-logo.png" />
+<meta property="twitter:image" content="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png" />
 <meta name="twitter:image:alt" content="Baekjoon Online Judge" />
-<meta property="twitter:title" content="[BOJ 2741] N 찍기" />
+<meta property="twitter:title" content="JVM(자바 가상 머신)의 구성 요소들" />
 <meta name="twitter:site" content="@BangJeongBin" />
 <meta name="twitter:creator" content="@Jeongbin Bang" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2025-05-22T16:00:00+09:00","datePublished":"2025-05-22T16:00:00+09:00","description":"Baekjoon Online Judge 2741(Java 11) [N 찍기] 문제 풀이","headline":"[BOJ 2741] N 찍기","image":{"alt":"Baekjoon Online Judge","url":"https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/baekjoon-logo.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/boj-2741/"},"url":"http://localhost:4000/posts/boj-2741/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2025-05-07T10:00:00+09:00","datePublished":"2025-05-07T10:00:00+09:00","description":"JVM의 구성 요소와 각각의 기능들을 정리","headline":"JVM(자바 가상 머신)의 구성 요소들","image":{"alt":"Baekjoon Online Judge","url":"https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/configuration-of-jvm/"},"url":"http://localhost:4000/posts/configuration-of-jvm/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>[BOJ 2741] N 찍기 | TIL-Blog
+  <title>JVM(자바 가상 머신)의 구성 요소들 | TIL-Blog
   </title>
 
   <!--
@@ -226,9 +226,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js,npm/mermaid@11.4.0/dist/mermaid.min.js"></script>
 
 
 
@@ -451,7 +458,7 @@
         
           
             
-              <span>[BOJ 2741] N 찍기</span>
+              <span>JVM(자바 가상 머신)의 구성 요소들</span>
             
 
           
@@ -564,6 +571,201 @@
       
 
       
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
     
       
 
@@ -732,39 +934,6 @@
 
       
     
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
 
     
   
@@ -772,6 +941,82 @@
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
   
@@ -795,9 +1040,9 @@
 
 <article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>[BOJ 2741] N 찍기</h1>
+    <h1 data-toc-skip>JVM(자바 가상 머신)의 구성 요소들</h1>
     
-      <p class="post-desc fw-light mb-4">Baekjoon Online Judge 2741(Java 11) <br> [N 찍기] 문제 풀이</p>
+      <p class="post-desc fw-light mb-4">JVM의 구성 요소와 각각의 기능들을 정리</p>
     
 
     <div class="post-meta text-muted">
@@ -814,13 +1059,13 @@
 
 <time
   
-  data-ts="1747897200"
+  data-ts="1746579600"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  May 22, 2025
+  May  7, 2025
 </time>
 
       </span>
@@ -836,7 +1081,7 @@
         
 
         <div class="mt-3 mb-3">
-          <a href="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/baekjoon-logo.png" class="popup img-link preview-img shimmer"><img src="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/baekjoon-logo.png"  alt="Baekjoon Online Judge" width="1200" height="630"  loading="lazy"></a><figcaption class="text-center pt-2 pb-2">Baekjoon Online Judge</figcaption></div>
+          <a href="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png" class="popup img-link preview-img shimmer"><img src="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png"  alt="Baekjoon Online Judge" width="1200" height="630"  loading="lazy"></a><figcaption class="text-center pt-2 pb-2">Baekjoon Online Judge</figcaption></div>
       
 
       <div class="d-flex justify-content-between">
@@ -869,7 +1114,7 @@
 
   
     <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">[BOJ 2741] N 찍기</span>
+      <span class="label text-truncate">JVM(자바 가상 머신)의 구성 요소들</span>
       <button type="button" class="toc-trigger btn me-1">
         <i class="fa-solid fa-list-ul fa-fw"></i>
       </button>
@@ -882,7 +1127,7 @@
 
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">[BOJ 2741] N 찍기</div>
+        <div class="label text-truncate py-2 ms-4">JVM(자바 가상 머신)의 구성 요소들</div>
         <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
           <i class="fas fa-close"></i>
         </button>
@@ -892,199 +1137,294 @@
   
 
   <div class="content">
-    <p><a href="https://www.acmicpc.net/problem/2741">-&gt; 문제 바로가기</a></p>
+    <h2 id="jvm의-구조"><span class="me-2">JVM의 구조</span><a href="#jvm의-구조" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<hr />
+<p><a href="https://velog.velcdn.com/images/bluegrate/post/5914ccc8-fdb6-498c-9e68-102c7ba23e28/image.png" class="popup img-link shimmer"><img src="https://velog.velcdn.com/images/bluegrate/post/5914ccc8-fdb6-498c-9e68-102c7ba23e28/image.png" alt="JVM_Structure" loading="lazy"></a></p>
 
-<p><br />
-<br /></p>
+<p>JVM의 구조<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<ul>
+  <li>
+    <p><strong>Class Loader</strong>(클래스 로더)</p>
+  </li>
+  <li><strong>Execution Engine</strong>(실행 엔진)
+    <ul>
+      <li><strong>Interpreter</strong>(인터프리터)</li>
+      <li><strong>Just-In-Time</strong>(JIT 컴파일러)</li>
+      <li><strong>Garbage Collector</strong>(가비지 콜렉터)</li>
+    </ul>
+  </li>
+  <li><strong>Runtime Data Area</strong>(런타임 데이터 영역)
+    <ul>
+      <li><strong>Method Area</strong>(메소드 영역)</li>
+      <li><strong>Runtime Data Area</strong>(힙 영역)</li>
+      <li><strong>PC Register</strong>(PC 레지스터)</li>
+      <li><strong>JVM Stack</strong>(스택 영역)</li>
+      <li><strong>Native Method Stack</strong>(네이티브 메소드 스택 영역)</li>
+    </ul>
+  </li>
+  <li><strong>JNI</strong> - <strong>Native Method Interface</strong>(네이티브 메소드 인터페이스)</li>
+  <li><strong>Native Method Library</strong>(네이티브 메소드 라이브러리)</li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="class-loader-클래스-로더"><span class="me-2">Class Loader (클래스 로더)</span><a href="#class-loader-클래스-로더" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
+<ul>
+  <li>
+    <p>클래스 로더는 클래스가 참조될 때 JVM의 메모리에 클래스(.class)를 로드하는 작업을 담당함. 필요한 클래스 파일을 검색하여 메모리에 로드하여 <u>각 클래스가 한 번만 로드되도록</u> 한다.</p>
+  </li>
+  <li>
+    <p>Runtime 시 <strong>동적으로</strong> 로드. .jar 파일 내 저장 된 클래스들을 JVM 위에 탑재하고, 사용하지 않는 클래스들은 메모리에서 삭제함.</p>
+  </li>
+  <li>
+    <p>클래스 로더는 로드된 클래스의 무결성 확인 및 클래스 간의 종속성 해결과 같은 중요한 작업도 수행함.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="execution-engine-실행-엔진"><span class="me-2">Execution Engine (실행 엔진)</span><a href="#execution-engine-실행-엔진" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
+<ul>
+  <li>
+    <p>클래스 로더가 JVM내의 Runtime Data Area에 바이트코드(.class)를 배치시키면 실행엔진이 해석. 즉, JVM 만이 바이트코드를 이해할 수 있기 떄문에 실행엔진이 기계가 이해할 수 있게 변환함.</p>
+  </li>
+  <li>
+    <p>Java는 2가지의 방식을 혼합하여 바이트코드를 해석하는데 <strong>인터프리터</strong>와 <strong>JIT 컴파일러</strong>다. <strong>인터프리터</strong>는 한 줄씩 해석하기에 방식이 속도가 느리기에 이 단점을 보완하기 위해 새로운 해석 방식인 <strong>JIT 컴파일러</strong>이다.</p>
+  </li>
+  <li><strong>Interpreter(인터프리터)</strong>
+    <ul>
+      <li>JVM은 기본적으로 <strong>인터프리터 방식</strong>으로 동작한다. 다만 같은 메소드 라도 <u>여러번 호출이 된다면 매번 해석하고 수행해야 되서 전체적인 속도는 느리다.</u></li>
+    </ul>
+  </li>
+  <li>Just-In-Time Compiler(JIT 컴파일러)
+    <ul>
+      <li>바이트 코드 전체를 컴파일하여 <strong>Native Code</strong>로 변경하고 이후에는 해당 메서드를 더 이상 인터프리팅 하지 않고 캐싱해 두었다가 <strong>Native Code</strong>로 직접 실행하는 방식이다.</li>
+      <li>하지만 바이트 코드를 <strong>Native Code</strong>로 변환하는 데에도 비용이 소요되므로, JVM은 모든 코드를 JIT 컴파일러 방식으로 실행하지 않고 <u>인터프리터 방식을 사용하다 일정 기준이 넘어가면 JIT 컴파일 방식으로 명령어를 실행하는 식</u>으로 진행한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>Native Code</strong> : C언어나, C++, 어셈블리어로 구성된 코드를 의미</p>
+</blockquote>
+
+<p><br /></p>
+
+<h3 id="garbage-collector-gc-가비지-컬렉터"><span class="me-2">Garbage Collector (G.C, 가비지 컬렉터)</span><a href="#garbage-collector-gc-가비지-컬렉터" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
+<ul>
+  <li>JVM이 <strong>Heap Area</strong>를 감시하다가 더 이상 <strong>사용되지 않는 객체(== 참조되지 않는 객체)</strong>를 자동으로 메모리에서 해제하는 기능.</li>
+</ul>
+
+<blockquote>
+  <p>C나 C++의 <code class="language-plaintext highlighter-rouge">free()</code>나 <code class="language-plaintext highlighter-rouge">delete</code>를 직접 호출하지 않아도, 자바는 <strong>JVM의 가비지 컬렉터(GC)</strong>가 알아서 필요 없는 객체를 정리함</p>
+</blockquote>
+
+<p><br /></p>
+
+<h4 id="gc-동작-과정"><span class="me-2">G.C 동작 과정</span><a href="#gc-동작-과정" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<hr />
+<ol>
+  <li>
+    <p>객체 생성 –&gt; <strong>Heap Area</strong>에 저장됨</p>
+  </li>
+  <li>
+    <p>변수 참조가 끊김 –&gt; 객체를 가리키는 <strong>Reference</strong>가 없어짐</p>
+  </li>
+  <li>GC 탐색(Reachability Analysis)
+    <ul>
+      <li>루트(root) 객체에서 접근할 수 없는 객체를 <strong>Garbage</strong>로 판단</li>
+    </ul>
+  </li>
+  <li>Mark and Sweep (표시하고 쓸기)
+    <ul>
+      <li><strong>Mark 단계</strong> : 살아있는 객체 표시</li>
+      <li><strong>Sweep 단계</strong> : 표시되지 않은 객체(가비지) 제거</li>
+      <li><strong>Compact 단계</strong>(선택적) : 남은 객체들을 메모리 앞쪽으로 모아 단편화 해소</li>
+    </ul>
+  </li>
+</ol>
+
+<p><br /></p>
+
+<h3 id="runtime-data-area-런타임-데이터-영역"><span class="me-2">Runtime Data Area (런타임 데이터 영역)</span><a href="#runtime-data-area-런타임-데이터-영역" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
+<p><a href="https://hongchangsub.com/content/images/2021/06/-----------2021-06-28------11.02.11.png" class="popup img-link shimmer"><img src="https://hongchangsub.com/content/images/2021/06/-----------2021-06-28------11.02.11.png" alt="Runtime_Data_Area1" loading="lazy"></a></p>
+
+<p>Runtime Data Area 1<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
+
+<ul>
+  <li>
+    <p>JVM이 자바 프로그램을 실행할 때 사용하는 <strong>메모리 영역 구조</strong> 이다. 각 영역은 서로 다른 목적(클래스 정보 저장, 스택 관리, 힙 객체 저장 등)을 가지고 있음.</p>
+  </li>
+  <li>
+    <p>사진과 같이 <strong>Method Area</strong>, <strong>Heap Area</strong>는 모든 <strong>쓰레드(Thread)</strong>가 공유하는 영역이고, 나머지 <strong>Stack Area</strong>, <strong>PC Register</strong>, <strong>Native Method Stack</strong> 은 각 쓰레드 마다 생성되는 개별 영역이다.</p>
+  </li>
+</ul>
 
 <div class="table-wrapper"><table>
   <thead>
     <tr>
-      <th style="text-align: center">시간 제한</th>
-      <th style="text-align: center">메모리 제한</th>
-      <th style="text-align: center">제출</th>
-      <th style="text-align: center">정답</th>
-      <th style="text-align: center">맞힌 사람</th>
-      <th style="text-align: center">정답 비율</th>
+      <th>영역</th>
+      <th>특징 / 역할</th>
+      <th>생성 시점</th>
+      <th>스레드 공유 여부</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center">1 초</td>
-      <td style="text-align: center">128 MB</td>
-      <td style="text-align: center">301624</td>
-      <td style="text-align: center">170561</td>
-      <td style="text-align: center">145598</td>
-      <td style="text-align: center">57.667%</td>
+      <td><strong>Method Area (메서드 영역)</strong></td>
+      <td>클래스의 구조 정보(메서드, 필드, static 변수, 상수 등)를 저장</td>
+      <td>JVM 시작 시</td>
+      <td>공유</td>
+    </tr>
+    <tr>
+      <td><strong>Heap Area (힙 영역)</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">new</code>로 생성된 객체와 배열 저장</td>
+      <td>JVM 시작 시</td>
+      <td>공유</td>
+    </tr>
+    <tr>
+      <td><strong>Stack Area (스택 영역)</strong></td>
+      <td>각 스레드의 메서드 호출 정보 저장 (지역 변수, 매개변수, return 값 등)</td>
+      <td>스레드 생성 시</td>
+      <td>개별</td>
+    </tr>
+    <tr>
+      <td><strong>PC Register (프로그램 카운터)</strong></td>
+      <td>현재 실행 중인 JVM 명령어 주소를 저장</td>
+      <td>스레드 생성 시</td>
+      <td>개별</td>
+    </tr>
+    <tr>
+      <td><strong>Native Method Stack (네이티브 메서드 스택)</strong></td>
+      <td>C/C++ 등 네이티브 코드 실행용 스택</td>
+      <td>스레드 생성 시</td>
+      <td>개별</td>
     </tr>
   </tbody>
 </table></div>
 
-<h2 id="문제"><span class="me-2">문제</span><a href="#문제" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p><a href="https://goldenrabbit.co.kr/wp-content/uploads/2021/11/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1-%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5-%E1%84%86%E1%85%A9%E1%84%83%E1%85%A6%E1%86%AF_02.png" class="popup img-link shimmer"><img src="https://goldenrabbit.co.kr/wp-content/uploads/2021/11/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1-%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5-%E1%84%86%E1%85%A9%E1%84%83%E1%85%A6%E1%86%AF_02.png" alt="Runtime_Data_Area2" loading="lazy"></a></p>
+
+<p>Runtime Data Area 2<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
+
+<p><br /></p>
+
+<h4 id="method-area-메서드-영역"><span class="me-2">Method Area (메서드 영역)</span><a href="#method-area-메서드-영역" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <hr />
 <ul>
-  <li>자연수 N이 주어졌을 때, 1부터 N까지 한 줄에 하나씩 출력하는 프로그램을 작성하시오.</li>
+  <li>
+    <p>클래스 로더가 읽어온 <strong>클래스, 메서드, 필드, static 변수, 상수</strong> 등의 정보를 저장</p>
+  </li>
+  <li>
+    <p>프로그램 전체에서 <strong>공유되는 영역</strong>으로, 모든 스레드가 접근할 수 있음</p>
+  </li>
+  <li>
+    <p>JDK 8 이후에는 <strong>Metaspace</strong>로 대체되어, 네이티브 메모리 영역에 저장</p>
+  </li>
 </ul>
 
 <p><br /></p>
 
-<h3 id="입력"><span class="me-2">입력</span><a href="#입력" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h4 id="heap-area-힙-영역"><span class="me-2">Heap Area (힙 영역)</span><a href="#heap-area-힙-영역" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <hr />
 <ul>
-  <li>첫째 줄에 100,000보다 작거나 같은 자연수 N이 주어진다.</li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">new</code> 키워드로 생성된 <strong>객체와 배열</strong>이 저장되는 영역</p>
+  </li>
+  <li>
+    <p><u>GC(Garbage Collector)가 동작하는 유일한 영역</u></p>
+  </li>
+  <li>
+    <p>모든 스레드가 공유하며, <u>가장 큰 메모리 공간을 차지함</u></p>
+  </li>
 </ul>
 
 <p><br /></p>
 
-<h3 id="출력"><span class="me-2">출력</span><a href="#출력" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h4 id="stack-area-스택-영역"><span class="me-2">Stack Area (스택 영역)</span><a href="#stack-area-스택-영역" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <hr />
 <ul>
-  <li>첫째 줄부터 N번째 줄 까지 차례대로 출력한다.</li>
+  <li>
+    <p>메서드 호출 시 생성되는 <strong>스택 프레임(지역 변수, 매개변수, 리턴 값 등)</strong>을 저장</p>
+  </li>
+  <li>
+    <p><strong>스레드마다 독립적</strong>으로 생성되어 다른 스레드와 공유되지 않음</p>
+  </li>
+  <li>
+    <p>메서드가 종료되면 해당 스택 프레임은 <strong>자동으로 소멸</strong>함</p>
+  </li>
 </ul>
 
 <p><br /></p>
 
-<h3 id="예제"><span class="me-2">예제</span><a href="#예제" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<hr />
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>// 입력
-5
-</pre></td></tr></tbody></table></code></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre>// 출력
-1
-2
-3
-4
-5
-</pre></td></tr></tbody></table></code></div></div>
-
-<p><br /></p>
-
-<h3 id="출처"><span class="me-2">출처</span><a href="#출처" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h4 id="pc-register-프로그램-카운터-레지스터"><span class="me-2">PC Register (프로그램 카운터 레지스터)</span><a href="#pc-register-프로그램-카운터-레지스터" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <hr />
 <ul>
-  <li>문제를 만든 사람: <a href="https://www.acmicpc.net/user/baekjoon">baekjoon</a></li>
-  <li>잘못된 데이터를 찾은 사람: <a href="https://www.acmicpc.net/user/rory143">rory143</a></li>
+  <li>
+    <p>현재 JVM 명령어의 <strong>실행 위치(주소)를 저장</strong></p>
+  </li>
+  <li>
+    <p>각 스레드마다 존재하며, <strong>멀티스레드 환경에서 실행 흐름을 추적</strong></p>
+  </li>
+  <li>
+    <p>JVM이 어떤 명령을 다음에 실행할지를 결정하는 데 사용</p>
+  </li>
 </ul>
 
 <p><br /></p>
 
-<h3 id="비슷한-문제"><span class="me-2">비슷한 문제</span><a href="#비슷한-문제" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h4 id="native-method-stack-네이티브-메서드-스택"><span class="me-2">Native Method Stack (네이티브 메서드 스택)</span><a href="#native-method-stack-네이티브-메서드-스택" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <hr />
 <ul>
-  <li><a href="https://www.acmicpc.net/problem/2742">2742번. 기찍 N</a></li>
+  <li>
+    <p>C, C++ 등 <strong>자바 외부 언어(JNI)</strong>로 작성된 메서드 실행 시 사용</p>
+  </li>
+  <li>
+    <p>각 스레드마다 생성되며, 네이티브 코드 호출 시 <strong>스택 프레임 관리</strong>를 담당</p>
+  </li>
+  <li>
+    <p>자바 스택과 유사하지만, <strong>JVM 외부 코드 실행용</strong>이라는 점이 다름</p>
+  </li>
 </ul>
 
 <p><br /></p>
 
-<h3 id="알고리즘-분류"><span class="me-2">알고리즘 분류</span><a href="#알고리즘-분류" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h2 id="-추천-게시물"><span class="me-2"><i class="fa-solid fa-notes-medical"></i> 추천 게시물</span><a href="#-추천-게시물" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
 <ul>
-  <li><a href="https://www.acmicpc.net/problem/tag/102">구현</a></li>
+  <li><a href="https://bangjeongbin.github.io/TIL-Blog/posts/what-is-jvm">JVM(자바 가상 머신)이란?</a></li>
 </ul>
-
-<p><br />
-<br />
-<br />
-<br />
-<br />
-<br /></p>
-
-<h2 id="제출"><span class="me-2">제출</span><a href="#제출" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<hr />
-
-<p><br /></p>
-
-<h3 id="내-제출"><span class="me-2">내 제출</span><a href="#내-제출" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<hr />
-<div class="language-java highlighter-rouge"><div class="code-header">
-        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-</pre></td><td class="rouge-code"><pre><span class="kn">import</span> <span class="nn">java.io.*</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">java.util.StringTokenizer</span><span class="o">;</span>
-
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">solution</span><span class="o">()</span> <span class="kd">throws</span> <span class="nc">IOException</span> <span class="o">{</span>
-        <span class="nc">BufferedReader</span> <span class="n">br</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">BufferedReader</span><span class="o">(</span><span class="k">new</span> <span class="nc">InputStreamReader</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">));</span>
-        <span class="nc">BufferedWriter</span> <span class="n">bw</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">BufferedWriter</span><span class="o">(</span><span class="k">new</span> <span class="nc">OutputStreamWriter</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">));</span>
-        
-        <span class="kt">int</span> <span class="n">num</span> <span class="o">=</span>  <span class="nc">Integer</span><span class="o">.</span><span class="na">parseInt</span><span class="o">(</span><span class="n">br</span><span class="o">.</span><span class="na">readLine</span><span class="o">());</span>
-
-        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">num</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
-            <span class="n">bw</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="nc">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">+</span> <span class="s">"\n"</span><span class="o">);</span>
-        <span class="o">}</span>
-
-        <span class="n">bw</span><span class="o">.</span><span class="na">flush</span><span class="o">();</span>
-        <span class="n">bw</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
-        <span class="n">br</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
-    <span class="o">}</span>
-
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="kd">throws</span> <span class="nc">IOException</span> <span class="o">{</span>
-        <span class="n">solution</span><span class="o">();</span>
-    <span class="o">}</span>
-<span class="o">}</span>
-
-</pre></td></tr></tbody></table></code></div></div>
-
-<p><br /></p>
-
-<div class="table-wrapper"><table>
-  <thead>
-    <tr>
-      <th style="text-align: center">런타임</th>
-      <th style="text-align: center">메모리</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">244 ms</td>
-      <td style="text-align: center">25652 KB</td>
-    </tr>
-  </tbody>
-</table></div>
 
 <p><br /></p>
 
 <h2 id="reference"><span class="me-2">Reference</span><a href="#reference" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
 <ul>
-  <li></li>
+  <li><a href="https://inpa.tistory.com/entry/JAVA-%E2%98%95-JVM-%EB%82%B4%EB%B6%80-%EA%B5%AC%EC%A1%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%98%81%EC%97%AD-%EC%8B%AC%ED%99%94%ED%8E%B8">☕ JVM 내부 구조 &amp; 메모리 영역 💯 총정리</a></li>
+  <li><a href="https://hongchangsub.com/java3/">(Java) JVM 이해하기</a></li>
+  <li><a href="https://velog.io/@bluegrate/java%EC%9D%98-%EB%8F%99%EC%9E%91%EA%B3%BC%EC%A0%95%EA%B3%BC-JVM%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0">java의 동작과정과 JVM의 메모리 구조</a></li>
 </ul>
+
+<p><br /></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>출처 : https://velog.io/@bluegrate/java%EC%9D%98-%EB%8F%99%EC%9E%91%EA%B3%BC%EC%A0%95%EA%B3%BC-JVM%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;&#xfe0e;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>출처 : https://hongchangsub.com/java3/ <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;&#xfe0e;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>출처 : https://goldenrabbit.co.kr/2021/11/03/%EC%9E%90%EB%B0%94-%EC%BD%94%EB%93%9C%EC%99%80-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%8A%A4%ED%83%9C%ED%8B%B1-%EB%B3%80%EC%88%98-%EB%93%B1%EC%9D%80-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%9D%98-%EC%96%B4%EB%94%94/ <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;&#xfe0e;</a></p>
+    </li>
+  </ol>
+</div>
 
   </div>
 
@@ -1094,8 +1434,8 @@
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/algorithm-test/">Algorithm Test</a>,
-          <a href="/categories/boj/">BOJ</a>
+          <a href="/categories/til/">TIL</a>,
+          <a href="/categories/language/">Language</a>
       </div>
     
 
@@ -1105,14 +1445,19 @@
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/boj/"
+            href="/tags/language/"
             class="post-tag no-text-decoration"
-          >BOJ</a>
+          >Language</a>
         
           <a
             href="/tags/java/"
             class="post-tag no-text-decoration"
           >Java</a>
+        
+          <a
+            href="/tags/jvm/"
+            class="post-tag no-text-decoration"
+          >JVM</a>
         
       </div>
     
@@ -1148,21 +1493,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=[BOJ%202741]%20N%20%EC%B0%8D%EA%B8%B0%20-%20TIL-Blog&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fboj-2741%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=JVM(%EC%9E%90%EB%B0%94%20%EA%B0%80%EC%83%81%20%EB%A8%B8%EC%8B%A0)%EC%9D%98%20%EA%B5%AC%EC%84%B1%20%EC%9A%94%EC%86%8C%EB%93%A4%20-%20TIL-Blog&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fconfiguration-of-jvm%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=[BOJ%202741]%20N%20%EC%B0%8D%EA%B8%B0%20-%20TIL-Blog&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fboj-2741%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=JVM(%EC%9E%90%EB%B0%94%20%EA%B0%80%EC%83%81%20%EB%A8%B8%EC%8B%A0)%EC%9D%98%20%EA%B5%AC%EC%84%B1%20%EC%9A%94%EC%86%8C%EB%93%A4%20-%20TIL-Blog&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fconfiguration-of-jvm%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fboj-2741%2F&text=[BOJ%202741]%20N%20%EC%B0%8D%EA%B8%B0%20-%20TIL-Blog" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fconfiguration-of-jvm%2F&text=JVM(%EC%9E%90%EB%B0%94%20%EA%B0%80%EC%83%81%20%EB%A8%B8%EC%8B%A0)%EC%9D%98%20%EA%B5%AC%EC%84%B1%20%EC%9A%94%EC%86%8C%EB%93%A4%20-%20TIL-Blog" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1758,463 +2103,487 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -2230,7 +2599,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/boj-10869/" class="post-preview card h-100">
+          <a href="/posts/what-is-jvm/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2242,23 +2611,51 @@
 
 <time
   
-  data-ts="1747789200"
+  data-ts="1746493200"
+  data-df="ll"
+  
+>
+  May  6, 2025
+</time>
+
+              <h4 class="pt-0 my-2">JVM(자바 가상 머신)이란?</h4>
+              <div class="text-muted">
+                <p>JVM(Java Virtual Machine)에 대하여</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/boj-10926/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1747796400"
   data-df="ll"
   
 >
   May 21, 2025
 </time>
 
-              <h4 class="pt-0 my-2">[BOJ 10869] 사칙연산</h4>
+              <h4 class="pt-0 my-2">[BOJ 10926] ??!</h4>
               <div class="text-muted">
-                <p>Baekjoon Online Judge 10869(Java 11) <br> [사칙연산] 문제 풀이</p>
+                <p>Baekjoon Online Judge 10926(Java 11) <br> [??!] 문제 풀이</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/boj-25083/" class="post-preview card h-100">
+          <a href="/posts/boj-11382/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2270,44 +2667,16 @@
 
 <time
   
-  data-ts="1747623600"
+  data-ts="1747792800"
   data-df="ll"
   
 >
-  May 19, 2025
+  May 21, 2025
 </time>
 
-              <h4 class="pt-0 my-2">[BOJ 25083] 새싹</h4>
+              <h4 class="pt-0 my-2">[BOJ 11382] 꼬마 정민</h4>
               <div class="text-muted">
-                <p>Baekjoon Online Judge 25083(Java 11) <br> [새싹] 문제 풀이</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/boj-10172/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1747620000"
-  data-df="ll"
-  
->
-  May 19, 2025
-</time>
-
-              <h4 class="pt-0 my-2">[BOJ 10172] 개</h4>
-              <div class="text-muted">
-                <p>Baekjoon Online Judge 10172(Java 11) <br> [개] 문제 풀이</p>
+                <p>Baekjoon Online Judge 11382(Java 11) <br> [꼬마 정민] 문제 풀이</p>
               </div>
             </div>
           </a>
@@ -2328,21 +2697,21 @@
 
   
     <a
-      href="/posts/boj-10872/"
+      href="/posts/what-is-jvm/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>[BOJ 10872] 팩토리얼</p>
+      <p>JVM(자바 가상 머신)이란?</p>
     </a>
   
 
   
     <a
-      href="/posts/boj-10950/"
+      href="/posts/boj-10998/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
-      <p>[BOJ 10950] A+B - 3</p>
+      <p>[BOJ 10998] A×B</p>
     </a>
   
 </nav>
