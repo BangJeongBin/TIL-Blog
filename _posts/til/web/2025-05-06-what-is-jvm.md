@@ -91,7 +91,7 @@ JVM의 동작 방식[^4]
 
 ## <i class="fa-solid fa-notes-medical"></i> 추천 게시물
 ---
-- [JVM(자바 가상 머신)의 구성 요소들](https://bangjeongbin.github.io/TIL-Blog/posts/configuration-of-jvm)
+- [JVM(자바 가상 머신)의 구성 요소들](https://bangjeongbin.github.io/TIL-Blog/posts/configuration-of-jvm/)
 
 <br>
 
