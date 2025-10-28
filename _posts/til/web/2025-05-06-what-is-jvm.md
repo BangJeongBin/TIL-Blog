@@ -1,6 +1,6 @@
 ---
 title: JVM(자바 가상 머신)이란?
-description: JAVA의 바이트 코드를 실행하기 위한 가상머신인 JVM에 대하여
+description: JVM(Java Virtual Machine)에 대하여
 author: bin
 date: 2025-05-06 09:00:00 +0800
 categories: [TIL, Language]
@@ -54,7 +54,7 @@ JVM의 구조[^3]
 - **Runtime Data Area**(런타임 데이터 영역)
     - **Method Area**(메소드 영역)
     - **Runtime Data Area**(힙 영역)
-    - **PC Register**(PC 레지스터)
+    - **PC Register**(프로그램 카운터 레지스터)
     - **JVM Stack**(스택 영역)
     - **Native Method Stack**(네이티브 메소드 스택 영역)
     
@@ -91,7 +91,7 @@ JVM의 동작 방식[^4]
 
 ## <i class="fa-solid fa-notes-medical"></i> 추천 게시물
 ---
-- [HTTP란 무엇인가?](https://bangjeongbin.github.io/TIL-Blog/posts/what-is-http)
+- [JVM(자바 가상 머신)의 구성 요소들](https://bangjeongbin.github.io/TIL-Blog/posts/configuration-of-jvm)
 
 <br>
 
@@ -102,6 +102,7 @@ JVM의 동작 방식[^4]
 - [(JAVA기초) JVM이란?](https://velog.io/@jungmyeong96/JAVA%EA%B8%B0%EC%B4%88-JVM%EC%9D%B4%EB%9E%80)
 - [(Java) JVM 개념 및 동작 원리](https://min-gyeong.tistory.com/72)
 
+<br>
 
 [^1]: 출처 : https://velog.io/@jungmyeong96/JAVA%EA%B8%B0%EC%B4%88-JVM%EC%9D%B4%EB%9E%80
 [^2]: 출처 : https://0soo.tistory.com/12

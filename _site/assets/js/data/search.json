@@ -501,7 +501,7 @@
     "categories": "TIL, Language",
     "tags": "Language, Java, JVM",
     "date": "2025-05-06 10:00:00 +0900",
-    "content": "JAVA의 바이트 코드를 실행하기 위한 가상머신인 JVM에 대하여"
+    "content": "JVM(Java Virtual Machine)에 대하여"
   },
   
   {
