@@ -496,6 +496,15 @@
   },
   
   {
+    "title": "SSR(Server Side Rendering)이란?",
+    "url": "/posts/what-is-ssr/",
+    "categories": "TIL, Front-End",
+    "tags": "Front-End, Architecture, Server",
+    "date": "2025-05-08 10:00:00 +0900",
+    "content": "SSR(Server Side Rendering)과 CSR(Client Side Rendering)에 대하여"
+  },
+  
+  {
     "title": "JVM(자바 가상 머신)의 구성 요소들",
     "url": "/posts/configuration-of-jvm/",
     "categories": "TIL, Language",
