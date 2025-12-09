@@ -1,5 +1,5 @@
----
 title: 2025년 49주차 IT보안 뉴스 분석 보고서
+---
 description: 49주차의 IT보안 키워드는 “치명적 RCE 취약점, AI 규제 준수, SW 공급망 위협 심화”으로 요약됩니다.
 author: bin
 date: 2025-12-07 09:00:00 +0800
@@ -79,7 +79,8 @@ image:
 * **내용**: 5G, 엣지 컴퓨팅, 클라우드 AI의 결합으로 초연결 인프라가 구축되면서, 기업의 **공격 표면**이 클라우드 인프라, IoT 디바이스 등으로 **대폭 확장**됨. 이에 따라 공격자들의 타깃이 분산되고 취약점 악용 기회가 증가.
 * **의의**: **분산된 인프라 보안의 중요성**. 기존의 경계 기반 방어 모델이 무력화되고, **제로 트러스트 아키텍처**를 기반으로 모든 사용자, 디바이스, 애플리케이션에 대한 **강력한 인증 및 지속적인 검증**이 핵심 보안 전략으로 부상. 
 
-![aws_cli_screenshot01](https://photos.app.goo.gl/3eCoY3Ke75YmQ42o8)
+![aws_cli_screenshot01](https://drive.google.com/u/0/drive-viewer/AKGpiha6VBgspGrNCeITPYTXoJY4Mzc2log7128r0WOOyqSyJIF9LMfVCvonD2A5TkEg_p3O-nrD2P5NNjEBJ45TjXZVu8mPgdXaFPs=s1600-rw-v1?auditContext=forDisplay)
+
 
 
 (7) **양자 내성 암호(PQC)로의 전환 논의, 국가적 보안 과제로 부상**
