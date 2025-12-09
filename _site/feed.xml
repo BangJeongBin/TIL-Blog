@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-12-10T02:14:33+09:00</updated>
+  <updated>2025-12-10T02:25:21+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>2025년 49주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202549-security-issue-report/" rel="alternate" type="text/html" title="2025년 49주차 IT보안 뉴스 분석 보고서" />
+    <published>2025-12-07T10:00:00+09:00</published>
+  
+    <updated>2025-12-10T02:15:15+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202549-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202549-security-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="Security" />
+    
+  
+
+  <summary>49주차의 IT보안 키워드는 “치명적 RCE 취약점, AI 규제 준수, SW 공급망 위협 심화”으로 요약됩니다.</summary>
+
+  </entry>
 
   
   <entry>
@@ -41,28 +67,6 @@
   
 
   <summary>49주차의 IT 키워드는 “React RCE 비상, 양자 컴퓨팅 상용화, AI 에이전트 표준”으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>202549 Security Issue Report</title>
-    <link href="http://localhost:4000/posts/202549-security-issue-report/" rel="alternate" type="text/html" title="202549 Security Issue Report" />
-    <published>2025-12-07T00:00:00+09:00</published>
-  
-    <updated>2025-12-10T02:06:13+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202549-security-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202549-security-issue-report/" />
-    <author>
-      <name>BangJeongBin</name>
-    </author>
-
-  
-    
-  
-
-  <summary>title: 2025년 49주차 IT보안 뉴스 분석 보고서 description: 49주차의 IT보안 키워드는 “치명적 RCE 취약점, AI 규제 준수, SW 공급망 위협 심화”으로 요약됩니다. author: bin date: 2025-12-07 09:00:00 +0800 categories: [NEWS, Security] tags: [NEWS, Security] pin: true math: true mermaid: true image:  path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png  alt: Baekjoon Online Judge —     해당 포스팅은 생성성 AI를 활용하여 작성하였...</summary>
 
   </entry>
 
