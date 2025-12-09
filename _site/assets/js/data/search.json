@@ -1,6 +1,24 @@
 [
   
   {
+    "title": "2025년 49주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202549-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2025-12-07 10:00:00 +0900",
+    "content": "49주차의 IT보안 키워드는 “치명적 RCE 취약점, AI 규제 준수, SW 공급망 위협 심화”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2025년 49주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202549-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2025-12-07 10:00:00 +0900",
+    "content": "49주차의 IT 키워드는 “React RCE 비상, 양자 컴퓨팅 상용화, AI 에이전트 표준”으로 요약됩니다."
+  },
+  
+  {
     "title": "[BOJ 2231] 분해합",
     "url": "/posts/boj-2231/",
     "categories": "Algorithm Test, BOJ",
