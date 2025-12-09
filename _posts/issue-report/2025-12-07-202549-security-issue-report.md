@@ -13,6 +13,19 @@ image:
  alt: Baekjoon Online Judge
 ---
 
+<!-- .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} -->
+
 >해당 포스팅은 생성성 AI를 활용하여 작성하였음을 알려드립니다.
 
 ## 2025년 49주차 전 세계 IT보안 뉴스 분석 보고서
@@ -80,6 +93,7 @@ image:
 * **의의**: **분산된 인프라 보안의 중요성**. 기존의 경계 기반 방어 모델이 무력화되고, **제로 트러스트 아키텍처**를 기반으로 모든 사용자, 디바이스, 애플리케이션에 대한 **강력한 인증 및 지속적인 검증**이 핵심 보안 전략으로 부상. 
 
 ![aws_cli_screenshot01](https://lh3.googleusercontent.com/d/1tPTtjDpmNSXoYr11P6zghzqxkyabJHRR)
+
 
 
 (7) **양자 내성 암호(PQC)로의 전환 논의, 국가적 보안 과제로 부상**
