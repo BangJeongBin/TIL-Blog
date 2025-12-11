@@ -10,7 +10,7 @@ math: true
 mermaid: true
 image:
  path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/note-taking-logo.png
- alt: Baekjoon Online Judge
+ alt: Note Taking
 ---
 
 > 해당 포스트는 학습 목적으로 작성되었으며 <<[2025 시나공 정보처리기사 실기 기본서](https://product.kyobobook.co.kr/detail/S000215623877)>>을 참고하여 작성하였음을 알려드립니다.
