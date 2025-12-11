@@ -9,7 +9,7 @@ pin: true
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/review-logo.png
+ path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/note-taking-logo.png
  alt: Baekjoon Online Judge
 ---
 
