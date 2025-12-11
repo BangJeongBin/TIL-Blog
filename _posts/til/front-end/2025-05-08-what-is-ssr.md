@@ -9,8 +9,8 @@ pin: true
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png
- alt: Baekjoon Online Judge
+ path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png
+ alt: Today I Learnd
 ---
 
 `Next.js`를 비롯한 다양한 프레임워크에서 **SSR**을 쉽게 구축 할 수 있도록 도와주고 있다. 과연 **SSR**은 무엇이고 이 아키텍처를 사용하여 기대할 수 있는 효과는 무엇이 있는지 알아보자.
