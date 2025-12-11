@@ -514,6 +514,42 @@
   },
   
   {
+    "title": "정보처리기사 Note-Taking (4)",
+    "url": "/posts/note-taking-information-processing-certificate-4/",
+    "categories": "Review, Note-Taking",
+    "tags": "Network, CS",
+    "date": "2025-05-12 10:00:00 +0900",
+    "content": "정보처리기사 요약 노트 정리 4편"
+  },
+  
+  {
+    "title": "정보처리기사 Note-Taking (3)",
+    "url": "/posts/note-taking-information-processing-certificate-3/",
+    "categories": "Review, Note-Taking",
+    "tags": "Network, CS",
+    "date": "2025-05-11 10:00:00 +0900",
+    "content": "정보처리기사 요약 노트 정리 3편"
+  },
+  
+  {
+    "title": "정보처리기사 Note-Taking (2)",
+    "url": "/posts/note-taking-information-processing-certificate-2/",
+    "categories": "Review, Note-Taking",
+    "tags": "Network, CS",
+    "date": "2025-05-10 10:00:00 +0900",
+    "content": "정보처리기사 요약 노트 정리 2편"
+  },
+  
+  {
+    "title": "정보처리기사 Note-Taking (1)",
+    "url": "/posts/note-taking-information-processing-certificate-1/",
+    "categories": "Review, Note-Taking",
+    "tags": "Network, CS",
+    "date": "2025-05-09 10:00:00 +0900",
+    "content": "정보처리기사 요약 노트 정리 1편"
+  },
+  
+  {
     "title": "SSR(Server Side Rendering)이란?",
     "url": "/posts/what-is-ssr/",
     "categories": "TIL, Front-End",
