@@ -9,8 +9,8 @@ pin: true
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/http-main-image.png
- alt: Baekjoon Online Judge
+ path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png
+ alt: Today I Learnd
 ---
 
 ## JVM의 구조
