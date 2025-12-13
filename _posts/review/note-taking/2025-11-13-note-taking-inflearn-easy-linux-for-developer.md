@@ -1,6 +1,6 @@
 ---
 title: "[Inflearn] \"개발자를 위한 쉬운 리눅스\" Note-Taking"
-description: "[Inflearn] \"개발자를 위한 쉬운 리눅스\" 공부기록"
+description: "[Inflearn] 개발자를 위한 쉬운 리눅스 공부기록"
 author: bin
 date: 2025-11-13 09:00:00 +0800
 categories: [Review, Note-Taking]
@@ -142,7 +142,7 @@ image:
 
 ## Related Posts
 ---
-- [[Inflearn] 개발자를 위한 쉬운 리눅스 Review](https://bangjeongbin.github.io/TIL-Blog/posts/online-academy-inflearn-easy-linux-for-developer)
+- [[Inflearn] 개발자를 위한 쉬운 리눅스 Review](https://bangjeongbin.github.io/TIL-Blog/posts/review-online-academy-inflearn-easy-linux-for-developer)
 
 <br>
 
