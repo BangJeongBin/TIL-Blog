@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-12-13T20:43:27+09:00</updated>
+  <updated>2025-12-13T21:01:39+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -76,7 +76,7 @@
     <link href="http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/" rel="alternate" type="text/html" title="[Inflearn] 개발자를 위한 쉬운 리눅스 Note-Taking" />
     <published>2025-11-13T10:00:00+09:00</published>
   
-    <updated>2025-12-13T20:23:54+09:00</updated>
+    <updated>2025-12-13T20:43:45+09:00</updated>
   
     <id>http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/</id>
     <content type="text/html" src="http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/" />
@@ -102,7 +102,7 @@
     <link href="http://localhost:4000/posts/online-academy-inflearn-easy-linux-for-developer/" rel="alternate" type="text/html" title="[Inflearn] 개발자를 위한 쉬운 리눅스 Review" />
     <published>2025-11-12T10:00:00+09:00</published>
   
-    <updated>2025-12-13T20:23:54+09:00</updated>
+    <updated>2025-12-13T20:43:45+09:00</updated>
   
     <id>http://localhost:4000/posts/online-academy-inflearn-easy-linux-for-developer/</id>
     <content type="text/html" src="http://localhost:4000/posts/online-academy-inflearn-easy-linux-for-developer/" />

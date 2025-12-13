@@ -14,6 +14,8 @@ image:
 ---
 ## About
 ---
+![inflearn-easy-linux-for-developer](https://cdn.inflearn.com/public/courses/333415/cover/94e7a100-ac60-44be-9958-d3e7e9e8324a/333415.png)
+
 Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
 
 <br>
