@@ -1,5 +1,5 @@
 ---
-title: 정보처리기사 Note-Taking (2)
+title: "정보처리기사 Note-Taking [2]"
 description: 정보처리기사 요약 노트 정리 2편
 author: bin
 date: 2025-05-10 09:00:00 +0800
@@ -226,7 +226,7 @@ image:
 
 - 예시
 
-`<학생>` 테이블
+<`학생`> 테이블
 
 | 학번  | 이름  | 학년  |   학과   |
 | :-: | :-: | :-: | :----: |
@@ -575,6 +575,14 @@ Bubble Sort[^4]
 - 최악 수행 시간 복잡도 : 〃
 
 ---
+
+<br>
+
+## Related Posts
+---
+- [정보처리기사 Note-Taking [1]](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-information-processing-certificate-1)
+- [정보처리기사 Note-Taking [3]](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-information-processing-certificate-3)
+- [정보처리기사 Note-Taking [4]](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-information-processing-certificate-4)
 
 <br>
 

@@ -18,17 +18,18 @@ image:
 <br>
 
 ## 파일 시스템
+---
 ### 기본 경로
+---
 - `/ex/ex` : 절대경로
 - `ex/ex` : 상대경로
 - `./` : 상위 디렉터리 
 - `../` : 현재 디렉터리
 
----
-
 <br>
 
 ### 파일 디렉터리 명령어
+---
 - **pwd** : 현재 위치를 확인
 	- `pwd`
 - **mkdir** : 디렉터리 생성
@@ -62,11 +63,10 @@ image:
 - **find** : 디렉터리/파일 찾기
 	- `find [찾을 위치] -name [파일/디렉터리명]`
 
----
-
 <br>
 
 ## 파일 작성, 수정
+---
 - **vi 편집기 사용**
 	- INSERT 모드(i) : 문자 입력모드
  - COMMAND 모드(esc) : c/p, 파일 저장/종료 등 다양한 작업 진행
@@ -104,22 +104,20 @@ image:
 	- `tar -czvf [결과파일.tar.gz] [디텍터리 또는 파일]` : 파일이나 디렉터리 **압축**
 	- `tar -xzvf [결과파일.tar.gz]` : 파일이나 디렉터리 **압축 해제**
 
----
-
 <br>
 
 ## 시스템 관리
+---
 - `ifconfig` : IP확인(Window는 `ipconfig`)
 - `chmod +x [실행시킬 프로그램]` : 프로세스 실행 권한 부여
 - `ps -al` : 프로세스 상태를 확인(or `ps -a`)
 - `kill [pid]` : 해당 프로세스 종료
 	- `kill -9 [pid]` : 해당 프로세스 강제종료
 
----
-
 <br>
 
 ## 터미널 활용
+---
 - **watch** : 주기적으로 명령어를 실행
 	- `watch -n [주기(초)] [실행할 명령어]`
 - **export** : 환경변수를 지정
@@ -133,17 +131,21 @@ image:
 - **--help** : 명령어 사용 방법 예시
 	- `[검색할 명령어] --help`
 
----
-
 <br>
 
 ## 명령어 환경설정
+---
 - 사용자의 홈 디렉터리에 .zshrc, .bashrc 파일 수정
 - 파일의 명령어들을 쉘 세션 시작 시 자동으로 실행
 
+<br>
+
+## Related Posts
 ---
+- [[Inflearn] 개발자를 위한 쉬운 리눅스 Review](https://bangjeongbin.github.io/TIL-Blog/posts/online-academy-inflearn-easy-linux-for-developer)
 
 <br>
 
 ## References
 ---
+- 

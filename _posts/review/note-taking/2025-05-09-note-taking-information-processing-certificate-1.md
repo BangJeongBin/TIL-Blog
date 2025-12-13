@@ -1,5 +1,5 @@
 ---
-title: 정보처리기사 Note-Taking (1)
+title: "정보처리기사 Note-Taking [1]"
 description: 정보처리기사 요약 노트 정리 1편
 author: bin
 date: 2025-05-09 09:00:00 +0800
@@ -315,5 +315,14 @@ $$
 
 <br>
 
+## Related Posts
+---
+- [정보처리기사 Note-Taking [2]](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-information-processing-certificate-2)
+- [정보처리기사 Note-Taking [3]](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-information-processing-certificate-3)
+- [정보처리기사 Note-Taking [4]](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-information-processing-certificate-4)
+
+<br>
+
 ## References
 ---
+- 

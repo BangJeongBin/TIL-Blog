@@ -1,5 +1,5 @@
 ---
-title: 정보처리기사 Note-Taking (4)
+title: "정보처리기사 Note-Taking [4]"
 description: 정보처리기사 요약 노트 정리 4편
 author: bin
 date: 2025-05-12 09:00:00 +0800
@@ -532,6 +532,14 @@ image:
 - 응용 프로세스 간의 정보 교환, 전자 사서함, 파일 전송, 가상 터미널 등의 서비스 제공
 
 ---
+
+<br>
+
+## Related Posts
+---
+- [정보처리기사 Note-Taking [1]](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-information-processing-certificate-1)
+- [정보처리기사 Note-Taking [2]](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-information-processing-certificate-2)
+- [정보처리기사 Note-Taking [3]](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-information-processing-certificate-3)
 
 <br>
 

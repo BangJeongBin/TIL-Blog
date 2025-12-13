@@ -12,7 +12,7 @@ image:
  path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/review-logo.png
  alt: Review
 ---
-## 개발자를 위한 쉬운 리눅스
+## About
 ---
 Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
 
@@ -66,7 +66,7 @@ Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
 
 ## Related Posts
 ---
-- [[Inflearn] 개발자를 위한 쉬운 리눅스 Review](http://127.0.0.1:4000/posts/online-academy-inflearn-easy-linux-for-developer)
+- [[Inflearn] 개발자를 위한 쉬운 리눅스 Note-Taking](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-inflearn-easy-linux-for-developer)
 
 <br>
 
