@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-12-13T18:02:16+09:00</updated>
+  <updated>2025-12-13T18:24:57+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -98,6 +98,32 @@
 
   
   <entry>
+    <title>[Inflearn] 개발자를 위한 쉬운 리눅스 Review</title>
+    <link href="http://localhost:4000/posts/online-academy-inflearn-easy-linux-for-developer/" rel="alternate" type="text/html" title="[Inflearn] 개발자를 위한 쉬운 리눅스 Review" />
+    <published>2025-11-12T10:00:00+09:00</published>
+  
+    <updated>2025-11-12T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/online-academy-inflearn-easy-linux-for-developer/</id>
+    <content type="text/html" src="http://localhost:4000/posts/online-academy-inflearn-easy-linux-for-developer/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="Review" />
+    
+    <category term="Online Academy" />
+    
+  
+
+  <summary>[Inflearn] 개발자를 위한 쉬운 리눅스 리뷰</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>[BOJ 2231] 분해합</title>
     <link href="http://localhost:4000/posts/boj-2231/" rel="alternate" type="text/html" title="[BOJ 2231] 분해합" />
     <published>2025-06-12T10:00:00+09:00</published>
@@ -119,32 +145,6 @@
   
 
   <summary>Baekjoon Online Judge 2231(Java 11) <br> [분해합] 문제 풀이</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[BOJ 1978] 소수 찾기</title>
-    <link href="http://localhost:4000/posts/boj-1978/" rel="alternate" type="text/html" title="[BOJ 1978] 소수 찾기" />
-    <published>2025-06-11T11:00:00+09:00</published>
-  
-    <updated>2025-06-11T11:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/boj-1978/</id>
-    <content type="text/html" src="http://localhost:4000/posts/boj-1978/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="Algorithm Test" />
-    
-    <category term="BOJ" />
-    
-  
-
-  <summary>Baekjoon Online Judge 1978(Java 11) <br> [소수 찾기] 문제 풀이</summary>
 
   </entry>
 

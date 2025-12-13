@@ -28,6 +28,15 @@
   },
   
   {
+    "title": "[Inflearn] 개발자를 위한 쉬운 리눅스 Review",
+    "url": "/posts/online-academy-inflearn-easy-linux-for-developer/",
+    "categories": "Review, Online Academy",
+    "tags": "Linux",
+    "date": "2025-11-12 10:00:00 +0900",
+    "content": "[Inflearn] 개발자를 위한 쉬운 리눅스 리뷰"
+  },
+  
+  {
     "title": "[BOJ 2231] 분해합",
     "url": "/posts/boj-2231/",
     "categories": "Algorithm Test, BOJ",
