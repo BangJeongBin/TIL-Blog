@@ -60,18 +60,18 @@ image:
 
 ## 평점
 ---
-- ★★★★ (4/5)
+<h4 style="text-align: center;"><span style="color:yellow">★ ★ ★ ★</span> (4/5)</h4>
 
-일반인들을 대상으로 논리적인 세계를 설명한 친절함. 부제목처럼 computer science 보단 교양서에 가까운 산뜻한 책이다.
+>일반인들을 대상으로 논리적인 세계를 설명한 친절함. 부제목처럼 computer science 보단 교양서에 가까운 산뜻한 책이다.
 
 <br>
 
-## Related Posts
+<!-- ## Related Posts
 ---
 - 
 
-<br>
+<br> -->
 
 ## Reference
 ---
-- https://product.kyobobook.co.kr/detail/S000000970981
+- [교보문고](https://product.kyobobook.co.kr/detail/S000000970981)
