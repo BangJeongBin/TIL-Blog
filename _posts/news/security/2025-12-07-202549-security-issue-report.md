@@ -13,24 +13,9 @@ image:
  alt: Weekly News
 ---
 
-<!-- .videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-} -->
-
 >해당 포스팅은 생성성 AI를 활용하여 작성하였음을 알려드립니다.
 
 ## 2025년 49주차 전 세계 IT보안 뉴스 분석 보고서
-
-다음은 2025년 49주차 전 세계에서 주목받은 **IT보안 뉴스 분석 보고서**입니다.
 
 49주차의 IT보안 키워드는 **“치명적 RCE 취약점, AI 규제 준수, SW 공급망 위협 심화”**으로 요약됩니다.
 
