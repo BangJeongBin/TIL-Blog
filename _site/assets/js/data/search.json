@@ -19,6 +19,15 @@
   },
   
   {
+    "title": "[Inflearn] 개발자를 위한 쉬운 리눅스 Note-Taking",
+    "url": "/posts/note-taking-inflearn-easy-linux-for-developer/",
+    "categories": "Review, Note-Taking",
+    "tags": "Linux",
+    "date": "2025-11-13 10:00:00 +0900",
+    "content": "[Inflearn] 개발자를 위한 쉬운 리눅스 공부기록"
+  },
+  
+  {
     "title": "[BOJ 2231] 분해합",
     "url": "/posts/boj-2231/",
     "categories": "Algorithm Test, BOJ",

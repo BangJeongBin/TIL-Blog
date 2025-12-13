@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-12-12T00:45:01+09:00</updated>
+  <updated>2025-12-13T18:02:16+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/202549-security-issue-report/" rel="alternate" type="text/html" title="2025년 49주차 IT보안 뉴스 분석 보고서" />
     <published>2025-12-07T10:00:00+09:00</published>
   
-    <updated>2025-12-07T10:00:00+09:00</updated>
+    <updated>2025-12-12T00:45:37+09:00</updated>
   
     <id>http://localhost:4000/posts/202549-security-issue-report/</id>
     <content type="text/html" src="http://localhost:4000/posts/202549-security-issue-report/" />
@@ -50,7 +50,7 @@
     <link href="http://localhost:4000/posts/202549-it-issue-report/" rel="alternate" type="text/html" title="2025년 49주차 IT 뉴스 분석 보고서" />
     <published>2025-12-07T10:00:00+09:00</published>
   
-    <updated>2025-12-07T10:00:00+09:00</updated>
+    <updated>2025-12-12T00:46:22+09:00</updated>
   
     <id>http://localhost:4000/posts/202549-it-issue-report/</id>
     <content type="text/html" src="http://localhost:4000/posts/202549-it-issue-report/" />
@@ -67,6 +67,32 @@
   
 
   <summary>49주차의 IT 키워드는 “React RCE 비상, 양자 컴퓨팅 상용화, AI 에이전트 표준”으로 요약됩니다.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>[Inflearn] 개발자를 위한 쉬운 리눅스 Note-Taking</title>
+    <link href="http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/" rel="alternate" type="text/html" title="[Inflearn] 개발자를 위한 쉬운 리눅스 Note-Taking" />
+    <published>2025-11-13T10:00:00+09:00</published>
+  
+    <updated>2025-11-13T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/</id>
+    <content type="text/html" src="http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="Review" />
+    
+    <category term="Note-Taking" />
+    
+  
+
+  <summary>[Inflearn] 개발자를 위한 쉬운 리눅스 공부기록</summary>
 
   </entry>
 
@@ -119,32 +145,6 @@
   
 
   <summary>Baekjoon Online Judge 1978(Java 11) <br> [소수 찾기] 문제 풀이</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[BOJ 30802] 웰컴 키트</title>
-    <link href="http://localhost:4000/posts/boj-30802/" rel="alternate" type="text/html" title="[BOJ 30802] 웰컴 키트" />
-    <published>2025-06-11T10:00:00+09:00</published>
-  
-    <updated>2025-06-11T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/boj-30802/</id>
-    <content type="text/html" src="http://localhost:4000/posts/boj-30802/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="Algorithm Test" />
-    
-    <category term="BOJ" />
-    
-  
-
-  <summary>Baekjoon Online Judge 30802(Java 11) <br> [웰컴 키트] 문제 풀이</summary>
 
   </entry>
 
