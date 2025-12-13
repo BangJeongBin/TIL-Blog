@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-12-13T22:14:48+09:00</updated>
+  <updated>2025-12-14T01:56:59+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -73,13 +73,13 @@
   
   <entry>
     <title>[Book] "세상을 만드는 글자, 코딩" Review</title>
-    <link href="http://localhost:4000/posts/book-review-coding-letters-that-make-the-world/" rel="alternate" type="text/html" title="[Book] &amp;quot;세상을 만드는 글자, 코딩&amp;quot; Review" />
+    <link href="http://localhost:4000/posts/review-book-coding-letters-that-make-the-world/" rel="alternate" type="text/html" title="[Book] &amp;quot;세상을 만드는 글자, 코딩&amp;quot; Review" />
     <published>2025-11-14T10:00:00+09:00</published>
   
     <updated>2025-11-14T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/book-review-coding-letters-that-make-the-world/</id>
-    <content type="text/html" src="http://localhost:4000/posts/book-review-coding-letters-that-make-the-world/" />
+    <id>http://localhost:4000/posts/review-book-coding-letters-that-make-the-world/</id>
+    <content type="text/html" src="http://localhost:4000/posts/review-book-coding-letters-that-make-the-world/" />
     <author>
       <name>bin</name>
     </author>
@@ -102,7 +102,7 @@
     <link href="http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/" rel="alternate" type="text/html" title="[Inflearn] &amp;quot;개발자를 위한 쉬운 리눅스&amp;quot; Note-Taking" />
     <published>2025-11-13T10:00:00+09:00</published>
   
-    <updated>2025-12-13T22:05:40+09:00</updated>
+    <updated>2025-12-13T22:37:53+09:00</updated>
   
     <id>http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/</id>
     <content type="text/html" src="http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/" />
@@ -118,20 +118,20 @@
     
   
 
-  <summary>[Inflearn] "개발자를 위한 쉬운 리눅스" 공부기록</summary>
+  <summary>[Inflearn] 개발자를 위한 쉬운 리눅스 공부기록</summary>
 
   </entry>
 
   
   <entry>
     <title>[Inflearn] "개발자를 위한 쉬운 리눅스" Review</title>
-    <link href="http://localhost:4000/posts/online-academy-inflearn-easy-linux-for-developer/" rel="alternate" type="text/html" title="[Inflearn] &amp;quot;개발자를 위한 쉬운 리눅스&amp;quot; Review" />
+    <link href="http://localhost:4000/posts/review-online-academy-inflearn-easy-linux-for-developer/" rel="alternate" type="text/html" title="[Inflearn] &amp;quot;개발자를 위한 쉬운 리눅스&amp;quot; Review" />
     <published>2025-11-12T10:00:00+09:00</published>
   
-    <updated>2025-12-13T22:05:40+09:00</updated>
+    <updated>2025-11-12T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/online-academy-inflearn-easy-linux-for-developer/</id>
-    <content type="text/html" src="http://localhost:4000/posts/online-academy-inflearn-easy-linux-for-developer/" />
+    <id>http://localhost:4000/posts/review-online-academy-inflearn-easy-linux-for-developer/</id>
+    <content type="text/html" src="http://localhost:4000/posts/review-online-academy-inflearn-easy-linux-for-developer/" />
     <author>
       <name>bin</name>
     </author>
