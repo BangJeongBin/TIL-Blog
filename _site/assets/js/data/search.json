@@ -19,21 +19,30 @@
   },
   
   {
-    "title": "[Inflearn] 개발자를 위한 쉬운 리눅스 Note-Taking",
+    "title": "[Book] \"세상을 만드는 글자, 코딩\" Review",
+    "url": "/posts/book-review-coding-letters-that-make-the-world/",
+    "categories": "Review, Book",
+    "tags": "CS",
+    "date": "2025-11-14 10:00:00 +0900",
+    "content": "[Book] \"세상을 만드는 글자, 코딩\" 리뷰"
+  },
+  
+  {
+    "title": "[Inflearn] \"개발자를 위한 쉬운 리눅스\" Note-Taking",
     "url": "/posts/note-taking-inflearn-easy-linux-for-developer/",
     "categories": "Review, Note-Taking",
     "tags": "Linux",
     "date": "2025-11-13 10:00:00 +0900",
-    "content": "[Inflearn] 개발자를 위한 쉬운 리눅스 공부기록"
+    "content": "[Inflearn] \"개발자를 위한 쉬운 리눅스\" 공부기록"
   },
   
   {
-    "title": "[Inflearn] 개발자를 위한 쉬운 리눅스 Review",
+    "title": "[Inflearn] \"개발자를 위한 쉬운 리눅스\" Review",
     "url": "/posts/online-academy-inflearn-easy-linux-for-developer/",
     "categories": "Review, Online Academy",
     "tags": "Linux",
     "date": "2025-11-12 10:00:00 +0900",
-    "content": "[Inflearn] 개발자를 위한 쉬운 리눅스 리뷰"
+    "content": "[Inflearn] \"개발자를 위한 쉬운 리눅스\" 리뷰"
   },
   
   {

@@ -1,6 +1,6 @@
 ---
-title: "[Inflearn] 개발자를 위한 쉬운 리눅스 Review"
-description: "[Inflearn] 개발자를 위한 쉬운 리눅스 리뷰"
+title: "[Inflearn] \"개발자를 위한 쉬운 리눅스\" Review"
+description: "[Inflearn] \"개발자를 위한 쉬운 리눅스\" 리뷰"
 author: bin
 date: 2025-11-12 09:00:00 +0800
 categories: [Review, Online Academy]

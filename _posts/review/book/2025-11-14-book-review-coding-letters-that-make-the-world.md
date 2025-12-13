@@ -1,0 +1,77 @@
+---
+title: "[Book] \"세상을 만드는 글자, 코딩\" Review"
+description: "[Book] \"세상을 만드는 글자, 코딩\" 리뷰"
+author: bin
+date: 2025-11-14 09:00:00 +0800
+categories: [Review, Book]
+tags: [CS]
+pin: true
+math: true
+mermaid: true
+image:
+ path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/review-logo.png
+ alt: Review
+---
+
+## About
+---
+![coding-letters-that-make-the-world](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788962622218.jpg)
+
+"세상을 만드는 글자, 코딩" 독후감 입니다.
+
+<br>
+
+### 책 소개
+---
+- **제목** : [세상을 만드는 글자, 코딩](https://product.kyobobook.co.kr/detail/S000000970981)
+- **부제** : 창의와 소통을 위한 코딩 인문학
+- **저자** : [박준석](https://search.kyobobook.co.kr/search?keyword=%EB%B0%95%EC%A4%80%EC%84%9D&chrcCode=1000452005)
+- **출판사** : [동아시아](https://search.kyobobook.co.kr/search?keyword=%EB%8F%99%EC%95%84%EC%8B%9C%EC%95%84&pbcmCode=PB10679)
+- **출판일** : 2018년 03월 14일
+- **카테고리** : 
+	- [국내도서](https://product.kyobobook.co.kr/KOR) > [과학](https://product.kyobobook.co.kr/category/KOR/29) > [교양과학](https://product.kyobobook.co.kr/category/KOR/2905) > [과학이야기](https://product.kyobobook.co.kr/category/KOR/290501)
+	- [국내도서](https://product.kyobobook.co.kr/KOR) > [컴퓨터/IT](https://product.kyobobook.co.kr/category/KOR/33) > [컴퓨터공학](https://product.kyobobook.co.kr/category/KOR/3301) > [컴퓨터공학/과학개론](https://product.kyobobook.co.kr/category/KOR/330101)
+
+<br>
+
+**코딩 의무교육 시대 ‘어떻게’가 아닌 ‘왜’와 ‘무엇’에 대한 최초의 코딩 교양서**
+
+“코딩, 왜 알아야 할까?” 코딩은 새로운 세상에 대한 과학 지식의 통로. 4차 산업혁명 시대와 맞물려 우리나라도 이제 코딩의 중요성을 여실히 깨닫게 되었고, 그에 따라 ‘코딩 열풍’이 불고 있다고 해도 과언이 아니다. 이러한 코딩 열풍 속에 학부모들 사이에서는 ‘국영수코’라는 신조어가 등장하기도 했다. 코딩이 ‘국영수’와 동급의 필수교과목으로 자리를 잡게 될 거라는 전망을 담고 있는 것이다.  
+  
+『세상을 만드는 글자, 코딩: 창의와 소통을 위한 코딩 인문학』은 4차 산업혁명 시대를 맞이할 지금 꼭 읽어야 할 책이다. 코딩 및 프로그래밍 언어를 배운다고 ‘코딩’에 대해 다 안다고 말할 수 없다. 체계적으로, 그리고 무엇보다 차근차근 친절하게 설명하면서, 코딩이란 무엇이고 우리에게 코딩이 왜 필요한지를 이 책은 가장 잘 알려주고 있다.
+
+<br>
+
+## 인상 깊은 구절
+---
+>"이전까지 세상의 논리를 구축하던 것은 주로 정치∙경제∙종교∙사회∙문화 같은 것들이었습니다. 하지만 프로그래밍 언어의 탄생으로 인해 평범한 사람들도 자신이 살고 싶은 세상의 논리를 스스로 세워갈 수 있게 되었습니다." - p. 4
+
+<br>
+
+##  느낀 점
+---
+저자는 소스코드와 비트(bit)를 단순한 컴퓨터와 의사소통하기 위한 도구로서 바라보는 것이 아니라 이 셰상과 우주를 구성하고, 우리의 몸을 구성하는 통찰력으로서 보여주었다. 그와 동시에 코딩을 이해하는 것이 큰 인사이트를 줄 수 있다고 설명하며 프로그래머 뿐만 아니라 일반인들도 알아야 한다고 주장한다.
+
+나 또한 일반인의 관점에서 약 1년 전부터 개발자의 관점으로 이 세상을 바라보고 있는 중인데 매우 깊게 동감하는 바 이다. 이제는 세계의 중심이 물리적인 세계에서 논리적인 세계로 넘어가고 있다. 화폐도 논리적인 세계로 넘어갈 것을 기대하며 "비트코인" 같은 가상화폐가 큰 인기를 끌고 있는데 어쩌면 필연적인 수순이 아닐까 생각하게 된다.
+
+이 책에서 설명하는 많은 부분들은 개발자의 관점으로 쓴 것이 아니라 과학자의 관점에서 썻다고 느껴지는 부분이 많아서 일반인들도 읽을 때 부담이 없을 거라 생각된다. 주변 사람들에게도 추천해주고 나 또한 지엽적인 문제에 빠져서 주변을 둘러보지 못하는 실수를 하지 않기 위해 노력해야겠다.
+
+<br>
+
+## 평점
+---
+- ★★★★ (4/5)
+
+일반인들을 대상으로 논리적인 세계를 설명한 친절함. 부제목처럼 computer science 보단 교양서에 가까운 산뜻한 책이다.
+
+<br>
+
+## Related Posts
+---
+- 
+
+<br>
+
+## Reference
+---
+- https://product.kyobobook.co.kr/detail/S000000970981
