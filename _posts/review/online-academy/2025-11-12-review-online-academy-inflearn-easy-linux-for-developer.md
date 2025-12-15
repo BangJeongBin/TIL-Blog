@@ -26,7 +26,7 @@ Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
 
 <br>
 
-- **강의 링크**: [개발자를 위한 쉬운 리눅스](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%89%AC%EC%9A%B4-%EB%A6%AC%EB%88%85%EC%8A%A4/dashboard)
+- **강의 링크**: [개발자를 위한 쉬운 리눅스](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%89%AC%EC%9A%B4-%EB%A6%AC%EB%88%85%EC%8A%A4)
 - **강사**: [황현우](https://www.inflearn.com/users/1029512/@daintree)
 - **카테고리**: 보안·네트워크 / 시스템·운영체제
 - **태그**: `#3시간 만에 완강할 수 있는 강의`, `#리눅스`, `#명령어`, `#터미널`, `#Linux`
