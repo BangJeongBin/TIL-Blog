@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-12-15T13:20:04+09:00</updated>
+  <updated>2025-12-15T13:49:20+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -124,14 +124,14 @@
 
   
   <entry>
-    <title>[Inflearn] "Git &amp; GitHub, 원리부터 차근차근 - 근본깃 [기초편]" Review</title>
-    <link href="http://localhost:4000/posts/review-online-academy-inflearn-git-and-github-from-the-principle-step-by-step/" rel="alternate" type="text/html" title="[Inflearn] &amp;quot;Git &amp;amp; GitHub, 원리부터 차근차근 - 근본깃 [기초편]&amp;quot; Review" />
-    <published>2025-11-15T10:00:00+09:00</published>
+    <title>[Inflearn] "정보보안 전문가란? 무엇을 하고 어떻게 준비해야 할까." Review</title>
+    <link href="http://localhost:4000/posts/review-online-academy-inflearn-what-is-an-information-security-expert/" rel="alternate" type="text/html" title="[Inflearn] &amp;quot;정보보안 전문가란? 무엇을 하고 어떻게 준비해야 할까.&amp;quot; Review" />
+    <published>2025-11-16T10:00:00+09:00</published>
   
-    <updated>2025-11-15T10:00:00+09:00</updated>
+    <updated>2025-11-16T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/review-online-academy-inflearn-git-and-github-from-the-principle-step-by-step/</id>
-    <content type="text/html" src="http://localhost:4000/posts/review-online-academy-inflearn-git-and-github-from-the-principle-step-by-step/" />
+    <id>http://localhost:4000/posts/review-online-academy-inflearn-what-is-an-information-security-expert/</id>
+    <content type="text/html" src="http://localhost:4000/posts/review-online-academy-inflearn-what-is-an-information-security-expert/" />
     <author>
       <name>bin</name>
     </author>
@@ -144,7 +144,7 @@
     
   
 
-  <summary>[Inflearn] "Git &amp; GitHub, 원리부터 차근차근 - 근본깃 [기초편]" 리뷰</summary>
+  <summary>[Inflearn] "정보보안 전문가란? 무엇을 하고 어떻게 준비해야 할까." 리뷰</summary>
 
   </entry>
 
