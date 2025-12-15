@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-12-14T01:56:59+09:00</updated>
+  <updated>2025-12-15T13:20:04+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,63 @@
 
   
   <entry>
+    <title>2025년 50주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202550-security-issue-report/" rel="alternate" type="text/html" title="2025년 50주차 IT보안 뉴스 분석 보고서" />
+    <published>2025-12-14T10:00:00+09:00</published>
+  
+    <updated>2025-12-15T12:41:40+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202550-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202550-security-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="Security" />
+    
+  
+
+  <summary>50주차의 IT보안 키워드는 “React RCE 비상, SW 공급망 규제, AI 기반 보안 자동화”로 요약됩니다.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>2025년 50주차 IT 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202550-it-issue-report/" rel="alternate" type="text/html" title="2025년 50주차 IT 뉴스 분석 보고서" />
+    <published>2025-12-14T10:00:00+09:00</published>
+  
+    <updated>2025-12-15T12:41:23+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202550-it-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202550-it-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="IT" />
+    
+  
+
+  <summary>50주차의 IT 키워드는 “AI 에이전트 시대, 양자컴퓨팅 실용화 논쟁, 지속가능한 그린 IT”으로 요약됩니다.</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>2025년 49주차 IT보안 뉴스 분석 보고서</title>
     <link href="http://localhost:4000/posts/202549-security-issue-report/" rel="alternate" type="text/html" title="2025년 49주차 IT보안 뉴스 분석 보고서" />
     <published>2025-12-07T10:00:00+09:00</published>
   
-    <updated>2025-12-12T00:45:37+09:00</updated>
+    <updated>2025-12-15T12:41:23+09:00</updated>
   
     <id>http://localhost:4000/posts/202549-security-issue-report/</id>
     <content type="text/html" src="http://localhost:4000/posts/202549-security-issue-report/" />
@@ -50,7 +102,7 @@
     <link href="http://localhost:4000/posts/202549-it-issue-report/" rel="alternate" type="text/html" title="2025년 49주차 IT 뉴스 분석 보고서" />
     <published>2025-12-07T10:00:00+09:00</published>
   
-    <updated>2025-12-12T00:46:22+09:00</updated>
+    <updated>2025-12-15T12:41:23+09:00</updated>
   
     <id>http://localhost:4000/posts/202549-it-issue-report/</id>
     <content type="text/html" src="http://localhost:4000/posts/202549-it-issue-report/" />
@@ -72,66 +124,14 @@
 
   
   <entry>
-    <title>[Book] "세상을 만드는 글자, 코딩" Review</title>
-    <link href="http://localhost:4000/posts/review-book-coding-letters-that-make-the-world/" rel="alternate" type="text/html" title="[Book] &amp;quot;세상을 만드는 글자, 코딩&amp;quot; Review" />
-    <published>2025-11-14T10:00:00+09:00</published>
+    <title>[Inflearn] "Git &amp; GitHub, 원리부터 차근차근 - 근본깃 [기초편]" Review</title>
+    <link href="http://localhost:4000/posts/review-online-academy-inflearn-git-and-github-from-the-principle-step-by-step/" rel="alternate" type="text/html" title="[Inflearn] &amp;quot;Git &amp;amp; GitHub, 원리부터 차근차근 - 근본깃 [기초편]&amp;quot; Review" />
+    <published>2025-11-15T10:00:00+09:00</published>
   
-    <updated>2025-11-14T10:00:00+09:00</updated>
+    <updated>2025-11-15T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/review-book-coding-letters-that-make-the-world/</id>
-    <content type="text/html" src="http://localhost:4000/posts/review-book-coding-letters-that-make-the-world/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="Review" />
-    
-    <category term="Book" />
-    
-  
-
-  <summary>[Book] "세상을 만드는 글자, 코딩" 리뷰</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[Inflearn] "개발자를 위한 쉬운 리눅스" Note-Taking</title>
-    <link href="http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/" rel="alternate" type="text/html" title="[Inflearn] &amp;quot;개발자를 위한 쉬운 리눅스&amp;quot; Note-Taking" />
-    <published>2025-11-13T10:00:00+09:00</published>
-  
-    <updated>2025-12-13T22:37:53+09:00</updated>
-  
-    <id>http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/</id>
-    <content type="text/html" src="http://localhost:4000/posts/note-taking-inflearn-easy-linux-for-developer/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="Review" />
-    
-    <category term="Note-Taking" />
-    
-  
-
-  <summary>[Inflearn] 개발자를 위한 쉬운 리눅스 공부기록</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[Inflearn] "개발자를 위한 쉬운 리눅스" Review</title>
-    <link href="http://localhost:4000/posts/review-online-academy-inflearn-easy-linux-for-developer/" rel="alternate" type="text/html" title="[Inflearn] &amp;quot;개발자를 위한 쉬운 리눅스&amp;quot; Review" />
-    <published>2025-11-12T10:00:00+09:00</published>
-  
-    <updated>2025-11-12T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/review-online-academy-inflearn-easy-linux-for-developer/</id>
-    <content type="text/html" src="http://localhost:4000/posts/review-online-academy-inflearn-easy-linux-for-developer/" />
+    <id>http://localhost:4000/posts/review-online-academy-inflearn-git-and-github-from-the-principle-step-by-step/</id>
+    <content type="text/html" src="http://localhost:4000/posts/review-online-academy-inflearn-git-and-github-from-the-principle-step-by-step/" />
     <author>
       <name>bin</name>
     </author>
@@ -144,7 +144,7 @@
     
   
 
-  <summary>[Inflearn] "개발자를 위한 쉬운 리눅스" 리뷰</summary>
+  <summary>[Inflearn] "Git &amp; GitHub, 원리부터 차근차근 - 근본깃 [기초편]" 리뷰</summary>
 
   </entry>
 
