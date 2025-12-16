@@ -29,8 +29,8 @@ image:
 - **출판사** : [동아시아](https://search.kyobobook.co.kr/search?keyword=%EB%8F%99%EC%95%84%EC%8B%9C%EC%95%84&pbcmCode=PB10679)
 - **출판일** : 2018년 03월 14일
 - **카테고리** : 
-	- [국내도서](https://product.kyobobook.co.kr/KOR) > [과학](https://product.kyobobook.co.kr/category/KOR/29) > [교양과학](https://product.kyobobook.co.kr/category/KOR/2905) > [과학이야기](https://product.kyobobook.co.kr/category/KOR/290501)
-	- [국내도서](https://product.kyobobook.co.kr/KOR) > [컴퓨터/IT](https://product.kyobobook.co.kr/category/KOR/33) > [컴퓨터공학](https://product.kyobobook.co.kr/category/KOR/3301) > [컴퓨터공학/과학개론](https://product.kyobobook.co.kr/category/KOR/330101)
+	- 국내도서 > 과학 > 교양과학 > 과학이야기
+	- 국내도서 > 컴퓨터/IT > 컴퓨터공학 > 컴퓨터공학/과학개론
 
 <br>
 
