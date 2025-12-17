@@ -17,7 +17,7 @@ image:
 ---
 ![ai-era-living-as-a-developer](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791193247013.jpg)
 
-"AI시대, 개발자로 살아가기" 독후감 입니다.
+"AI시대, 개발자로 살아가기" 독후감상 입니다.
 
 <br>
 
