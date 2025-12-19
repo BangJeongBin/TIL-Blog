@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "[Online Academy] \"리눅스 기초 강의\" Note-Taking",
+    "url": "/posts/note-taking-online-academy-linux-basic-lectures/",
+    "categories": "Review, Note-Taking",
+    "tags": "Linux",
+    "date": "2025-12-19 10:00:00 +0900",
+    "content": "[Online Academy] 리눅스 기초 강의 공부기록"
+  },
+  
+  {
     "title": "2025년 50주차 IT보안 뉴스 분석 보고서",
     "url": "/posts/202550-security-issue-report/",
     "categories": "NEWS, Security",
@@ -34,6 +43,15 @@
     "tags": "NEWS, IT",
     "date": "2025-12-07 10:00:00 +0900",
     "content": "49주차의 IT 키워드는 “React RCE 비상, 양자 컴퓨팅 상용화, AI 에이전트 표준”으로 요약됩니다."
+  },
+  
+  {
+    "title": "[Book] \"개발자 원칙\" Review",
+    "url": "/posts/review-book-developer-principles/",
+    "categories": "Review, Book",
+    "tags": "Developer",
+    "date": "2025-11-18 10:00:00 +0900",
+    "content": "[Book] \"개발자 원칙\" 리뷰"
   },
   
   {

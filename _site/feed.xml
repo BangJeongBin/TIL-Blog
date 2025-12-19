@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-12-16T15:18:58+09:00</updated>
+  <updated>2025-12-19T16:43:20+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[Online Academy] "리눅스 기초 강의" Note-Taking</title>
+    <link href="http://localhost:4000/posts/note-taking-online-academy-linux-basic-lectures/" rel="alternate" type="text/html" title="[Online Academy] &amp;quot;리눅스 기초 강의&amp;quot; Note-Taking" />
+    <published>2025-12-19T10:00:00+09:00</published>
+  
+    <updated>2025-12-19T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/note-taking-online-academy-linux-basic-lectures/</id>
+    <content type="text/html" src="http://localhost:4000/posts/note-taking-online-academy-linux-basic-lectures/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="Review" />
+    
+    <category term="Note-Taking" />
+    
+  
+
+  <summary>[Online Academy] 리눅스 기초 강의 공부기록</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>49주차의 IT 키워드는 “React RCE 비상, 양자 컴퓨팅 상용화, AI 에이전트 표준”으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[Book] "AI시대, 개발자로 살아가기" Review</title>
-    <link href="http://localhost:4000/posts/review-book-ai-era-living-as-a-developer/" rel="alternate" type="text/html" title="[Book] &amp;quot;AI시대, 개발자로 살아가기&amp;quot; Review" />
-    <published>2025-11-17T10:00:00+09:00</published>
-  
-    <updated>2025-11-17T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/review-book-ai-era-living-as-a-developer/</id>
-    <content type="text/html" src="http://localhost:4000/posts/review-book-ai-era-living-as-a-developer/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="Review" />
-    
-    <category term="Book" />
-    
-  
-
-  <summary>[Book] "AI시대, 개발자로 살아가기" 리뷰</summary>
 
   </entry>
 

@@ -4,7 +4,7 @@
   /* Framework color */
   --main-bg: rgb(27 27 30);
   --mask-bg: rgb(68 69 70);
-  --main-border-color: rgb(44 45 45);
+  --main-border-color: #008080;  /* 메인컬러 색 변경 */
 
   /* Common color */
   --text-color: rgb(175 176 177);
@@ -12,8 +12,8 @@
   --text-muted-highlight-color: #aeaeae;
   --heading-color: #cccccc;
   --label-color: #a7a7a7;
-  --blockquote-border-color: rgb(66 66 66);
-  --blockquote-text-color: #868686;
+  --blockquote-border-color: rgb(131 94 236); /* 인용문 색 변경 */
+  --blockquote-text-color: rgb(175 176 177);
   --link-color: rgb(138 180 248);
   --link-underline-color: rgb(82 108 150);
   --button-bg: #1e1e1e;
