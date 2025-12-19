@@ -13,7 +13,7 @@ image:
  alt: Note Taking
 ---
 
-> 해당 포스트는 학습 목적으로 작성되었으며 <<[리눅스 기초 강의](https://academy.segfaulthub.com/courses/enrolled/1749390)>>을 참고하여 작성하였음을 알려드립니다.
+> 해당 포스트는 학습 목적으로 작성되었으며 <<[리눅스 기초 강의](https://academy.segfaulthub.com)>>을 참고하여 작성하였음을 알려드립니다.
 
 <br>
 
@@ -21,8 +21,8 @@ image:
 ---
 ### 프로세스 식별자
 
-> - **PID**: Process ID (프로세스 ID)
-> - **PPID**: Parent Process ID (부모 프로세스 ID)
+- **PID**: Process ID (프로세스 ID)
+- **PPID**: Parent Process ID (부모 프로세스 ID)
 
 ### 명령어 구조
 
@@ -357,4 +357,4 @@ tail -f /var/log/syslog | grep error
 
 ## References
 ---
-- [Segfault Academy](https://academy.segfaulthub.com/l/dashboard)
+- [Segfault Academy](https://academy.segfaulthub.com)
