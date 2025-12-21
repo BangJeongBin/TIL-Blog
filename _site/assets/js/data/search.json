@@ -73,6 +73,15 @@
   },
   
   {
+    "title": "TCP/UDP의 자주 사용되는 포트 목록",
+    "url": "/posts/port-list-for-tcp-udp/",
+    "categories": "TIL, Network",
+    "tags": "Network, Port, TCP, UDP",
+    "date": "2025-12-01 10:00:00 +0900",
+    "content": "자주 사용되는 포트 목록들과 그 분류"
+  },
+  
+  {
     "title": "[Inflearn] \"누구도 알려주지 않던 화이트 해커가 되기 위한 로드맵 A to Z\" Review",
     "url": "/posts/review-online-academy-inflearn-roadmap-to-becoming-a-white-hacker/",
     "categories": "Review, Online Academy",
