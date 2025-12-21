@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-12-21T17:38:29+09:00</updated>
+  <updated>2025-12-21T17:48:56+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>2025년 51주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202551-security-issue-report/" rel="alternate" type="text/html" title="2025년 51주차 IT보안 뉴스 분석 보고서" />
+    <published>2025-12-21T10:00:00+09:00</published>
+  
+    <updated>2025-12-21T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202551-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202551-security-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="Security" />
+    
+  
+
+  <summary>51주차의 IT보안 키워드는 "React2Shell 제로데이, AI 무기화(Industrialized LLM), 국가 배후 가상자산 탈취, 영·미 규제 강화”로 요약됩니다.</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>50주차의 IT보안 키워드는 “React RCE 비상, SW 공급망 규제, AI 기반 보안 자동화”로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2025년 50주차 IT 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202550-it-issue-report/" rel="alternate" type="text/html" title="2025년 50주차 IT 뉴스 분석 보고서" />
-    <published>2025-12-14T10:00:00+09:00</published>
-  
-    <updated>2025-12-15T12:41:23+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202550-it-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202550-it-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="IT" />
-    
-  
-
-  <summary>50주차의 IT 키워드는 “AI 에이전트 시대, 양자컴퓨팅 실용화 논쟁, 지속가능한 그린 IT”으로 요약됩니다.</summary>
 
   </entry>
 
