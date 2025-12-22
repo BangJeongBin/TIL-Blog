@@ -13,7 +13,7 @@ image:
  alt: Note Taking
 ---
 
-> 해당 포스트는 학습 목적으로 작성되었으며 <<[개발자를 위한 쉬운 리눅스](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%89%AC%EC%9A%B4-%EB%A6%AC%EB%88%85%EC%8A%A4/dashboard)>>을 참고하여 작성하였음을 알려드립니다.
+> 해당 포스트는 학습 목적으로 작성되었으며 <<[개발자를 위한 쉬운 리눅스](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%89%AC%EC%9A%B4-%EB%A6%AC%EB%88%85%EC%8A%A4)>>을 참고하여 작성하였음을 알려드립니다.
 
 <br>
 
