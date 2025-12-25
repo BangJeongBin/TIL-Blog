@@ -142,7 +142,7 @@ image:
 
 ## Related Posts
 ---
-- [[Inflearn] 개발자를 위한 쉬운 리눅스 Review](https://bangjeongbin.github.io/TIL-Blog/posts/review-online-academy-inflearn-easy-linux-for-developer)
+- [[Inflearn] 개발자를 위한 쉬운 리눅스 Review](https://bangjeongbin.github.io/TIL-Blog/posts/review-inflearn-easy-linux-for-developer)
 
 <br>
 
