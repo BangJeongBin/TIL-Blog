@@ -351,7 +351,7 @@ tail -f /var/log/syslog | grep error
 
 ## Related Posts
 ---
-- [[Online Academy] "리눅스 기초 강의" Review](https://bangjeongbin.github.io/TIL-Blog/posts/review-online-academy-online-academy-linux-basic-lectures)
+- [[Online Academy] "리눅스 기초 강의" Review](https://bangjeongbin.github.io/TIL-Blog/posts/review-online-academy-linux-basic-lectures)
 
 <br>
 
