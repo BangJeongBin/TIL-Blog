@@ -19,6 +19,9 @@ image:
 
 ## 섹션 2. Internet 기반 네트워크 입문
 ---
+![hw-sw-archtecture](https://lh3.googleusercontent.com/d/1TsayCAMRhvHYqz8-i_DxCYDDasiK_Bl-)
+
+
 ### OSI 7계층 프로토콜 구조
 
 | 계층  | 프로토콜           | 식별자     | 데이터 단위  |
@@ -194,6 +197,8 @@ image:
 - TCP에만 **연결(Connection, Session)** 개념이 존재
 - 연결은 **상태(전이)** 개념을 동반
 
+![tcp-3-way-handshack](https://lh3.googleusercontent.com/d/1P6tOeC8VJGvdZGZNGe3wrlI6gL46dBhD)
+
 ### TCP 연결 과정 (3-Way Handshake)
 - **의미**: 정책 교환 단계
 - **주도권**: 일반적으로 Client가 더 능동적 (연결 수립/해제 선택)
@@ -207,6 +212,8 @@ image:
   - 연결 종료는 반드시 **Client 측에서** 수행
   - 이유: Server 측에서 먼저 종료 시 **Time Wait** 발생
   - Time Wait 상태가 쌓이면 서버 리소스 고갈
+
+![tcp-4-way-handshack](https://lh3.googleusercontent.com/d/1WrENgu3DEtSvNBP_MpUE7jjDTs_DlD00)
 
 ### TCP Header 형식
 - **포트 번호 범위**: 0 ~ 65535 (실제로는 1 ~ 65534 사용)
@@ -332,7 +339,7 @@ http://www.test.co.kr/index.html
 
 ## Related Posts
 ---
-- [[Online Academy] "리눅스 기초 강의" Review](https://bangjeongbin.github.io/TIL-Blog/posts/review-online-academy-linux-basic-lectures)
+- [[Inflearn] "외워서 끝내는 네트워크 핵심이론 - 기초" Review](https://bangjeongbin.github.io/TIL-Blog/posts/review-inflearn-network-core-theory-of-memorabilization)
 
 <br>
 
