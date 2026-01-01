@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-01-01T15:03:12+09:00</updated>
+  <updated>2026-01-01T16:58:21+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -76,7 +76,7 @@
     <link href="http://localhost:4000/posts/202552-it-issue-report/" rel="alternate" type="text/html" title="2025년 52주차 IT 뉴스 분석 보고서" />
     <published>2025-12-28T10:00:00+09:00</published>
   
-    <updated>2025-12-28T10:00:00+09:00</updated>
+    <updated>2026-01-01T15:04:44+09:00</updated>
   
     <id>http://localhost:4000/posts/202552-it-issue-report/</id>
     <content type="text/html" src="http://localhost:4000/posts/202552-it-issue-report/" />
@@ -93,6 +93,32 @@
   
 
   <summary>52주차의 IT 키워드는 “GPT-5.2 공개, AI 에이전트의 산업화, 규제와 혁신의 충돌, 퀀텀 리프(Quantum Leap)” 으로 요약됩니다.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>[Inflearn] "외워서 끝내는 네트워크 핵심이론 - 기초" Note-Taking</title>
+    <link href="http://localhost:4000/posts/note-taking-inflearn-network-core-theory-of-memorabilization/" rel="alternate" type="text/html" title="[Inflearn] &amp;quot;외워서 끝내는 네트워크 핵심이론 - 기초&amp;quot; Note-Taking" />
+    <published>2025-12-24T10:00:00+09:00</published>
+  
+    <updated>2025-12-24T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/note-taking-inflearn-network-core-theory-of-memorabilization/</id>
+    <content type="text/html" src="http://localhost:4000/posts/note-taking-inflearn-network-core-theory-of-memorabilization/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="Review" />
+    
+    <category term="Note-Taking" />
+    
+  
+
+  <summary>[Inflearn] 외워서 끝내는 네트워크 핵심이론 - 기초 공부기록</summary>
 
   </entry>
 
@@ -119,32 +145,6 @@
   
 
   <summary>51주차의 IT보안 키워드는 "React2Shell 제로데이, AI 무기화(Industrialized LLM), 국가 배후 가상자산 탈취, 영·미 규제 강화”로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2025년 51주차 IT 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202551-it-issue-report/" rel="alternate" type="text/html" title="2025년 51주차 IT 뉴스 분석 보고서" />
-    <published>2025-12-21T10:00:00+09:00</published>
-  
-    <updated>2025-12-21T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202551-it-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202551-it-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="IT" />
-    
-  
-
-  <summary>51주차의 IT 키워드는 “AI 에이전트 자율화, 하이브리드 양자 컴퓨팅, EU AI Act 세부 지침, 차세대 전력 반도체” 으로 요약됩니다.</summary>
 
   </entry>
 
