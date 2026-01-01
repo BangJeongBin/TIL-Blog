@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2025-12-21T18:24:37+09:00</updated>
+  <updated>2026-01-01T14:17:21+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -13,10 +13,36 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
-  <rights> © 2025 BangJeongBin </rights>
+  <rights> © 2026 BangJeongBin </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>ICMP란?</title>
+    <link href="http://localhost:4000/posts/til-what-is-icmp/" rel="alternate" type="text/html" title="ICMP란?" />
+    <published>2026-01-01T10:00:00+09:00</published>
+  
+    <updated>2026-01-01T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/til-what-is-icmp/</id>
+    <content type="text/html" src="http://localhost:4000/posts/til-what-is-icmp/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="TIL" />
+    
+    <category term="Network" />
+    
+  
+
+  <summary>ICMP(Internet Control Message Protocol) 란 무엇인가?</summary>
+
+  </entry>
 
   
   <entry>
@@ -73,13 +99,13 @@
   
   <entry>
     <title>[Online Academy] "리눅스 기초 강의" Review</title>
-    <link href="http://localhost:4000/posts/review-online-academy-online-academy-linux-basic-lectures/" rel="alternate" type="text/html" title="[Online Academy] &amp;quot;리눅스 기초 강의&amp;quot; Review" />
+    <link href="http://localhost:4000/posts/review-online-academy-linux-basic-lectures/" rel="alternate" type="text/html" title="[Online Academy] &amp;quot;리눅스 기초 강의&amp;quot; Review" />
     <published>2025-12-19T10:00:00+09:00</published>
   
     <updated>2025-12-19T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/review-online-academy-online-academy-linux-basic-lectures/</id>
-    <content type="text/html" src="http://localhost:4000/posts/review-online-academy-online-academy-linux-basic-lectures/" />
+    <id>http://localhost:4000/posts/review-online-academy-linux-basic-lectures/</id>
+    <content type="text/html" src="http://localhost:4000/posts/review-online-academy-linux-basic-lectures/" />
     <author>
       <name>bin</name>
     </author>
@@ -102,7 +128,7 @@
     <link href="http://localhost:4000/posts/note-taking-online-academy-linux-basic-lectures/" rel="alternate" type="text/html" title="[Online Academy] &amp;quot;리눅스 기초 강의&amp;quot; Note-Taking" />
     <published>2025-12-19T10:00:00+09:00</published>
   
-    <updated>2025-12-19T17:14:09+09:00</updated>
+    <updated>2025-12-25T16:27:40+09:00</updated>
   
     <id>http://localhost:4000/posts/note-taking-online-academy-linux-basic-lectures/</id>
     <content type="text/html" src="http://localhost:4000/posts/note-taking-online-academy-linux-basic-lectures/" />
@@ -119,32 +145,6 @@
   
 
   <summary>[Online Academy] 리눅스 기초 강의 공부기록</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2025년 50주차 IT보안 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202550-security-issue-report/" rel="alternate" type="text/html" title="2025년 50주차 IT보안 뉴스 분석 보고서" />
-    <published>2025-12-14T10:00:00+09:00</published>
-  
-    <updated>2025-12-15T12:41:40+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202550-security-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202550-security-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="Security" />
-    
-  
-
-  <summary>50주차의 IT보안 키워드는 “React RCE 비상, SW 공급망 규제, AI 기반 보안 자동화”로 요약됩니다.</summary>
 
   </entry>
 

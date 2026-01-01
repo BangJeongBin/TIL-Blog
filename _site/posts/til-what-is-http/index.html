@@ -30,30 +30,30 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="JVM(자바 가상 머신)의 구성 요소들" />
+<meta property="og:title" content="HTTP란 무엇인가?" />
 <meta name="author" content="Jeongbin Bang" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="JVM의 구성 요소와 각각의 기능들을 정리" />
-<meta property="og:description" content="JVM의 구성 요소와 각각의 기능들을 정리" />
-<link rel="canonical" href="http://localhost:4000/posts/configuration-of-jvm/" />
-<meta property="og:url" content="http://localhost:4000/posts/configuration-of-jvm/" />
+<meta name="description" content="HTTP의 정의와 구조 설명" />
+<meta property="og:description" content="HTTP의 정의와 구조 설명" />
+<link rel="canonical" href="http://localhost:4000/posts/til-what-is-http/" />
+<meta property="og:url" content="http://localhost:4000/posts/til-what-is-http/" />
 <meta property="og:site_name" content="TIL-Blog" />
 <meta property="og:image" content="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png" />
 <meta property="og:image:alt" content="Today I Learnd" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-05-07T10:00:00+09:00" />
+<meta property="article:published_time" content="2025-05-05T10:00:00+09:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png" />
 <meta name="twitter:image:alt" content="Today I Learnd" />
-<meta property="twitter:title" content="JVM(자바 가상 머신)의 구성 요소들" />
+<meta property="twitter:title" content="HTTP란 무엇인가?" />
 <meta name="twitter:site" content="@BangJeongBin" />
 <meta name="twitter:creator" content="@Jeongbin Bang" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2025-12-12T16:03:27+09:00","datePublished":"2025-05-07T10:00:00+09:00","description":"JVM의 구성 요소와 각각의 기능들을 정리","headline":"JVM(자바 가상 머신)의 구성 요소들","image":{"alt":"Today I Learnd","url":"https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/configuration-of-jvm/"},"url":"http://localhost:4000/posts/configuration-of-jvm/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2025-05-05T10:00:00+09:00","datePublished":"2025-05-05T10:00:00+09:00","description":"HTTP의 정의와 구조 설명","headline":"HTTP란 무엇인가?","image":{"alt":"Today I Learnd","url":"https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/til-what-is-http/"},"url":"http://localhost:4000/posts/til-what-is-http/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>JVM(자바 가상 머신)의 구성 요소들 | TIL-Blog
+  <title>HTTP란 무엇인가? | TIL-Blog
   </title>
 
   <!--
@@ -458,7 +458,7 @@
         
           
             
-              <span>JVM(자바 가상 머신)의 구성 요소들</span>
+              <span>HTTP란 무엇인가?</span>
             
 
           
@@ -864,17 +864,6 @@
 
       
     
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
 
     
   
@@ -912,28 +901,6 @@
 
       
     
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
 
     
   
@@ -949,28 +916,6 @@
       
         
         
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
       
 
       
@@ -1040,9 +985,9 @@
 
 <article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>JVM(자바 가상 머신)의 구성 요소들</h1>
+    <h1 data-toc-skip>HTTP란 무엇인가?</h1>
     
-      <p class="post-desc fw-light mb-4">JVM의 구성 요소와 각각의 기능들을 정리</p>
+      <p class="post-desc fw-light mb-4">HTTP의 정의와 구조 설명</p>
     
 
     <div class="post-meta text-muted">
@@ -1059,41 +1004,18 @@
 
 <time
   
-  data-ts="1746579600"
+  data-ts="1746406800"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  May  7, 2025
+  May  5, 2025
 </time>
 
       </span>
 
       <!-- lastmod date -->
-      
-        <span>
-          Updated
-          <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1765523007"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  Dec 12, 2025
-</time>
-
-        </span>
       
 
       
@@ -1137,7 +1059,7 @@
 
   
     <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">JVM(자바 가상 머신)의 구성 요소들</span>
+      <span class="label text-truncate">HTTP란 무엇인가?</span>
       <button type="button" class="toc-trigger btn me-1">
         <i class="fa-solid fa-list-ul fa-fw"></i>
       </button>
@@ -1150,7 +1072,7 @@
 
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">JVM(자바 가상 머신)의 구성 요소들</div>
+        <div class="label text-truncate py-2 ms-4">HTTP란 무엇인가?</div>
         <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
           <i class="fas fa-close"></i>
         </button>
@@ -1160,291 +1082,231 @@
   
 
   <div class="content">
-    <h2 id="jvm의-구조"><span class="me-2">JVM의 구조</span><a href="#jvm의-구조" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+    <h2 id="http-개요"><span class="me-2">HTTP 개요</span><a href="#http-개요" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
-<p><a href="https://velog.velcdn.com/images/bluegrate/post/5914ccc8-fdb6-498c-9e68-102c7ba23e28/image.png" class="popup img-link shimmer"><img src="https://velog.velcdn.com/images/bluegrate/post/5914ccc8-fdb6-498c-9e68-102c7ba23e28/image.png" alt="JVM_Structure" loading="lazy"></a></p>
+<p>HTTP는 “<strong>H</strong>yper<strong>T</strong>ext <strong>T</strong>ransfer <strong>P</strong>rotocol”의 약자로 월드 와이드 웹의 토대이며 하이퍼텍스트 링크를 사용하여 HTML 문서와 같은 리소스들을 가져오고 웹 페이지를 로드하는 데 사용되는 프로토콜입니다.</p>
 
-<p>JVM의 구조<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+<p>HTTP는 네트워크 장치 간에 정보를 전송하도록 설계된 애플리케이션 계층 프로토콜이며 네트워크 프로토콜 스택의 다른 계층 위에서 실행됩니다. HTTP를 통한 일반적인 흐름에는 클라이언트 시스템에서 서버에 요청한 다음 서버에서 응답 메시지를 보내는 작업이 포함됩니다.</p>
 
-<ul>
-  <li>
-    <p><strong>Class Loader</strong>(클래스 로더)</p>
-  </li>
-  <li><strong>Execution Engine</strong>(실행 엔진)
-    <ul>
-      <li><strong>Interpreter</strong>(인터프리터)</li>
-      <li><strong>Just-In-Time</strong>(JIT 컴파일러)</li>
-      <li><strong>Garbage Collector</strong>(가비지 콜렉터)</li>
-    </ul>
-  </li>
-  <li><strong>Runtime Data Area</strong>(런타임 데이터 영역)
-    <ul>
-      <li><strong>Method Area</strong>(메소드 영역)</li>
-      <li><strong>Runtime Data Area</strong>(힙 영역)</li>
-      <li><strong>PC Register</strong>(PC 레지스터)</li>
-      <li><strong>JVM Stack</strong>(스택 영역)</li>
-      <li><strong>Native Method Stack</strong>(네이티브 메소드 스택 영역)</li>
-    </ul>
-  </li>
-  <li><strong>JNI</strong> - <strong>Native Method Interface</strong>(네이티브 메소드 인터페이스)</li>
-  <li><strong>Native Method Library</strong>(네이티브 메소드 라이브러리)</li>
-</ul>
+<p>HTTP는 웹에서 이루어지는 모든 데이터 교환의 기초이며, 클라이언트-서버 프로토콜이기도 합니다. 클라이언트-서버 프로토콜이란 (보통 웹브라우저인) 수신자 측에 의해 요청이 초기화되는 프로토콜을 의미합니다. 하나의 완전한 문서는 텍스트, 레이아웃 설명, 이미지, 비디오, 스크립트 등 불러온(fetched) 하위 문서들로 재구성됩니다.</p>
+
+<p><a href="https://mdn.github.io/shared-assets/images/diagrams/http/overview/fetching-a-page.svg" class="popup img-link shimmer"><img src="https://mdn.github.io/shared-assets/images/diagrams/http/overview/fetching-a-page.svg" alt="Web Document" loading="lazy"></a>
+Web Document<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<p><a href="https://velog.velcdn.com/images/andy3400/post/632ce2c9-37df-4348-8c48-1cfefbea10bd/image.png" class="popup img-link shimmer"><img src="https://velog.velcdn.com/images/andy3400/post/632ce2c9-37df-4348-8c48-1cfefbea10bd/image.png" alt="How the Web Works" loading="lazy"></a>
+Web의 작동 원리<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
 
 <p><br /></p>
 
-<h3 id="class-loader-클래스-로더"><span class="me-2">Class Loader (클래스 로더)</span><a href="#class-loader-클래스-로더" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h3 id="http-헤더"><span class="me-2">HTTP 헤더</span><a href="#http-헤더" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
-<ul>
-  <li>
-    <p>클래스 로더는 클래스가 참조될 때 JVM의 메모리에 클래스(.class)를 로드하는 작업을 담당함. 필요한 클래스 파일을 검색하여 메모리에 로드하여 <u>각 클래스가 한 번만 로드되도록</u> 한다.</p>
-  </li>
-  <li>
-    <p>Runtime 시 <strong>동적으로</strong> 로드. .jar 파일 내 저장 된 클래스들을 JVM 위에 탑재하고, 사용하지 않는 클래스들은 메모리에서 삭제함.</p>
-  </li>
-  <li>
-    <p>클래스 로더는 로드된 클래스의 무결성 확인 및 클래스 간의 종속성 해결과 같은 중요한 작업도 수행함.</p>
-  </li>
-</ul>
+<p>HTTP 헤더는 클라이언트와 서버가 요청 또는 응답으로 부가적인 정보를 전송할 수 있도록 해줍니다. HTTP 헤더는 대소문자를 구분하지 않는 이름과 콜론 ‘:’ 다음에 오는 값(줄 바꿈 없이)으로 이루어져있습니다. 값 앞에 붙은 빈 문자열은 무시됩니다.</p>
+
+<p><a href="https://www.cloudflare.com/img/learning/ddos/glossary/hypertext-transfer-protocol-http/http-request-headers.png" class="popup img-link shimmer"><img src="https://www.cloudflare.com/img/learning/ddos/glossary/hypertext-transfer-protocol-http/http-request-headers.png" alt="Google Chrome header" loading="lazy"></a>
+Google Chrome header의 헤더 예<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
+
+<p>종단간 헤더는 반드시 메시지의 최종 수신자에게 전송되어야 합니다. 즉, 요청에 대해서는 서버, 응답에 대해서는 클라이언트입니다. 중간 프록시는 반드시 종단 간 헤더를 수정되지 않은 상태로 재전송해야하며 캐시는 이를 반드시 저장해야합니다.</p>
 
 <p><br /></p>
 
-<h3 id="execution-engine-실행-엔진"><span class="me-2">Execution Engine (실행 엔진)</span><a href="#execution-engine-실행-엔진" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h3 id="http-세션"><span class="me-2">HTTP 세션</span><a href="#http-세션" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
-<ul>
-  <li>
-    <p>클래스 로더가 JVM내의 Runtime Data Area에 바이트코드(.class)를 배치시키면 실행엔진이 해석. 즉, JVM 만이 바이트코드를 이해할 수 있기 떄문에 실행엔진이 기계가 이해할 수 있게 변환함.</p>
-  </li>
-  <li>
-    <p>Java는 2가지의 방식을 혼합하여 바이트코드를 해석하는데 <strong>인터프리터</strong>와 <strong>JIT 컴파일러</strong>다. <strong>인터프리터</strong>는 한 줄씩 해석하기에 방식이 속도가 느리기에 이 단점을 보완하기 위해 새로운 해석 방식인 <strong>JIT 컴파일러</strong>이다.</p>
-  </li>
-  <li><strong>Interpreter(인터프리터)</strong>
-    <ul>
-      <li>JVM은 기본적으로 <strong>인터프리터 방식</strong>으로 동작한다. 다만 같은 메소드 라도 <u>여러번 호출이 된다면 매번 해석하고 수행해야 되서 전체적인 속도는 느리다.</u></li>
-    </ul>
-  </li>
-  <li>Just-In-Time Compiler(JIT 컴파일러)
-    <ul>
-      <li>바이트 코드 전체를 컴파일하여 <strong>Native Code</strong>로 변경하고 이후에는 해당 메서드를 더 이상 인터프리팅 하지 않고 캐싱해 두었다가 <strong>Native Code</strong>로 직접 실행하는 방식이다.</li>
-      <li>하지만 바이트 코드를 <strong>Native Code</strong>로 변환하는 데에도 비용이 소요되므로, JVM은 모든 코드를 JIT 컴파일러 방식으로 실행하지 않고 <u>인터프리터 방식을 사용하다 일정 기준이 넘어가면 JIT 컴파일 방식으로 명령어를 실행하는 식</u>으로 진행한다.</li>
-    </ul>
-  </li>
-</ul>
+<p>HTTP와 같은 클라이언트-서버 프로토콜에서, 세션은 다음의 세 가지 과정으로 이루어집니다.</p>
 
-<blockquote>
-  <p><strong>Native Code</strong> : C언어나, C++, 어셈블리어로 구성된 코드를 의미</p>
-</blockquote>
-
-<p><br /></p>
-
-<h3 id="garbage-collector-gc-가비지-컬렉터"><span class="me-2">Garbage Collector (G.C, 가비지 컬렉터)</span><a href="#garbage-collector-gc-가비지-컬렉터" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<hr />
-<ul>
-  <li>JVM이 <strong>Heap Area</strong>를 감시하다가 더 이상 <strong>사용되지 않는 객체(== 참조되지 않는 객체)</strong>를 자동으로 메모리에서 해제하는 기능.</li>
-</ul>
-
-<blockquote>
-  <p>C나 C++의 <code class="language-plaintext highlighter-rouge">free()</code>나 <code class="language-plaintext highlighter-rouge">delete</code>를 직접 호출하지 않아도, 자바는 <strong>JVM의 가비지 컬렉터(GC)</strong>가 알아서 필요 없는 객체를 정리함</p>
-</blockquote>
-
-<p><br /></p>
-
-<h4 id="gc-동작-과정"><span class="me-2">G.C 동작 과정</span><a href="#gc-동작-과정" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
-<hr />
 <ol>
-  <li>
-    <p>객체 생성 –&gt; <strong>Heap Area</strong>에 저장됨</p>
-  </li>
-  <li>
-    <p>변수 참조가 끊김 –&gt; 객체를 가리키는 <strong>Reference</strong>가 없어짐</p>
-  </li>
-  <li>GC 탐색(Reachability Analysis)
-    <ul>
-      <li>루트(root) 객체에서 접근할 수 없는 객체를 <strong>Garbage</strong>로 판단</li>
-    </ul>
-  </li>
-  <li>Mark and Sweep (표시하고 쓸기)
-    <ul>
-      <li><strong>Mark 단계</strong> : 살아있는 객체 표시</li>
-      <li><strong>Sweep 단계</strong> : 표시되지 않은 객체(가비지) 제거</li>
-      <li><strong>Compact 단계</strong>(선택적) : 남은 객체들을 메모리 앞쪽으로 모아 단편화 해소</li>
-    </ul>
-  </li>
+  <li>클라이언트가 TCP 연결을 수립합니다(또는 전송 계층이 TCP가 아닌 다른 적당한 연결로).</li>
+  <li>클라이언트는 요청을 전송한 뒤 응답을 기다립니다.</li>
+  <li>서버는 요청에 대해 처리하고 그에 대한 응답을 상태 코드 그리고 요청에 부합하는 데이터와 함께 돌려보냅니다.</li>
 </ol>
 
-<p><br /></p>
-
-<h3 id="runtime-data-area-런타임-데이터-영역"><span class="me-2">Runtime Data Area (런타임 데이터 영역)</span><a href="#runtime-data-area-런타임-데이터-영역" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<hr />
-<p><a href="https://hongchangsub.com/content/images/2021/06/-----------2021-06-28------11.02.11.png" class="popup img-link shimmer"><img src="https://hongchangsub.com/content/images/2021/06/-----------2021-06-28------11.02.11.png" alt="Runtime_Data_Area1" loading="lazy"></a></p>
-
-<p>Runtime Data Area 1<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
-
-<ul>
-  <li>
-    <p>JVM이 자바 프로그램을 실행할 때 사용하는 <strong>메모리 영역 구조</strong> 이다. 각 영역은 서로 다른 목적(클래스 정보 저장, 스택 관리, 힙 객체 저장 등)을 가지고 있음.</p>
-  </li>
-  <li>
-    <p>사진과 같이 <strong>Method Area</strong>, <strong>Heap Area</strong>는 모든 <strong>쓰레드(Thread)</strong>가 공유하는 영역이고, 나머지 <strong>Stack Area</strong>, <strong>PC Register</strong>, <strong>Native Method Stack</strong> 은 각 쓰레드 마다 생성되는 개별 영역이다.</p>
-  </li>
-</ul>
-
-<div class="table-wrapper"><table>
-  <thead>
-    <tr>
-      <th>영역</th>
-      <th>특징 / 역할</th>
-      <th>생성 시점</th>
-      <th>스레드 공유 여부</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Method Area (메서드 영역)</strong></td>
-      <td>클래스의 구조 정보(메서드, 필드, static 변수, 상수 등)를 저장</td>
-      <td>JVM 시작 시</td>
-      <td>공유</td>
-    </tr>
-    <tr>
-      <td><strong>Heap Area (힙 영역)</strong></td>
-      <td><code class="language-plaintext highlighter-rouge">new</code>로 생성된 객체와 배열 저장</td>
-      <td>JVM 시작 시</td>
-      <td>공유</td>
-    </tr>
-    <tr>
-      <td><strong>Stack Area (스택 영역)</strong></td>
-      <td>각 스레드의 메서드 호출 정보 저장 (지역 변수, 매개변수, return 값 등)</td>
-      <td>스레드 생성 시</td>
-      <td>개별</td>
-    </tr>
-    <tr>
-      <td><strong>PC Register (프로그램 카운터)</strong></td>
-      <td>현재 실행 중인 JVM 명령어 주소를 저장</td>
-      <td>스레드 생성 시</td>
-      <td>개별</td>
-    </tr>
-    <tr>
-      <td><strong>Native Method Stack (네이티브 메서드 스택)</strong></td>
-      <td>C/C++ 등 네이티브 코드 실행용 스택</td>
-      <td>스레드 생성 시</td>
-      <td>개별</td>
-    </tr>
-  </tbody>
-</table></div>
-
-<p><a href="https://goldenrabbit.co.kr/wp-content/uploads/2021/11/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1-%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5-%E1%84%86%E1%85%A9%E1%84%83%E1%85%A6%E1%86%AF_02.png" class="popup img-link shimmer"><img src="https://goldenrabbit.co.kr/wp-content/uploads/2021/11/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1-%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5-%E1%84%86%E1%85%A9%E1%84%83%E1%85%A6%E1%86%AF_02.png" alt="Runtime_Data_Area2" loading="lazy"></a></p>
-
-<p>Runtime Data Area 2<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
+<blockquote>
+  <p>HTTP/1.1부터는 세번째 과정 이후 클라이언트가 해당 시점에 또 다른 요청을 보낼 수 있도록 연결을 더 이상 닫지 않습니다. 그러므로 두번째, 세번째 과정이 몇 번에 걸쳐 일어날 수 있습니다</p>
+</blockquote>
 
 <p><br /></p>
 
-<h4 id="method-area-메서드-영역"><span class="me-2">Method Area (메서드 영역)</span><a href="#method-area-메서드-영역" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<h4 id="연결-수립"><span class="me-2">연결 수립</span><a href="#연결-수립" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <hr />
-<ul>
-  <li>
-    <p>클래스 로더가 읽어온 <strong>클래스, 메서드, 필드, static 변수, 상수</strong> 등의 정보를 저장</p>
-  </li>
-  <li>
-    <p>프로그램 전체에서 <strong>공유되는 영역</strong>으로, 모든 스레드가 접근할 수 있음</p>
-  </li>
-  <li>
-    <p>JDK 8 이후에는 <strong>Metaspace</strong>로 대체되어, 네이티브 메모리 영역에 저장</p>
-  </li>
-</ul>
+<p>클라이언트-서버 프로토콜에, 클라이언트는 연결을 수립합니다. HTTP에서 연결을 여는 것은 보통의 경우 TCP인 기본적인 전송 계층 내에서 연결을 수립하는 것을 뜻합니다.</p>
+
+<p>TCP를 이용할 경우, 컴퓨터 상의 HTTP 서버를 위한 기본 포트는 80인데 8000 혹은 8080처럼 다른 포트들도 자주 사용되곤 합니다. 요청을 위한 페이지 URL은 도메인 이름과 포트 번호 둘 다 포함하지만 포트 번호가 80일 경우 생략 가능합니다.</p>
 
 <p><br /></p>
 
-<h4 id="heap-area-힙-영역"><span class="me-2">Heap Area (힙 영역)</span><a href="#heap-area-힙-영역" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<h4 id="요청-예"><span class="me-2">요청 예</span><a href="#요청-예" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <hr />
-<ul>
-  <li>
-    <p><code class="language-plaintext highlighter-rouge">new</code> 키워드로 생성된 <strong>객체와 배열</strong>이 저장되는 영역</p>
-  </li>
-  <li>
-    <p><u>GC(Garbage Collector)가 동작하는 유일한 영역</u></p>
-  </li>
-  <li>
-    <p>모든 스레드가 공유하며, <u>가장 큰 메모리 공간을 차지함</u></p>
-  </li>
-</ul>
+<p><a href="https://developer.mozilla.org/">develper.mozilla.org</a>의 최상위 페이지를 가져오도록 요청하고, 가능하다면 서버에게 사용자-에이전트가 해당 페이지에 대해 프랑스어로 된 페이지를 원한다고 알려줍니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>GET / HTTP/1.1
+Host: developer.mozilla.org
+Accept-Language: fr
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>헤더 블록으로부터 데이터 블록을 구분짓는 첫번째 빈줄에 주목하세요. 헤더 중에 <code class="language-plaintext highlighter-rouge">Content-Length:</code> 헤더가 없으므로, 데이터 블록은 비어있고 서버는 헤더의 마지막을 나타내는 빈 줄을 받는 즉시 요청을 처리할 수 있습니다.</p>
+
+<p>다음은 결과 전송 형식입니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>POST /contact_form.php HTTP/1.1
+Host: developer.mozilla.org
+Content-Length: 64
+Content-Type: application/x-www-form-urlencoded
+
+name=Joe%20User&amp;request=Send%20me%20one%20of%20your%20catalogue
+</pre></td></tr></tbody></table></code></div></div>
 
 <p><br /></p>
 
-<h4 id="stack-area-스택-영역"><span class="me-2">Stack Area (스택 영역)</span><a href="#stack-area-스택-영역" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<h4 id="응답-예"><span class="me-2">응답 예</span><a href="#응답-예" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <hr />
-<ul>
-  <li>
-    <p>메서드 호출 시 생성되는 <strong>스택 프레임(지역 변수, 매개변수, 리턴 값 등)</strong>을 저장</p>
-  </li>
-  <li>
-    <p><strong>스레드마다 독립적</strong>으로 생성되어 다른 스레드와 공유되지 않음</p>
-  </li>
-  <li>
-    <p>메서드가 종료되면 해당 스택 프레임은 <strong>자동으로 소멸</strong>함</p>
-  </li>
-</ul>
+<p>성공적인 수신 <code class="language-plaintext highlighter-rouge">200 OK</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre>HTTP/1.1 200 OK
+Date: Sat, 09 Oct 2010 14:28:02 GMT
+Server: Apache
+Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
+ETag: "51142bc1-7449-479b075b2891b"
+Accept-Ranges: bytes
+Content-Length: 29769
+Content-Type: text/html
+
+&lt;!DOCTYPE html... (here comes the 29769 bytes of the requested web page)
+</pre></td></tr></tbody></table></code></div></div>
 
 <p><br /></p>
 
-<h4 id="pc-register-프로그램-카운터-레지스터"><span class="me-2">PC Register (프로그램 카운터 레지스터)</span><a href="#pc-register-프로그램-카운터-레지스터" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
-<hr />
-<ul>
-  <li>
-    <p>현재 JVM 명령어의 <strong>실행 위치(주소)를 저장</strong></p>
-  </li>
-  <li>
-    <p>각 스레드마다 존재하며, <strong>멀티스레드 환경에서 실행 흐름을 추적</strong></p>
-  </li>
-  <li>
-    <p>JVM이 어떤 명령을 다음에 실행할지를 결정하는 데 사용</p>
-  </li>
-</ul>
+<p>요청 자원이 영구적으로 옮겨졌다는 내용의 알림 <code class="language-plaintext highlighter-rouge">301 Moved Permanently</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+</pre></td><td class="rouge-code"><pre>HTTP/1.1 301 Moved Permanently
+Server: Apache/2.2.3 (Red Hat)
+Content-Type: text/html; charset=iso-8859-1
+Date: Sat, 09 Oct 2010 14:30:24 GMT
+Location: https://developer.mozilla.org/ (this is the new link to the resource; it is expected that the user-agent will fetch it)
+Keep-Alive: timeout=15, max=98
+Accept-Ranges: bytes
+Via: Moz-Cache-zlb05
+Connection: Keep-Alive
+X-Cache-Info: caching
+X-Cache-Info: caching
+Content-Length: 325 (the content contains a default page to display if the user-agent is not able to follow the link)
+
+&lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;301 Moved Permanently&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Moved Permanently&lt;/h1&gt;
+&lt;p&gt;The document has moved &lt;a href="https://developer.mozilla.org/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.2.3 (Red Hat) Server at developer.mozilla.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+</pre></td></tr></tbody></table></code></div></div>
 
 <p><br /></p>
 
-<h4 id="native-method-stack-네이티브-메서드-스택"><span class="me-2">Native Method Stack (네이티브 메서드 스택)</span><a href="#native-method-stack-네이티브-메서드-스택" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
-<hr />
-<ul>
-  <li>
-    <p>C, C++ 등 <strong>자바 외부 언어(JNI)</strong>로 작성된 메서드 실행 시 사용</p>
-  </li>
-  <li>
-    <p>각 스레드마다 생성되며, 네이티브 코드 호출 시 <strong>스택 프레임 관리</strong>를 담당</p>
-  </li>
-  <li>
-    <p>자바 스택과 유사하지만, <strong>JVM 외부 코드 실행용</strong>이라는 점이 다름</p>
-  </li>
-</ul>
+<p>요청된 자원이 존재하지 않는다는 내용의 알림 <code class="language-plaintext highlighter-rouge">404 Not Found</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre>HTTP/1.1 404 Not Found
+Date: Sat, 09 Oct 2010 14:33:02 GMT
+Server: Apache
+Last-Modified: Tue, 01 May 2007 14:24:39 GMT
+ETag: "499fd34e-29ec-42f695ca96761;48fe7523cfcc1"
+Accept-Ranges: bytes
+Content-Length: 10732
+Content-Type: text/html
+
+&lt;!DOCTYPE html... (contains a site-customized page helping the user to find the missing resource)
+</pre></td></tr></tbody></table></code></div></div>
 
 <p><br /></p>
 
-<h2 id="-추천-게시물"><span class="me-2"><i class="fa-solid fa-notes-medical"></i> 추천 게시물</span><a href="#-추천-게시물" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>상태 코드에 대한 정보는 [[HTTP 상태코드에 대하여]]</p>
+</blockquote>
+
+<p><br /></p>
+
+<h4 id="요청-메서드"><span class="me-2">요청 메서드</span><a href="#요청-메서드" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <hr />
-<ul>
-  <li><a href="https://bangjeongbin.github.io/TIL-Blog/posts/what-is-jvm/">JVM(자바 가상 머신)이란?</a></li>
-</ul>
+<p>HTTP 동사라고도 불리는 HTTP 메서드는 HTTP 요청이 쿼리된 서버에서 기대하는 작업을 나타냅니다. 예를 들어, 가장 일반적인 두 가지 HTTP 메서드는 ‘GET’과 ‘POST’입니다. ‘GET’ 요청은 응답으로 정보를 기대하는 반면(일반적으로 웹 사이트 형식으로) ‘POST’ 요청은 일반적으로 클라이언트가 웹 서버에 정보를 제출하고 있음을 나타냅니다(양식 정보 등. 예: 제출된 사용자 이름 및 비밀번호).</p>
+
+<p>자세한 정보는 [[HTTP 메서드란 무엇인가?]]</p>
 
 <p><br /></p>
 
 <h2 id="reference"><span class="me-2">Reference</span><a href="#reference" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
 <ul>
-  <li><a href="https://inpa.tistory.com/entry/JAVA-%E2%98%95-JVM-%EB%82%B4%EB%B6%80-%EA%B5%AC%EC%A1%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%98%81%EC%97%AD-%EC%8B%AC%ED%99%94%ED%8E%B8">☕ JVM 내부 구조 &amp; 메모리 영역 💯 총정리</a></li>
-  <li><a href="https://hongchangsub.com/java3/">(Java) JVM 이해하기</a></li>
-  <li><a href="https://velog.io/@bluegrate/java%EC%9D%98-%EB%8F%99%EC%9E%91%EA%B3%BC%EC%A0%95%EA%B3%BC-JVM%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0">java의 동작과정과 JVM의 메모리 구조</a></li>
+  <li><a href="https://developer.mozilla.org/ko/">MDN Web Docs</a></li>
+  <li><a href="https://www.cloudflare.com/ko-kr/learning/">Cloudflare Learning Center</a></li>
 </ul>
-
-<p><br /></p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">
-      <p>출처 : https://velog.io/@bluegrate/java%EC%9D%98-%EB%8F%99%EC%9E%91%EA%B3%BC%EC%A0%95%EA%B3%BC-JVM%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;&#xfe0e;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>출처 : https://hongchangsub.com/java3/ <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;&#xfe0e;</a></p>
+      <p>출처 : https://developer.mozilla.org/ko/docs/Web/HTTP/Guides/Overview <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;&#xfe0e;</a></p>
     </li>
     <li id="fn:3">
-      <p>출처 : https://goldenrabbit.co.kr/2021/11/03/%EC%9E%90%EB%B0%94-%EC%BD%94%EB%93%9C%EC%99%80-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%8A%A4%ED%83%9C%ED%8B%B1-%EB%B3%80%EC%88%98-%EB%93%B1%EC%9D%80-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%9D%98-%EC%96%B4%EB%94%94/ <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;&#xfe0e;</a></p>
+      <p>출처 : https://velog.io/@andy3400/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EA%B5%AC%EC%A1%B0-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;&#xfe0e;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>출처 : https://www.cloudflare.com/ko-kr/learning/ddos/glossary/hypertext-transfer-protocol-http/ <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;&#xfe0e;</a></p>
     </li>
   </ol>
 </div>
@@ -1458,7 +1320,7 @@
         <i class="far fa-folder-open fa-fw me-1"></i>
         
           <a href="/categories/til/">TIL</a>,
-          <a href="/categories/language/">Language</a>
+          <a href="/categories/web/">Web</a>
       </div>
     
 
@@ -1468,19 +1330,19 @@
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/language/"
+            href="/tags/web/"
             class="post-tag no-text-decoration"
-          >Language</a>
+          >Web</a>
         
           <a
-            href="/tags/java/"
+            href="/tags/session/"
             class="post-tag no-text-decoration"
-          >Java</a>
+          >session</a>
         
           <a
-            href="/tags/jvm/"
+            href="/tags/cookie/"
             class="post-tag no-text-decoration"
-          >JVM</a>
+          >cookie</a>
         
       </div>
     
@@ -1516,21 +1378,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=JVM(%EC%9E%90%EB%B0%94%20%EA%B0%80%EC%83%81%20%EB%A8%B8%EC%8B%A0)%EC%9D%98%20%EA%B5%AC%EC%84%B1%20%EC%9A%94%EC%86%8C%EB%93%A4%20-%20TIL-Blog&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fconfiguration-of-jvm%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=HTTP%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80?%20-%20TIL-Blog&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftil-what-is-http%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=JVM(%EC%9E%90%EB%B0%94%20%EA%B0%80%EC%83%81%20%EB%A8%B8%EC%8B%A0)%EC%9D%98%20%EA%B5%AC%EC%84%B1%20%EC%9A%94%EC%86%8C%EB%93%A4%20-%20TIL-Blog&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fconfiguration-of-jvm%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=HTTP%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80?%20-%20TIL-Blog&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftil-what-is-http%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fconfiguration-of-jvm%2F&text=JVM(%EC%9E%90%EB%B0%94%20%EA%B0%80%EC%83%81%20%EB%A8%B8%EC%8B%A0)%EC%9D%98%20%EA%B5%AC%EC%84%B1%20%EC%9A%94%EC%86%8C%EB%93%A4%20-%20TIL-Blog" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftil-what-is-http%2F&text=HTTP%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80?%20-%20TIL-Blog" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1585,14 +1447,14 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/202551-it-issue-report/">2025년 51주차 IT 뉴스 분석 보고서</a>
+          <a href="/posts/til-what-is-icmp/">ICMP란?</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/202551-security-issue-report/">2025년 51주차 IT보안 뉴스 분석 보고서</a>
+          <a href="/posts/note-taking-inflearn-easy-linux-for-developer/">[Inflearn] "개발자를 위한 쉬운 리눅스" Note-Taking</a>
         </li>
       
         
@@ -1606,14 +1468,14 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/review-online-academy-online-academy-linux-basic-lectures/">[Online Academy] "리눅스 기초 강의" Review</a>
+          <a href="/posts/review-book-coding-letters-that-make-the-world/">[Book] "세상을 만드는 글자, 코딩" Review</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/review-book-coding-letters-that-make-the-world/">[Book] "세상을 만드는 글자, 코딩" Review</a>
+          <a href="/posts/review-book-ai-era-living-as-a-developer/">[Book] "AI시대, 개발자로 살아가기" Review</a>
         </li>
       
     </ul>
@@ -1697,20 +1559,6 @@
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -1720,81 +1568,6 @@
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -1839,36 +1612,10 @@
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -2024,6 +1771,32 @@
     
     
     
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -2093,6 +1866,61 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -2152,6 +1980,75 @@
     
     
     
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
     
   
@@ -2228,6 +2125,11 @@
     
     
       
+    
+  
+    
+    
+    
     
   
     
@@ -2291,13 +2193,13 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/boj/">BOJ</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/news/">NEWS</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/security/">Security</a>
@@ -2372,703 +2274,55 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
@@ -3108,7 +2362,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/what-is-jvm/" class="post-preview card h-100">
+          <a href="/posts/til-cookie-vs-session/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -3127,16 +2381,16 @@
   May  6, 2025
 </time>
 
-              <h4 class="pt-0 my-2">JVM(자바 가상 머신)이란?</h4>
+              <h4 class="pt-0 my-2">세션과 쿠키의 차이</h4>
               <div class="text-muted">
-                <p>JVM(Java Virtual Machine)에 대하여</p>
+                <p>세션과 쿠키의 차이</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/boj-10926/" class="post-preview card h-100">
+          <a href="/posts/til-what-is-icmp/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -3148,23 +2402,23 @@
 
 <time
   
-  data-ts="1747796400"
+  data-ts="1767229200"
   data-df="ll"
   
 >
-  May 21, 2025
+  Jan  1, 2026
 </time>
 
-              <h4 class="pt-0 my-2">[BOJ 10926] ??!</h4>
+              <h4 class="pt-0 my-2">ICMP란?</h4>
               <div class="text-muted">
-                <p>Baekjoon Online Judge 10926(Java 11) <br> [??!] 문제 풀이</p>
+                <p>ICMP(Internet Control Message Protocol) 란 무엇인가?</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/boj-11382/" class="post-preview card h-100">
+          <a href="/posts/til-port-list-for-tcp-udp/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -3176,16 +2430,16 @@
 
 <time
   
-  data-ts="1747792800"
+  data-ts="1764550800"
   data-df="ll"
   
 >
-  May 21, 2025
+  Dec  1, 2025
 </time>
 
-              <h4 class="pt-0 my-2">[BOJ 11382] 꼬마 정민</h4>
+              <h4 class="pt-0 my-2">TCP/UDP의 자주 사용되는 포트 목록</h4>
               <div class="text-muted">
-                <p>Baekjoon Online Judge 11382(Java 11) <br> [꼬마 정민] 문제 풀이</p>
+                <p>자주 사용되는 포트 목록들과 그 분류</p>
               </div>
             </div>
           </a>
@@ -3205,22 +2459,18 @@
   
 
   
-    <a
-      href="/posts/cookie-vs-session/"
-      class="btn btn-outline-primary"
-      aria-label="Older"
-    >
-      <p>세션과 쿠키의 차이</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Older">
+      <p>-</p>
+    </div>
   
 
   
     <a
-      href="/posts/what-is-ssr/"
+      href="/posts/til-what-is-jvm/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
-      <p>SSR(Server Side Rendering)이란?</p>
+      <p>JVM(자바 가상 머신)이란?</p>
     </a>
   
 </nav>
@@ -3237,7 +2487,7 @@
   "
 >
   <p>©
-    <time>2025</time>
+    <time>2026</time>
 
     
       <a href="https://twitter.com/BangJeongBin">BangJeongBin</a>.
@@ -3349,20 +2599,6 @@
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -3372,81 +2608,6 @@
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -3491,36 +2652,10 @@
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -3676,6 +2811,32 @@
     
     
     
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -3745,6 +2906,61 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -3804,6 +3020,75 @@
     
     
     
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
     
   
@@ -3880,6 +3165,11 @@
     
     
       
+    
+  
+    
+    
+    
     
   
     
@@ -3943,13 +3233,13 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/boj/">BOJ</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/news/">NEWS</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/security/">Security</a>
