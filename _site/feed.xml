@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-01-01T14:17:21+09:00</updated>
+  <updated>2026-01-01T14:52:54+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/til-what-is-icmp/" rel="alternate" type="text/html" title="ICMP란?" />
     <published>2026-01-01T10:00:00+09:00</published>
   
-    <updated>2026-01-01T10:00:00+09:00</updated>
+    <updated>2026-01-01T14:30:29+09:00</updated>
   
     <id>http://localhost:4000/posts/til-what-is-icmp/</id>
     <content type="text/html" src="http://localhost:4000/posts/til-what-is-icmp/" />
@@ -41,6 +41,32 @@
   
 
   <summary>ICMP(Internet Control Message Protocol) 란 무엇인가?</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>2025년 52주차 IT 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202552-it-issue-report/" rel="alternate" type="text/html" title="2025년 52주차 IT 뉴스 분석 보고서" />
+    <published>2025-12-28T10:00:00+09:00</published>
+  
+    <updated>2025-12-28T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202552-it-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202552-it-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="IT" />
+    
+  
+
+  <summary>52주차의 IT 키워드는 “GPT-5.2 공개, AI 에이전트의 산업화, 규제와 혁신의 충돌, 퀀텀 리프(Quantum Leap)” 으로 요약됩니다.</summary>
 
   </entry>
 
@@ -119,32 +145,6 @@
   
 
   <summary>[Online Academy] "리눅스 기초 강의" 리뷰</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[Online Academy] "리눅스 기초 강의" Note-Taking</title>
-    <link href="http://localhost:4000/posts/note-taking-online-academy-linux-basic-lectures/" rel="alternate" type="text/html" title="[Online Academy] &amp;quot;리눅스 기초 강의&amp;quot; Note-Taking" />
-    <published>2025-12-19T10:00:00+09:00</published>
-  
-    <updated>2025-12-25T16:27:40+09:00</updated>
-  
-    <id>http://localhost:4000/posts/note-taking-online-academy-linux-basic-lectures/</id>
-    <content type="text/html" src="http://localhost:4000/posts/note-taking-online-academy-linux-basic-lectures/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="Review" />
-    
-    <category term="Note-Taking" />
-    
-  
-
-  <summary>[Online Academy] 리눅스 기초 강의 공부기록</summary>
 
   </entry>
 
