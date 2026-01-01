@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-01-01T14:52:54+09:00</updated>
+  <updated>2026-01-01T15:03:12+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -41,6 +41,32 @@
   
 
   <summary>ICMP(Internet Control Message Protocol) 란 무엇인가?</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>2025년 52주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202552-security-issue-report/" rel="alternate" type="text/html" title="2025년 52주차 IT보안 뉴스 분석 보고서" />
+    <published>2025-12-28T10:00:00+09:00</published>
+  
+    <updated>2025-12-28T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202552-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202552-security-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="Security" />
+    
+  
+
+  <summary>52주차의 IT보안 키워드는 "React2Shell 실전 공격, 에이전트 AI 보안(Agentic Security), OT 인프라 표적화, 글로벌 규제 융합”으로 요약됩니다.</summary>
 
   </entry>
 
@@ -119,32 +145,6 @@
   
 
   <summary>51주차의 IT 키워드는 “AI 에이전트 자율화, 하이브리드 양자 컴퓨팅, EU AI Act 세부 지침, 차세대 전력 반도체” 으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[Online Academy] "리눅스 기초 강의" Review</title>
-    <link href="http://localhost:4000/posts/review-online-academy-linux-basic-lectures/" rel="alternate" type="text/html" title="[Online Academy] &amp;quot;리눅스 기초 강의&amp;quot; Review" />
-    <published>2025-12-19T10:00:00+09:00</published>
-  
-    <updated>2025-12-19T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/review-online-academy-linux-basic-lectures/</id>
-    <content type="text/html" src="http://localhost:4000/posts/review-online-academy-linux-basic-lectures/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="Review" />
-    
-    <category term="Online Academy" />
-    
-  
-
-  <summary>[Online Academy] "리눅스 기초 강의" 리뷰</summary>
 
   </entry>
 
