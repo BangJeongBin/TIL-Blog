@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-01-01T17:36:04+09:00</updated>
+  <updated>2026-01-07T21:10:55+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>2026년 1주차 IT 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202601-it-issue-report/" rel="alternate" type="text/html" title="2026년 1주차 IT 뉴스 분석 보고서" />
+    <published>2026-01-04T10:00:00+09:00</published>
+  
+    <updated>2026-01-04T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202601-it-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202601-it-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="IT" />
+    
+  
+
+  <summary>1주차의 IT 키워드는 “에이전트 AI 상용화, CES 2026 하드웨어 격돌, EU DORA/NIS2 규제 발효, 퀀텀-AI 하이브리드” 으로 요약됩니다.</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>[Inflearn] "외워서 끝내는 네트워크 핵심이론 - 기초" 리뷰</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[Inflearn] "외워서 끝내는 네트워크 핵심이론 - 기초" Note-Taking</title>
-    <link href="http://localhost:4000/posts/note-taking-inflearn-network-core-theory-of-memorabilization/" rel="alternate" type="text/html" title="[Inflearn] &amp;quot;외워서 끝내는 네트워크 핵심이론 - 기초&amp;quot; Note-Taking" />
-    <published>2025-12-24T10:00:00+09:00</published>
-  
-    <updated>2026-01-01T17:20:34+09:00</updated>
-  
-    <id>http://localhost:4000/posts/note-taking-inflearn-network-core-theory-of-memorabilization/</id>
-    <content type="text/html" src="http://localhost:4000/posts/note-taking-inflearn-network-core-theory-of-memorabilization/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="Review" />
-    
-    <category term="Note-Taking" />
-    
-  
-
-  <summary>[Inflearn] 외워서 끝내는 네트워크 핵심이론 - 기초 공부기록</summary>
 
   </entry>
 

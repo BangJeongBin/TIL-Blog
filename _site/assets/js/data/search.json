@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "2026년 1주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202601-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-01-04 10:00:00 +0900",
+    "content": "1주차의 IT 키워드는 “에이전트 AI 상용화, CES 2026 하드웨어 격돌, EU DORA/NIS2 규제 발효, 퀀텀-AI 하이브리드” 으로 요약됩니다."
+  },
+  
+  {
     "title": "ICMP란?",
     "url": "/posts/til-what-is-icmp/",
     "categories": "TIL, Network",
@@ -97,6 +106,15 @@
     "tags": "NEWS, IT",
     "date": "2025-12-14 10:00:00 +0900",
     "content": "50주차의 IT 키워드는 “AI 에이전트 시대, 양자컴퓨팅 실용화 논쟁, 지속가능한 그린 IT”으로 요약됩니다."
+  },
+  
+  {
+    "title": "[Book] \"고등학생을 위한 미리 배우는 정보보안학\" Review",
+    "url": "/posts/review-book-pre-learning-information-security-for-students/",
+    "categories": "Review, Book",
+    "tags": "Security",
+    "date": "2025-12-10 10:00:00 +0900",
+    "content": "[Book] \"고등학생을 위한 미리 배우는 정보보안학\" 리뷰"
   },
   
   {
