@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "2026년 1주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202601-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-01-04 10:00:00 +0900",
+    "content": "1주차의 IT보안 키워드는 \"에이전트 AI 공격(Agentic Attacks), NIS2/DORA 규제 발효, 퀀텀-세이프 전환, 내부자 랜섬웨어”으로 요약됩니다."
+  },
+  
+  {
     "title": "2026년 1주차 IT 뉴스 분석 보고서",
     "url": "/posts/202601-it-issue-report/",
     "categories": "NEWS, IT",
