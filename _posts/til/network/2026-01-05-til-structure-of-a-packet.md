@@ -1,6 +1,6 @@
 ---
 title: 패킷의 구조
-description: 패킷의 캡슐화에 대해서 알아보자
+description: 패킷의 구조와 캡슐화에 대해서 알아보자
 author: bin
 date: 2026-01-05 09:00:00 +0800
 categories: [TIL, Network]
