@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "패킷의 구조",
+    "url": "/posts/til-structure-of-a-packet/",
+    "categories": "TIL, Network",
+    "tags": "Network, OSI7, Packet, IP, TCP, HTTP, Header. Payload",
+    "date": "2026-01-05 10:00:00 +0900",
+    "content": "패킷의 캡슐화에 대해서 알아보자"
+  },
+  
+  {
     "title": "2026년 1주차 IT보안 뉴스 분석 보고서",
     "url": "/posts/202601-security-issue-report/",
     "categories": "NEWS, Security",

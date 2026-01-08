@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-01-07T21:20:42+09:00</updated>
+  <updated>2026-01-08T22:13:30+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,37 @@
 
   
   <entry>
+    <title>패킷의 구조</title>
+    <link href="http://localhost:4000/posts/til-structure-of-a-packet/" rel="alternate" type="text/html" title="패킷의 구조" />
+    <published>2026-01-05T10:00:00+09:00</published>
+  
+    <updated>2026-01-05T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/til-structure-of-a-packet/</id>
+    <content type="text/html" src="http://localhost:4000/posts/til-structure-of-a-packet/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="TIL" />
+    
+    <category term="Network" />
+    
+  
+
+  <summary>패킷의 캡슐화에 대해서 알아보자</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>2026년 1주차 IT보안 뉴스 분석 보고서</title>
     <link href="http://localhost:4000/posts/202601-security-issue-report/" rel="alternate" type="text/html" title="2026년 1주차 IT보안 뉴스 분석 보고서" />
     <published>2026-01-04T10:00:00+09:00</published>
   
-    <updated>2026-01-04T10:00:00+09:00</updated>
+    <updated>2026-01-07T21:20:45+09:00</updated>
   
     <id>http://localhost:4000/posts/202601-security-issue-report/</id>
     <content type="text/html" src="http://localhost:4000/posts/202601-security-issue-report/" />
@@ -119,32 +145,6 @@
   
 
   <summary>52주차의 IT보안 키워드는 "React2Shell 실전 공격, 에이전트 AI 보안(Agentic Security), OT 인프라 표적화, 글로벌 규제 융합”으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2025년 52주차 IT 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202552-it-issue-report/" rel="alternate" type="text/html" title="2025년 52주차 IT 뉴스 분석 보고서" />
-    <published>2025-12-28T10:00:00+09:00</published>
-  
-    <updated>2026-01-01T15:04:44+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202552-it-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202552-it-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="IT" />
-    
-  
-
-  <summary>52주차의 IT 키워드는 “GPT-5.2 공개, AI 에이전트의 산업화, 규제와 혁신의 충돌, 퀀텀 리프(Quantum Leap)” 으로 요약됩니다.</summary>
 
   </entry>
 
