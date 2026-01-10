@@ -1,12 +1,21 @@
 [
   
   {
+    "title": "HTTP헤더를 Wireshark로 보는 법",
+    "url": "/posts/til-inspecting-http-header-with-wireshark/",
+    "categories": "TIL, Network",
+    "tags": "Network, Wireshark, HTTP, Header",
+    "date": "2026-01-10 10:00:00 +0900",
+    "content": "Wireshark로 패킷 다이어그램 보기"
+  },
+  
+  {
     "title": "패킷의 구조",
     "url": "/posts/til-structure-of-a-packet/",
     "categories": "TIL, Network",
     "tags": "Network, OSI7, Packet, IP, TCP, HTTP, Header. Payload",
     "date": "2026-01-05 10:00:00 +0900",
-    "content": "패킷의 캡슐화에 대해서 알아보자"
+    "content": "패킷의 구조와 캡슐화에 대해서 알아보자"
   },
   
   {

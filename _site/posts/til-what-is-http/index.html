@@ -1447,7 +1447,7 @@ Content-Type: text/html
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/202601-security-issue-report/">2026년 1주차 IT보안 뉴스 분석 보고서</a>
+          <a href="/posts/til-inspecting-http-header-with-wireshark/">HTTP헤더를 Wireshark로 보는 법</a>
         </li>
       
         
@@ -1455,6 +1455,13 @@ Content-Type: text/html
         
         <li class="text-truncate lh-lg">
           <a href="/posts/til-structure-of-a-packet/">패킷의 구조</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/202601-security-issue-report/">2026년 1주차 IT보안 뉴스 분석 보고서</a>
         </li>
       
         
@@ -1469,13 +1476,6 @@ Content-Type: text/html
         
         <li class="text-truncate lh-lg">
           <a href="/posts/note-taking-inflearn-network-core-theory-of-memorabilization/">[Inflearn] "외워서 끝내는 네트워크 핵심이론 - 기초" Note-Taking</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/202552-it-issue-report/">2025년 52주차 IT 뉴스 분석 보고서</a>
         </li>
       
     </ul>
@@ -1579,20 +1579,6 @@ Content-Type: text/html
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -1617,105 +1603,15 @@ Content-Type: text/html
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
 
+  
+    
+    
+    
+    
   
     
     
@@ -1935,25 +1831,7 @@ Content-Type: text/html
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -1964,126 +1842,6 @@ Content-Type: text/html
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -2253,6 +2011,47 @@ Content-Type: text/html
     
     
     
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -2302,6 +2101,249 @@ Content-Type: text/html
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
   
     
     
@@ -2421,10 +2463,10 @@ Content-Type: text/html
         <a class="post-tag btn btn-outline-primary" href="/tags/boj/">BOJ</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/news/">NEWS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/news/">NEWS</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/security/">Security</a>
@@ -2587,6 +2629,18 @@ Content-Type: text/html
 
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -2630,6 +2684,34 @@ Content-Type: text/html
         </article>
       
         <article class="col">
+          <a href="/posts/til-inspecting-http-header-with-wireshark/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1768006800"
+  data-df="ll"
+  
+>
+  Jan 10, 2026
+</time>
+
+              <h4 class="pt-0 my-2">HTTP헤더를 Wireshark로 보는 법</h4>
+              <div class="text-muted">
+                <p>Wireshark로 패킷 다이어그램 보기</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
           <a href="/posts/til-structure-of-a-packet/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -2651,35 +2733,7 @@ Content-Type: text/html
 
               <h4 class="pt-0 my-2">패킷의 구조</h4>
               <div class="text-muted">
-                <p>패킷의 캡슐화에 대해서 알아보자</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/til-what-is-icmp/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1767229200"
-  data-df="ll"
-  
->
-  Jan  1, 2026
-</time>
-
-              <h4 class="pt-0 my-2">ICMP란?</h4>
-              <div class="text-muted">
-                <p>ICMP(Internet Control Message Protocol) 란 무엇인가?</p>
+                <p>패킷의 구조와 캡슐화에 대해서 알아보자</p>
               </div>
             </div>
           </a>
@@ -2859,20 +2913,6 @@ Content-Type: text/html
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -2897,105 +2937,15 @@ Content-Type: text/html
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
 
+  
+    
+    
+    
+    
   
     
     
@@ -3215,25 +3165,7 @@ Content-Type: text/html
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -3244,126 +3176,6 @@ Content-Type: text/html
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -3533,6 +3345,47 @@ Content-Type: text/html
     
     
     
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -3582,6 +3435,249 @@ Content-Type: text/html
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
   
     
     
@@ -3701,10 +3797,10 @@ Content-Type: text/html
         <a class="post-tag btn btn-outline-primary" href="/tags/boj/">BOJ</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/news/">NEWS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/news/">NEWS</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/security/">Security</a>
