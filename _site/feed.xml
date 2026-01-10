@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-01-10T19:17:23+09:00</updated>
+  <updated>2026-01-10T20:49:12+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -46,11 +46,35 @@
 
   
   <entry>
+    <title>Wireshark에서 패킷 다이어그램 보는법</title>
+    <link href="http://localhost:4000/posts/others-how-to-view-packet-diagrams-in-wireshark/" rel="alternate" type="text/html" title="Wireshark에서 패킷 다이어그램 보는법" />
+    <published>2026-01-09T10:00:00+09:00</published>
+  
+    <updated>2026-01-09T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/others-how-to-view-packet-diagrams-in-wireshark/</id>
+    <content type="text/html" src="http://localhost:4000/posts/others-how-to-view-packet-diagrams-in-wireshark/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="Others" />
+    
+  
+
+  <summary>Packet Diagram 설정</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>패킷의 구조</title>
     <link href="http://localhost:4000/posts/til-structure-of-a-packet/" rel="alternate" type="text/html" title="패킷의 구조" />
     <published>2026-01-05T10:00:00+09:00</published>
   
-    <updated>2026-01-08T22:23:53+09:00</updated>
+    <updated>2026-01-10T19:20:10+09:00</updated>
   
     <id>http://localhost:4000/posts/til-structure-of-a-packet/</id>
     <content type="text/html" src="http://localhost:4000/posts/til-structure-of-a-packet/" />
@@ -119,32 +143,6 @@
   
 
   <summary>1주차의 IT 키워드는 “에이전트 AI 상용화, CES 2026 하드웨어 격돌, EU DORA/NIS2 규제 발효, 퀀텀-AI 하이브리드” 으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>ICMP란?</title>
-    <link href="http://localhost:4000/posts/til-what-is-icmp/" rel="alternate" type="text/html" title="ICMP란?" />
-    <published>2026-01-01T10:00:00+09:00</published>
-  
-    <updated>2026-01-01T14:30:29+09:00</updated>
-  
-    <id>http://localhost:4000/posts/til-what-is-icmp/</id>
-    <content type="text/html" src="http://localhost:4000/posts/til-what-is-icmp/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="TIL" />
-    
-    <category term="Network" />
-    
-  
-
-  <summary>ICMP(Internet Control Message Protocol) 란 무엇인가?</summary>
 
   </entry>
 

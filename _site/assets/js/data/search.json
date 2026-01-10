@@ -10,6 +10,15 @@
   },
   
   {
+    "title": "Wireshark에서 패킷 다이어그램 보는법",
+    "url": "/posts/others-how-to-view-packet-diagrams-in-wireshark/",
+    "categories": "Others",
+    "tags": "Network, Wireshark, Packet",
+    "date": "2026-01-09 10:00:00 +0900",
+    "content": "Packet Diagram 설정"
+  },
+  
+  {
     "title": "패킷의 구조",
     "url": "/posts/til-structure-of-a-packet/",
     "categories": "TIL, Network",
