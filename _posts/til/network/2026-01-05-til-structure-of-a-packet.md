@@ -97,11 +97,11 @@ image:
 
 <br>
 
-<!-- ## Related Posts
+## Related Posts
 ---
-- 
+- [HTTP헤더를 Wireshark로 보는 법](https://bangjeongbin.github.io/TIL-Blog/posts/til-inspecting-http-header-with-wireshark)
 
-<br> -->
+<br>
 
 ## Reference
 ---
