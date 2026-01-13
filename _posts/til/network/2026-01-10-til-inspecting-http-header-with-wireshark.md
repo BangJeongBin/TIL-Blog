@@ -53,6 +53,7 @@ image:
 ## Related Posts
 ---
 - [패킷의 구조](https://bangjeongbin.github.io/TIL-Blog/posts/til-structure-of-a-packet)
+- [HTTP 상태 코드의 종류](https://bangjeongbin.github.io/TIL-Blog/posts/til-type-of-http-response-status-codes)
 
 <br>
 
