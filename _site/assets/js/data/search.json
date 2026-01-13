@@ -1,6 +1,24 @@
 [
   
   {
+    "title": "2026년 2주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202602-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-01-11 10:00:00 +0900",
+    "content": "2주차의 IT보안 키워드는 \"자율형 위협 예측(Predictive AI), 제로데이 실전 악용, 글로벌 규제 강제화(DORA/NIS2), 공급망 복원력”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 2주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202602-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-01-11 10:00:00 +0900",
+    "content": "2주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 피지컬 AI(Physical AI), CES 2026 하드웨어 혁명, 글로벌 AI 규제 원년” 으로 요약됩니다."
+  },
+  
+  {
     "title": "HTTP헤더를 Wireshark로 보는 법",
     "url": "/posts/til-inspecting-http-header-with-wireshark/",
     "categories": "TIL, Network",
