@@ -1,6 +1,24 @@
 [
   
   {
+    "title": "Wireshark로 이미지파일 다운받는 법",
+    "url": "/posts/til-how-to-download-images-with-wireshark/",
+    "categories": "TIL, Tools",
+    "tags": "Tools, Wireshark, Network, HTTP, PNG, Packet",
+    "date": "2026-01-14 10:00:00 +0900",
+    "content": "Wireshark로 패킷을 분석하여 Hex 데이터를 PNG 파일로 변환하기"
+  },
+  
+  {
+    "title": "HTTP 상태 코드의 종류",
+    "url": "/posts/til-type-of-http-response-status-codes/",
+    "categories": "TIL, Network",
+    "tags": "Network, HTTP",
+    "date": "2026-01-13 10:00:00 +0900",
+    "content": "HTTP 상태 코드 1xx ~ 5xx 정리"
+  },
+  
+  {
     "title": "2026년 2주차 IT보안 뉴스 분석 보고서",
     "url": "/posts/202602-security-issue-report/",
     "categories": "NEWS, Security",

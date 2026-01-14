@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@BangJeongBin" />
 <meta name="twitter:creator" content="@Jeongbin Bang" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2026-01-10T10:00:00+09:00","datePublished":"2026-01-10T10:00:00+09:00","description":"Wireshark로 패킷 다이어그램 보기","headline":"HTTP헤더를 Wireshark로 보는 법","image":{"alt":"Today I Learnd","url":"https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/til-inspecting-http-header-with-wireshark/"},"url":"http://localhost:4000/posts/til-inspecting-http-header-with-wireshark/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2026-01-13T11:03:51+09:00","datePublished":"2026-01-10T10:00:00+09:00","description":"Wireshark로 패킷 다이어그램 보기","headline":"HTTP헤더를 Wireshark로 보는 법","image":{"alt":"Today I Learnd","url":"https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/til-inspecting-http-header-with-wireshark/"},"url":"http://localhost:4000/posts/til-inspecting-http-header-with-wireshark/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1040,6 +1040,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1768269831"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Jan 13, 2026
+</time>
+
+        </span>
+      
 
       
         
@@ -1151,6 +1174,7 @@
 <hr />
 <ul>
   <li><a href="https://bangjeongbin.github.io/TIL-Blog/posts/til-structure-of-a-packet">패킷의 구조</a></li>
+  <li><a href="https://bangjeongbin.github.io/TIL-Blog/posts/til-type-of-http-response-status-codes">HTTP 상태 코드의 종류</a></li>
 </ul>
 
 <p><br /></p>
@@ -1310,6 +1334,27 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/til-how-to-download-images-with-wireshark/">Wireshark로 이미지파일 다운받는 법</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/til-type-of-http-response-status-codes/">HTTP 상태 코드의 종류</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/til-inspecting-http-header-with-wireshark/">HTTP헤더를 Wireshark로 보는 법</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/202601-security-issue-report/">2026년 1주차 IT보안 뉴스 분석 보고서</a>
         </li>
       
@@ -1317,28 +1362,7 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/202552-security-issue-report/">2025년 52주차 IT보안 뉴스 분석 보고서</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
           <a href="/posts/202550-security-issue-report/">2025년 50주차 IT보안 뉴스 분석 보고서</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/202551-security-issue-report/">2025년 51주차 IT보안 뉴스 분석 보고서</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/202602-it-issue-report/">2026년 2주차 IT 뉴스 분석 보고서</a>
         </li>
       
     </ul>
@@ -1580,125 +1604,6 @@
     
     
     
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
@@ -1818,158 +1723,10 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -2194,6 +1951,40 @@
     
     
     
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -2263,6 +2054,65 @@
     
     
     
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -2274,6 +2124,150 @@
     
     
       
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2322,10 +2316,10 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/boj/">BOJ</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/news/">NEWS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/news/">NEWS</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/security/">Security</a>
@@ -2337,13 +2331,13 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/http/">HTTP</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/tcp/">TCP</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/ip/">IP</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/linux/">Linux</a>
       
     </div>
   </section>
@@ -2584,6 +2578,30 @@
 
   
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -2597,6 +2615,62 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/til-how-to-download-images-with-wireshark/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1768352400"
+  data-df="ll"
+  
+>
+  Jan 14, 2026
+</time>
+
+              <h4 class="pt-0 my-2">Wireshark로 이미지파일 다운받는 법</h4>
+              <div class="text-muted">
+                <p>Wireshark로 패킷을 분석하여 Hex 데이터를 PNG 파일로 변환하기</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/til-type-of-http-response-status-codes/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1768266000"
+  data-df="ll"
+  
+>
+  Jan 13, 2026
+</time>
+
+              <h4 class="pt-0 my-2">HTTP 상태 코드의 종류</h4>
+              <div class="text-muted">
+                <p>HTTP 상태 코드 1xx ~ 5xx 정리</p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/til-structure-of-a-packet/" class="post-preview card h-100">
@@ -2621,62 +2695,6 @@
               <h4 class="pt-0 my-2">패킷의 구조</h4>
               <div class="text-muted">
                 <p>패킷의 구조와 캡슐화에 대해서 알아보자</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/others-how-to-view-packet-diagrams-in-wireshark/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1767920400"
-  data-df="ll"
-  
->
-  Jan  9, 2026
-</time>
-
-              <h4 class="pt-0 my-2">Wireshark에서 패킷 다이어그램 보는법</h4>
-              <div class="text-muted">
-                <p>Packet Diagram 설정</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/til-what-is-icmp/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1767229200"
-  data-df="ll"
-  
->
-  Jan  1, 2026
-</time>
-
-              <h4 class="pt-0 my-2">ICMP란?</h4>
-              <div class="text-muted">
-                <p>ICMP(Internet Control Message Protocol) 란 무엇인가?</p>
               </div>
             </div>
           </a>
@@ -2998,125 +3016,6 @@
     
     
     
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
@@ -3236,158 +3135,10 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -3612,6 +3363,40 @@
     
     
     
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -3681,6 +3466,65 @@
     
     
     
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -3692,6 +3536,150 @@
     
     
       
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -3740,10 +3728,10 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/boj/">BOJ</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/news/">NEWS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/news/">NEWS</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/security/">Security</a>
@@ -3755,13 +3743,13 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/http/">HTTP</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/tcp/">TCP</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/ip/">IP</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/linux/">Linux</a>
       
     </div>
   </section>
