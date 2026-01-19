@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-01-14T16:22:32+09:00</updated>
+  <updated>2026-01-19T17:24:37+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>2026년 3주차 IT 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202603-it-issue-report/" rel="alternate" type="text/html" title="2026년 3주차 IT 뉴스 분석 보고서" />
+    <published>2026-01-18T10:00:00+09:00</published>
+  
+    <updated>2026-01-18T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202603-it-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202603-it-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="IT" />
+    
+  
+
+  <summary>3주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 피지컬 AI(Physical AI), AI 반도체 지정학, 규제 준수(Compliance)” 으로 요약됩니다.</summary>
+
+  </entry>
 
   
   <entry>
@@ -50,7 +76,7 @@
     <link href="http://localhost:4000/posts/til-type-of-http-response-status-codes/" rel="alternate" type="text/html" title="HTTP 상태 코드의 종류" />
     <published>2026-01-13T10:00:00+09:00</published>
   
-    <updated>2026-01-13T11:12:07+09:00</updated>
+    <updated>2026-01-14T16:23:21+09:00</updated>
   
     <id>http://localhost:4000/posts/til-type-of-http-response-status-codes/</id>
     <content type="text/html" src="http://localhost:4000/posts/til-type-of-http-response-status-codes/" />
@@ -119,32 +145,6 @@
   
 
   <summary>2주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 피지컬 AI(Physical AI), CES 2026 하드웨어 혁명, 글로벌 AI 규제 원년” 으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTTP헤더를 Wireshark로 보는 법</title>
-    <link href="http://localhost:4000/posts/til-inspecting-http-header-with-wireshark/" rel="alternate" type="text/html" title="HTTP헤더를 Wireshark로 보는 법" />
-    <published>2026-01-10T10:00:00+09:00</published>
-  
-    <updated>2026-01-13T11:03:51+09:00</updated>
-  
-    <id>http://localhost:4000/posts/til-inspecting-http-header-with-wireshark/</id>
-    <content type="text/html" src="http://localhost:4000/posts/til-inspecting-http-header-with-wireshark/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="TIL" />
-    
-    <category term="Network" />
-    
-  
-
-  <summary>Wireshark로 패킷 다이어그램 보기</summary>
 
   </entry>
 

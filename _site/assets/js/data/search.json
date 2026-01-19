@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "2026년 3주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202603-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-01-18 10:00:00 +0900",
+    "content": "3주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 피지컬 AI(Physical AI), AI 반도체 지정학, 규제 준수(Compliance)” 으로 요약됩니다."
+  },
+  
+  {
     "title": "Wireshark로 이미지파일 다운받는 법",
     "url": "/posts/til-how-to-download-images-with-wireshark/",
     "categories": "TIL, Tools",
