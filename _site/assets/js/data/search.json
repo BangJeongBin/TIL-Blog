@@ -1,6 +1,132 @@
 [
   
   {
+    "title": "2026년 7주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202607-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-02-15 10:00:00 +0900",
+    "content": "7주차의 IT보안 키워드는 \"에이전틱 위협(Agentic Threats), 6중 제로데이(6 Zero-Days), 양자 내성 암호(PQC) 로드맵, 공급망 복원력”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 7주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202607-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-02-15 10:00:00 +0900",
+    "content": "7주차의 IT 키워드는 “에이전틱 AI(Agentic AI), HBM4 메가사이클, 피지컬 AI(Physical AI), 소버린 IT” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "[YouTube] \"조현준 보안스쿨 - 기초강의\" Note-Taking [3]",
+    "url": "/posts/note-taking-youtube-cho-hyun-joon-security-school-basic-course-3/",
+    "categories": "Review, Note-Taking",
+    "tags": "Certificate",
+    "date": "2026-02-09 10:00:00 +0900",
+    "content": "[YouTube] \"조현준 보안스쿨 - 기초강의\" 공부기록 3편"
+  },
+  
+  {
+    "title": "2026년 6주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202606-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-02-08 10:00:00 +0900",
+    "content": "6주차의 IT보안 키워드는 \"에이전틱 거버넌스(Agentic Governance), 6중 제로데이 예보, 디지털 복원력 법안, 신원 중심 침투(Identity Stealth)”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 6주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202606-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-02-08 10:00:00 +0900",
+    "content": "6주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 피지컬 AI, 소버린 클라우드, 6중 제로데이(Zero-Day), 6조 달러 클럽” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "[YouTube] \"조현준 보안스쿨 - 기초강의\" Note-Taking [2]",
+    "url": "/posts/note-taking-youtube-cho-hyun-joon-security-school-basic-course-2/",
+    "categories": "Review, Note-Taking",
+    "tags": "Certificate",
+    "date": "2026-02-02 10:00:00 +0900",
+    "content": "[YouTube] \"조현준 보안스쿨 - 기초강의\" 공부기록 2편"
+  },
+  
+  {
+    "title": "2026년 5주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202605-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-02-01 10:00:00 +0900",
+    "content": "5주차의 IT보안 키워드는 \"에이전틱 위협(Agentic AI), 양자 내성 암호(PQC) 전환, 디지털 주권(Sovereign Security), 제로데이 파상공세”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 5주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202605-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-02-01 10:00:00 +0900",
+    "content": "5주차의 IT 키워드는 “피지컬 AI(Physical AI), AI 기본법 가동, 오케스트라빌리티(Orchestrability), 소버린 클라우드(Sovereign Cloud)” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "[Book] \"해킹, 침입의 드라마\" Review",
+    "url": "/posts/review-book-drama-of-hacking-and-intrusions/",
+    "categories": "Review, Book",
+    "tags": "Security",
+    "date": "2026-01-30 10:00:00 +0900",
+    "content": "[Book] \"해킹, 침입의 드라마\" 리뷰"
+  },
+  
+  {
+    "title": "[YouTube] \"조현준 보안스쿨 - 기초강의\" Note-Taking [1]",
+    "url": "/posts/note-taking-youtube-cho-hyun-joon-security-school-basic-course-1/",
+    "categories": "Review, Note-Taking",
+    "tags": "Certificate",
+    "date": "2026-01-29 10:00:00 +0900",
+    "content": "[YouTube] \"조현준 보안스쿨 - 기초강의\" 공부기록 1편"
+  },
+  
+  {
+    "title": "2026년 4주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202604-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-01-25 10:00:00 +0900",
+    "content": "4주차의 IT보안 키워드는 \"에이전틱 AI 위협(Agentic AI), 공급망 오염(MaliciousCorgi), CSA2 규제 혁신, 제로데이 파상공세”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 4주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202604-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-01-25 10:00:00 +0900",
+    "content": "4주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 韓 AI 기본법 발효, 2나노 공정 양산 시대, 공급망 지능형 공격” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "[YouTube] \"조현준 보안스쿨 - 기초강의\" Review",
+    "url": "/posts/review-youtube-cho-hyun-joon-security-school-basic-course/",
+    "categories": "Review, Online Academy",
+    "tags": "Certificate",
+    "date": "2026-01-24 10:00:00 +0900",
+    "content": "[YouTube] \"조현준 보안스쿨 - 기초강의\" 리뷰"
+  },
+  
+  {
+    "title": "[Book] \"IT에 몸담은 이들을 위한 지적 생산 기술\" Review",
+    "url": "/posts/review-book-intellectual-production-technology-for-it-workers/",
+    "categories": "Review, Book",
+    "tags": "Security",
+    "date": "2026-01-23 10:00:00 +0900",
+    "content": "[Book] \"IT에 몸담은 이들을 위한 지적 생산 기술\" 리뷰"
+  },
+  
+  {
     "title": "2026년 3주차 IT보안 뉴스 분석 보고서",
     "url": "/posts/202603-security-issue-report/",
     "categories": "NEWS, Security",

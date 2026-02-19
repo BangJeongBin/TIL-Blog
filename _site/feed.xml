@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-01-20T16:37:50+09:00</updated>
+  <updated>2026-02-19T20:40:07+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>2026년 3주차 IT보안 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202603-security-issue-report/" rel="alternate" type="text/html" title="2026년 3주차 IT보안 뉴스 분석 보고서" />
-    <published>2026-01-18T10:00:00+09:00</published>
+    <title>2026년 7주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202607-security-issue-report/" rel="alternate" type="text/html" title="2026년 7주차 IT보안 뉴스 분석 보고서" />
+    <published>2026-02-15T10:00:00+09:00</published>
   
-    <updated>2026-01-18T10:00:00+09:00</updated>
+    <updated>2026-02-15T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/202603-security-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202603-security-issue-report/" />
+    <id>http://localhost:4000/posts/202607-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202607-security-issue-report/" />
     <author>
       <name>bin</name>
     </author>
@@ -40,20 +40,20 @@
     
   
 
-  <summary>3주차의 IT보안 키워드는 "선제적 보안(Proactive Security), 패치 튜스데이 제로데이, 공급망 복원력, AI 에이전틱 악성코드”으로 요약됩니다.</summary>
+  <summary>7주차의 IT보안 키워드는 "에이전틱 위협(Agentic Threats), 6중 제로데이(6 Zero-Days), 양자 내성 암호(PQC) 로드맵, 공급망 복원력”으로 요약됩니다.</summary>
 
   </entry>
 
   
   <entry>
-    <title>2026년 3주차 IT 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202603-it-issue-report/" rel="alternate" type="text/html" title="2026년 3주차 IT 뉴스 분석 보고서" />
-    <published>2026-01-18T10:00:00+09:00</published>
+    <title>2026년 7주차 IT 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202607-it-issue-report/" rel="alternate" type="text/html" title="2026년 7주차 IT 뉴스 분석 보고서" />
+    <published>2026-02-15T10:00:00+09:00</published>
   
-    <updated>2026-01-18T10:00:00+09:00</updated>
+    <updated>2026-02-15T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/202603-it-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202603-it-issue-report/" />
+    <id>http://localhost:4000/posts/202607-it-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202607-it-issue-report/" />
     <author>
       <name>bin</name>
     </author>
@@ -66,72 +66,46 @@
     
   
 
-  <summary>3주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 피지컬 AI(Physical AI), AI 반도체 지정학, 규제 준수(Compliance)” 으로 요약됩니다.</summary>
+  <summary>7주차의 IT 키워드는 “에이전틱 AI(Agentic AI), HBM4 메가사이클, 피지컬 AI(Physical AI), 소버린 IT” 으로 요약됩니다.</summary>
 
   </entry>
 
   
   <entry>
-    <title>Wireshark로 이미지파일 다운받는 법</title>
-    <link href="http://localhost:4000/posts/til-how-to-download-images-with-wireshark/" rel="alternate" type="text/html" title="Wireshark로 이미지파일 다운받는 법" />
-    <published>2026-01-14T10:00:00+09:00</published>
+    <title>[YouTube] "조현준 보안스쿨 - 기초강의" Note-Taking [3]</title>
+    <link href="http://localhost:4000/posts/note-taking-youtube-cho-hyun-joon-security-school-basic-course-3/" rel="alternate" type="text/html" title="[YouTube] &amp;quot;조현준 보안스쿨 - 기초강의&amp;quot; Note-Taking [3]" />
+    <published>2026-02-09T10:00:00+09:00</published>
   
-    <updated>2026-01-14T10:00:00+09:00</updated>
+    <updated>2026-02-09T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/til-how-to-download-images-with-wireshark/</id>
-    <content type="text/html" src="http://localhost:4000/posts/til-how-to-download-images-with-wireshark/" />
+    <id>http://localhost:4000/posts/note-taking-youtube-cho-hyun-joon-security-school-basic-course-3/</id>
+    <content type="text/html" src="http://localhost:4000/posts/note-taking-youtube-cho-hyun-joon-security-school-basic-course-3/" />
     <author>
       <name>bin</name>
     </author>
 
   
     
-    <category term="TIL" />
+    <category term="Review" />
     
-    <category term="Tools" />
+    <category term="Note-Taking" />
     
   
 
-  <summary>Wireshark로 패킷을 분석하여 Hex 데이터를 PNG 파일로 변환하기</summary>
+  <summary>[YouTube] "조현준 보안스쿨 - 기초강의" 공부기록 3편</summary>
 
   </entry>
 
   
   <entry>
-    <title>HTTP 상태 코드의 종류</title>
-    <link href="http://localhost:4000/posts/til-type-of-http-response-status-codes/" rel="alternate" type="text/html" title="HTTP 상태 코드의 종류" />
-    <published>2026-01-13T10:00:00+09:00</published>
+    <title>2026년 6주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202606-security-issue-report/" rel="alternate" type="text/html" title="2026년 6주차 IT보안 뉴스 분석 보고서" />
+    <published>2026-02-08T10:00:00+09:00</published>
   
-    <updated>2026-01-14T16:23:21+09:00</updated>
+    <updated>2026-02-08T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/til-type-of-http-response-status-codes/</id>
-    <content type="text/html" src="http://localhost:4000/posts/til-type-of-http-response-status-codes/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="TIL" />
-    
-    <category term="Network" />
-    
-  
-
-  <summary>HTTP 상태 코드 1xx ~ 5xx 정리</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2026년 2주차 IT보안 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202602-security-issue-report/" rel="alternate" type="text/html" title="2026년 2주차 IT보안 뉴스 분석 보고서" />
-    <published>2026-01-11T10:00:00+09:00</published>
-  
-    <updated>2026-01-11T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202602-security-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202602-security-issue-report/" />
+    <id>http://localhost:4000/posts/202606-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202606-security-issue-report/" />
     <author>
       <name>bin</name>
     </author>
@@ -144,7 +118,33 @@
     
   
 
-  <summary>2주차의 IT보안 키워드는 "자율형 위협 예측(Predictive AI), 제로데이 실전 악용, 글로벌 규제 강제화(DORA/NIS2), 공급망 복원력”으로 요약됩니다.</summary>
+  <summary>6주차의 IT보안 키워드는 "에이전틱 거버넌스(Agentic Governance), 6중 제로데이 예보, 디지털 복원력 법안, 신원 중심 침투(Identity Stealth)”으로 요약됩니다.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>2026년 6주차 IT 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202606-it-issue-report/" rel="alternate" type="text/html" title="2026년 6주차 IT 뉴스 분석 보고서" />
+    <published>2026-02-08T10:00:00+09:00</published>
+  
+    <updated>2026-02-08T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202606-it-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202606-it-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="IT" />
+    
+  
+
+  <summary>6주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 피지컬 AI, 소버린 클라우드, 6중 제로데이(Zero-Day), 6조 달러 클럽” 으로 요약됩니다.</summary>
 
   </entry>
 

@@ -1,4 +1,4 @@
-	  ---
+---
 title: "[YouTube] \"조현준 보안스쿨 - 기초강의\" Note-Taking [3]"
 description: "[YouTube] \"조현준 보안스쿨 - 기초강의\" 공부기록 3편"
 author: bin
