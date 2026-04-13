@@ -4,7 +4,7 @@ description: "[book] 보안관제 실무가이드 공부기록"
 author: bin
 date: 2026-02-25 09:00:00 +0800
 categories: [Review, Note-Taking]
-tags: [soc]
+tags: [SOC]
 pin: true
 math: true
 mermaid: true
