@@ -1,6 +1,186 @@
 [
   
   {
+    "title": "2026년 16주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202616-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-04-19 10:00:00 +0900",
+    "content": "16주차의 IT 키워드는 “에이전트 샌드박스(Agent Sandbox), AI 성숙도(AI Maturity), AI 거버넌스 분점(Governance Fragmentation), 하이브리드 컴퓨팅 패러다임” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 15주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202615-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-04-12 10:00:00 +0900",
+    "content": "15주차의 IT보안 키워드는 \"AI 에이전트 위협(Agentic AI Threats), 양자 내성 암호(PQC) 전환, 클라우드 MFA 의무화, 소프트웨어 공급망 복원력”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 15주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202615-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-04-12 10:00:00 +0900",
+    "content": "15주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 추론 경제(Inference Economics), 피지컬 AI(Physical AI), AI-Native 개발” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 14주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202614-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-04-05 10:00:00 +0900",
+    "content": "14주차의 IT보안 키워드는 \"MFA 강제 집행(Enforced MFA), 자율형 AI 대응체계, 권한 상승(Privilege Escalation), 공급망 복원력”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 14주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202614-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-04-05 10:00:00 +0900",
+    "content": "14주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 반도체 디지털 트윈, 권한 할당 취약점(Incorrect Privilege Assignment), 데이터 주권(Data Sovereignty)” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 13주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202613-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-03-29 10:00:00 +0900",
+    "content": "13주차의 IT보안 키워드는 \"자율형 위협 탐지(Autonomous Detection), AI 에이전트 하이재킹, 공급망 복원력(Resilience), 양자 내성 암호(PQC) 전환”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 13주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202613-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-03-29 10:00:00 +0900",
+    "content": "13주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 루빈(Rubin) 아키텍처, HBM4 공급망 동맹, 전력망-AI 팩토리 통합” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 12주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202612-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-03-22 10:00:00 +0900",
+    "content": "12주차의 IT보안 키워드는 \"자동화된 AI 위협(Automated AI Attack), 루빈(Rubin) 보안 아키텍처, 공급망 복원력, 제로 트러스트 에이전트”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 12주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202612-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-03-22 10:00:00 +0900",
+    "content": "12주차의 IT 키워드는 “AI 에이전트 패러다임(GPT-5.4), 루빈(Rubin) 아키텍처, HBM4E 커스텀화, 6G AI-RAN” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 11주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202611-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-03-15 10:00:00 +0900",
+    "content": "11주차의 IT보안 키워드는 \"자동화된 AI 공격(Automated AI Attack), EU AI 법 집행 가이드라인, 섀도우 에이전트(Shadow Agent), 공급망 복원력”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 11주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202611-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-03-15 10:00:00 +0900",
+    "content": "11주차의 IT 키워드는 “엔비디아 1조 달러 선언(Inference Pivot), HBM4 공급망 재편, 자율형 에이전트 상용화, 6G AI-네이티브 표준” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 10주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202610-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-03-08 10:00:00 +0900",
+    "content": "10주차의 IT보안 키워드는 \"에이전틱 위협(Agentic Threats), 퀄컴 제로데이(CVE-2026-21385), EU 사이버 복원력 법(CRA) 가이드라인, 하이브리드 PQC”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 10주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202610-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-03-08 10:00:00 +0900",
+    "content": "10주차의 IT 키워드는 “에이전틱 AI 생산 단계 진입(Agentic Production), HBM4 표준 주도권, 피지컬 AI(Physical AI)의 실체화, 6G 저궤도 융합” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "[Book] \"보안관제 실무가이드\" Review",
+    "url": "/posts/review-book-soc-practical-guide/",
+    "categories": "Review, Book",
+    "tags": "SOC",
+    "date": "2026-03-03 10:00:00 +0900",
+    "content": "[Book] \"보안관제 실무가이드\" 리뷰"
+  },
+  
+  {
+    "title": "2026년 9주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202609-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-03-01 10:00:00 +0900",
+    "content": "9주차의 IT보안 키워드는 \"에이전틱 보안(Agentic Security), 10% 과징금(Global Revenue Fine), 양자 내성 암호(PQC) 임계점, OT/CPS 복원력”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 9주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202609-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-03-01 10:00:00 +0900",
+    "content": "9주차의 IT 키워드는 “에이전틱 AI(Agentic AI), MWC 2026 'IQ Era', 소버린 반도체 붐, 6G 위성 통신 융합” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "[book] \"보안관제 실무가이드\" Note-Taking",
+    "url": "/posts/note-taking-book-soc-practical-guide/",
+    "categories": "Review, Note-Taking",
+    "tags": "SOC",
+    "date": "2026-02-25 10:00:00 +0900",
+    "content": "[book] 보안관제 실무가이드 공부기록"
+  },
+  
+  {
+    "title": "2026년 8주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202608-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-02-22 10:00:00 +0900",
+    "content": "8주차의 IT보안 키워드는 \"AI 에이전트 통제(Agentic Control), 퀀텀 리플레이 대응(PQC), 하드코딩된 신뢰의 붕괴, 공급망 복원력 의무화”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 8주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202608-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-02-22 10:00:00 +0900",
+    "content": "8주차의 IT 키워드는 “온디바이스 AI 2.0, 에이전틱 컴퓨팅(Agentic Computing), MWC 2026 프리뷰, 피지컬 AI(Physical AI), 소버린 IT(Sovereign IT)” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "[YouTube] \"조현준 보안스쿨 - 기초강의\" Note-Taking [4]",
+    "url": "/posts/note-taking-youtube-cho-hyun-joon-security-school-basic-course-4/",
+    "categories": "Review, Note-Taking",
+    "tags": "Certificate",
+    "date": "2026-02-16 10:00:00 +0900",
+    "content": "[YouTube] \"조현준 보안스쿨 - 기초강의\" 공부기록 4편"
+  },
+  
+  {
     "title": "2026년 7주차 IT보안 뉴스 분석 보고서",
     "url": "/posts/202607-security-issue-report/",
     "categories": "NEWS, Security",
@@ -430,6 +610,15 @@
     "tags": "Linux",
     "date": "2025-11-12 10:00:00 +0900",
     "content": "[Inflearn] \"개발자를 위한 쉬운 리눅스\" 리뷰"
+  },
+  
+  {
+    "title": "[LeetCode 3423] Maximum Difference Between Adjacent Elements in a Circular Array",
+    "url": "/posts/leetcode-3423/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-06-12 11:00:00 +0900",
+    "content": "LeetCode 3423 (Java) <br> [Maximum Difference Between Adjacent Elements in a Circular Array] 문제 풀이"
   },
   
   {
