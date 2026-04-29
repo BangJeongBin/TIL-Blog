@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "2026년 16주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202616-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-04-19 10:00:00 +0900",
+    "content": "16주차의 IT보안 키워드는 \"제로데이 유출(Zero-day Leak), AI 무기화(Weaponized AI), 보안 규제 실효화(Enforceable Regulation), 제로 트러스트 성숙(Zero Trust Maturity)”으로 요약됩니다."
+  },
+  
+  {
     "title": "2026년 16주차 IT 뉴스 분석 보고서",
     "url": "/posts/202616-it-issue-report/",
     "categories": "NEWS, IT",

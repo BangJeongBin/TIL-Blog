@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-04-27T15:20:29+09:00</updated>
+  <updated>2026-04-29T17:53:29+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>2026년 16주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202616-security-issue-report/" rel="alternate" type="text/html" title="2026년 16주차 IT보안 뉴스 분석 보고서" />
+    <published>2026-04-19T10:00:00+09:00</published>
+  
+    <updated>2026-04-19T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202616-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202616-security-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="Security" />
+    
+  
+
+  <summary>16주차의 IT보안 키워드는 "제로데이 유출(Zero-day Leak), AI 무기화(Weaponized AI), 보안 규제 실효화(Enforceable Regulation), 제로 트러스트 성숙(Zero Trust Maturity)”으로 요약됩니다.</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>14주차의 IT보안 키워드는 "MFA 강제 집행(Enforced MFA), 자율형 AI 대응체계, 권한 상승(Privilege Escalation), 공급망 복원력”으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2026년 14주차 IT 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202614-it-issue-report/" rel="alternate" type="text/html" title="2026년 14주차 IT 뉴스 분석 보고서" />
-    <published>2026-04-05T10:00:00+09:00</published>
-  
-    <updated>2026-04-05T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202614-it-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202614-it-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="IT" />
-    
-  
-
-  <summary>14주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 반도체 디지털 트윈, 권한 할당 취약점(Incorrect Privilege Assignment), 데이터 주권(Data Sovereignty)” 으로 요약됩니다.</summary>
 
   </entry>
 
