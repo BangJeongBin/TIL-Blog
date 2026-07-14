@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-06-26T10:57:22+09:00</updated>
+  <updated>2026-07-14T14:58:30+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[Book] "제품의 탄생" Review</title>
+    <link href="http://localhost:4000/posts/review-book-all-about-product-management/" rel="alternate" type="text/html" title="[Book] &amp;quot;제품의 탄생&amp;quot; Review" />
+    <published>2026-05-31T10:00:00+09:00</published>
+  
+    <updated>2026-07-08T12:46:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/review-book-all-about-product-management/</id>
+    <content type="text/html" src="http://localhost:4000/posts/review-book-all-about-product-management/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="Review" />
+    
+    <category term="Book" />
+    
+  
+
+  <summary>[Book] "제품의 탄생" 리뷰</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>15주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 추론 경제(Inference Economics), 피지컬 AI(Physical AI), AI-Native 개발” 으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2026년 14주차 IT보안 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202614-security-issue-report/" rel="alternate" type="text/html" title="2026년 14주차 IT보안 뉴스 분석 보고서" />
-    <published>2026-04-05T10:00:00+09:00</published>
-  
-    <updated>2026-04-05T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202614-security-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202614-security-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="Security" />
-    
-  
-
-  <summary>14주차의 IT보안 키워드는 "MFA 강제 집행(Enforced MFA), 자율형 AI 대응체계, 권한 상승(Privilege Escalation), 공급망 복원력”으로 요약됩니다.</summary>
 
   </entry>
 
