@@ -631,6 +631,33 @@
   },
   
   {
+    "title": "[LeetCode 326] Power of Three",
+    "url": "/posts/leetcode-326/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-13 10:00:00 +0900",
+    "content": "LeetCode 326 (Java) <br> [Power of Three] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 2787] Ways to Express an Integer as Sum of Powers",
+    "url": "/posts/leetcode-2787/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-12 10:00:00 +0900",
+    "content": "LeetCode 2787 (Java) <br> [Ways to Express an Integer as Sum of Powers] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 2438] Range Product Queries of Powers",
+    "url": "/posts/leetcode-2438/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-11 10:00:00 +0900",
+    "content": "LeetCode 2438 (Java) <br> [Range Product Queries of Powers] 문제 풀이"
+  },
+  
+  {
     "title": "[LeetCode 171] Excel Sheet Column Number",
     "url": "/posts/leetcode-171/",
     "categories": "Algorithm Test, LeetCode",
