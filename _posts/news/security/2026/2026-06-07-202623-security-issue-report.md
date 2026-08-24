@@ -1,6 +1,6 @@
 ---
 title: 2026년 23주차 IT보안 뉴스 분석 보고서
-description: 23주차의 IT보안 키워드는 "cPanel 인증 우회**, **Charter 1,300만 건 유출**, **SimpleHelp·Ubiquiti CVSS 10.0**, **미 백악관 M-26-10 지침”으로 요약됩니다.
+description: 23주차의 IT보안 키워드는 "cPanel 인증 우회, Charter 1,300만 건 유출, SimpleHelp·Ubiquiti CVSS 10.0, 미 백악관 M-26-10 지침”으로 요약됩니다.
 author: bin
 date: 2026-06-07 09:00:00 +0800
 categories: [NEWS, Security]
@@ -18,7 +18,7 @@ image:
 
 ## 2026년 23주차 전 세계 IT보안 뉴스 분석 보고서
 
-23주차의 IT보안 키워드는 **“cPanel 인증 우회**, **Charter 1,300만 건 유출**, **SimpleHelp·Ubiquiti CVSS 10.0**, **미 백악관 M-26-10 지침”**으로 요약됩니다.
+23주차의 IT보안 키워드는 **“cPanel 인증 우회, Charter 1,300만 건 유출, SimpleHelp·Ubiquiti CVSS 10.0, 미 백악관 M-26-10 지침”**으로 요약됩니다.
 
 ---
 
