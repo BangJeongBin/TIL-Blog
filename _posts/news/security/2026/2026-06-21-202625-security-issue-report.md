@@ -16,7 +16,7 @@ image:
 > **해당 포스트는 생성형 AI를 활용하여 작성하였음을 알려드립니다.**
 {: .prompt-info }
 
-## 2026년 26주차 전 세계 IT보안 뉴스 분석 보고서
+## 2026년 25주차 전 세계 IT보안 뉴스 분석 보고서
 
 25주차의 IT보안 키워드는 **“Microsoft Defender RoguePlanet, Splunk·OT 장비 최고 심각도 결함, 수자원·농업 기반시설 Cyber-Physical 공격, FIRST 6만 6천 건 CVE 전망”**으로 요약됩니다.
 
