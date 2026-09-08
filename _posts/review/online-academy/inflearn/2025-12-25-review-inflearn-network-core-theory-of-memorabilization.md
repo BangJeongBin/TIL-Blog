@@ -5,7 +5,7 @@ author: bin
 date: 2025-12-25 09:00:00 +0800
 categories: [Review, Online Academy]
 tags: [Network, IP, TCP, OSI7, Protocol]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

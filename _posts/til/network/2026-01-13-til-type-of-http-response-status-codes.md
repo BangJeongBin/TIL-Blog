@@ -5,7 +5,7 @@ author: bin
 date: 2026-01-13 09:00:00 +0800
 categories: [TIL, Network]
 tags: [Network, HTTP]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

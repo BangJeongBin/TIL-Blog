@@ -5,7 +5,7 @@ author: bin
 date: 2025-12-01 09:00:00 +0800
 categories: [TIL, Network]
 tags: [Network, Port, TCP, UDP]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

@@ -5,7 +5,7 @@ author: bin
 date: 2026-02-25 09:00:00 +0800
 categories: [Review, Note-Taking]
 tags: [SOC]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

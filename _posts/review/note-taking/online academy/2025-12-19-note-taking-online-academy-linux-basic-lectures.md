@@ -5,7 +5,7 @@ author: bin
 date: 2025-12-19 09:00:00 +0800
 categories: [Review, Note-Taking]
 tags: [Linux]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

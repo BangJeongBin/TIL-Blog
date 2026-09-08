@@ -5,7 +5,7 @@ author: bin
 date: 2025-05-07 09:00:00 +0800
 categories: [TIL, Language]
 tags: [Language, Java, JVM]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

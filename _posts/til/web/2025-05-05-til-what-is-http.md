@@ -5,7 +5,7 @@ author: bin
 date: 2025-05-05 09:00:00 +0800
 categories: [TIL, Web]
 tags: [Web, session, cookie]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

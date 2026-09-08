@@ -5,7 +5,7 @@ author: bin
 date: 2025-05-08 09:00:00 +0800
 categories: [TIL, Front-End]
 tags: [Front-End, Architecture, Server]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

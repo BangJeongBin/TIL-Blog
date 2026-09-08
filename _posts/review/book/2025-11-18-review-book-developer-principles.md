@@ -5,7 +5,7 @@ author: bin
 date: 2025-11-18 09:00:00 +0800
 categories: [Review, Book]
 tags: [Developer]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

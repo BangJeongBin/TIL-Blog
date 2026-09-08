@@ -5,7 +5,7 @@ author: bin
 date: 2025-12-10 09:00:00 +0800
 categories: [Review, Book]
 tags: [Security]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

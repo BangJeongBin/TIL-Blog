@@ -5,7 +5,7 @@ author: bin
 date: 2026-01-10 09:00:00 +0800
 categories: [TIL, Network]
 tags: [Network, Wireshark, HTTP, Header]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

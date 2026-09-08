@@ -1,12 +1,318 @@
 [
   
   {
+    "title": "2026년 33주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202633-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-08-16 10:00:00 +0900",
+    "content": "33주차의 IT보안 키워드는 \"제로데이 취약점, AI 공급망 공격, 랜섬웨어 확산, 중요 기반시설 보안”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 33주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202633-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-08-16 10:00:00 +0900",
+    "content": "33주차의 IT 키워드는 “인공지능 인프라, 차세대 반도체, 모바일 에코시스템, 사이버 보안” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 32주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202632-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-08-09 10:00:00 +0900",
+    "content": "32주차의 IT보안 키워드는 \"Metabase SQL 인젝션, Progress Kemp 제로데이, Lazarus 루트킷, RaaS 폭증”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 32주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202632-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-08-09 10:00:00 +0900",
+    "content": "32주차의 IT 키워드는 “AI 인프라 자본 집중, 자율 에이전트 경쟁, EU AI 법 본격 시행, 차세대 AI 메모리 혁신” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 31주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202631-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-08-02 10:00:00 +0900",
+    "content": "31주차의 IT보안 키워드는 \"자율 AI 위협, 미네소타 OT 해킹, VMware 취약점, 데이터 침해 비용”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 31주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202631-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-08-02 10:00:00 +0900",
+    "content": "31주차의 IT 키워드는 “생성형 AI 위협, AI 반도체 동맹, OAuth 토큰 탈취, 반도체 단가 인상” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 30주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202630-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-07-26 10:00:00 +0900",
+    "content": "30주차의 IT보안 키워드는 \"자율 AI 에이전트, 제로데이 우회, 패치 튜즈데이, 토큰 기반 공격”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 30주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202630-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-07-26 10:00:00 +0900",
+    "content": "30주차의 IT 키워드는 “자율 AI 에이전트, 대규모 패치, AI 스마트폰, 추론 반도체” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 29주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202629-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-07-19 10:00:00 +0900",
+    "content": "29주차의 IT보안 키워드는 \"자율형 AI 위협, 역대급 패치 튜스데이, 개발 인프라 침해, AI 코딩 도구 취약점”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 29주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202629-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-07-19 10:00:00 +0900",
+    "content": "29주차의 IT 키워드는 “TSMC 2nm 양산, 빅테크 자체 AI 전환, AI 노동 소송, 오픈웨이트 모델” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 28주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202628-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-07-12 10:00:00 +0900",
+    "content": "28주차의 IT보안 키워드는 \"자율형 AI 에이전트 탈옥, 패치 튜스데이 취약점 폭증, 계정 정보 탈취, 사이버 규제 강화”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 28주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202628-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-07-12 10:00:00 +0900",
+    "content": "28주차의 IT 키워드는 “오픈 AI 에이전트 생태계, EU 빅테크 규제, 하이브리드 클라우드 재편, 피지컬 AI 로보틱스” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 27주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202627-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-07-05 10:00:00 +0900",
+    "content": "27주차의 IT보안 키워드는 \"SharePoint 제로데이 대규모 악용, AI 에이전트 샌드박스 탈출, NIST 비밀번호 규칙 폐지, Cursor IDE 제로데이, 경계 보안 장비 백도어 결함”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 27주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202627-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-07-05 10:00:00 +0900",
+    "content": "27주차의 IT 키워드는 “오픈웨이트 모델 역전, 자율 에이전트 통제 우회, 기가스케일 데이터센터, IT 서비스 디플레이션” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 26주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202626-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-06-28 10:00:00 +0900",
+    "content": "26주차의 IT보안 키워드는 \"Cisco SD-WAN 제로데이, RoguePlanet Defender 결함, 데이터센터 HVAC·UPS 위협, MCP Auto Execution 취약점, ICS/OT 글로벌 경보”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 26주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202626-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-06-28 10:00:00 +0900",
+    "content": "26주차의 IT 키워드는 “OpenAI Jalapeño 자체 칩, Anthropic-알리바바 모델 추출 논란, ChatGPT 점유율 50% 붕괴, OpenRouter Fusion 멀티모델” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 25주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202625-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-06-21 10:00:00 +0900",
+    "content": "25주차의 IT보안 키워드는 \"Microsoft Defender RoguePlanet, Splunk·OT 장비 최고 심각도 결함, 수자원·농업 기반시설 Cyber-Physical 공격, FIRST 6만 6천 건 CVE 전망”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 25주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202625-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-06-21 10:00:00 +0900",
+    "content": "25주차의 IT 키워드는 “VivaTech 2026 AI 폼팩터, Anthropic 자율 코딩 루프, Apple Siri AI OS 임베딩, EU AI Act GPAI 규제” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 24주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202624-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-06-14 10:00:00 +0900",
+    "content": "24주차의 IT보안 키워드는 \"Microsoft Defender RoguePlanet 제로데이, CISA KEV 23개 취약점 추가, Amadey·StealC 인포스틸러 소탕, 데이터센터 HVAC·UPS 보안 위협”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 24주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202624-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-06-14 10:00:00 +0900",
+    "content": "24주차의 IT 키워드는 “AI 데이터센터 메가 임대, OpenAI 자체 칩 Jalapeño, 자율 AI 에이전트 검색, 온디바이스 OpenShell 런타임” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 23주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202623-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-06-07 10:00:00 +0900",
+    "content": "23주차의 IT보안 키워드는 \"cPanel 인증 우회, Charter 1,300만 건 유출, SimpleHelp·Ubiquiti CVSS 10.0, 미 백악관 M-26-10 지침”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 23주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202623-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-06-07 10:00:00 +0900",
+    "content": "23주차의 IT 키워드는 “Apple Intelligence·Siri AI, Computex 2026 온디바이스 AI, 5,200억 달러 메모리 투자, 18A·Zen 6 차세대 칩셋” 으로 요약됩니다."
+  },
+  
+  {
     "title": "[Book] \"제품의 탄생\" Review",
     "url": "/posts/review-book-all-about-product-management/",
     "categories": "Review, Book",
     "tags": "",
     "date": "2026-05-31 10:00:00 +0900",
     "content": "[Book] \"제품의 탄생\" 리뷰"
+  },
+  
+  {
+    "title": "2026년 22주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202622-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-05-31 10:00:00 +0900",
+    "content": "22주차의 IT보안 키워드는 \"AI 생성 제로데이 익스플로잇, 개발자 IDE 및 PyPI 공급망 공격, Cisco SD-WAN CVSS 10.0, Pwn2Own 47개 제로데이”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 22주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202622-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-05-31 10:00:00 +0900",
+    "content": "22주차의 IT 키워드는 “AI 에이전트 생태계, 반도체 패권 및 DRAM 폭증, 자율적 과학·수학 AI, 메가 IPO 및 빅테크 재편” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 21주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202621-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-05-24 10:00:00 +0900",
+    "content": "21주차의 IT보안 키워드는 \"Exchange·Defender 제로데이, 코드 서명 인증서 남용, AI 프레임워크 Langflow RCE, BitLocker 우회(YellowKey)”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 21주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202621-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-05-24 10:00:00 +0900",
+    "content": "21주차의 IT 키워드는 “에이전틱 시스템(Agentic Systems), Microsoft IQ, Gemini Omni, 우주 궤도 AI 데이터센터” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 20주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202620-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-05-17 10:00:00 +0900",
+    "content": "20주차의 IT보안 키워드는 \"에이전트 보안 거버넌스(Agent Security Governance), PQC(양자후암호) 전환 규제, LMS·SaaS 대규모 데이터 유출, 엣지 샌드박스 우회 제로데이”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 20주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202620-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-05-17 10:00:00 +0900",
+    "content": "20주차의 IT 키워드는 “에이전틱 AI(Agentic AI), 온디바이스 Gemini, GPT-5.5 Instant, 자율 소프트웨어 개발(Codex Goal Mode)” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 19주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202619-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-05-10 10:00:00 +0900",
+    "content": "19주차의 IT보안 키워드는 \"SD-WAN 제로데이, AI 취약점 탐지, 공급망 랜섬웨어, CISA KEV 규제”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 19주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202619-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-05-10 10:00:00 +0900",
+    "content": "19주차의 IT 키워드는 “에이전틱 AI(Agentic AI), AI 데이터센터 인프라, 차세대 반도체·HBM, 온디바이스 AI” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 18주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202618-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-05-03 10:00:00 +0900",
+    "content": "18주차의 IT보안 키워드는 \"cPanel 0-Day, 공급망 위협, AiTM 피싱, AI 기반 사이버범죄”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 18주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202618-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-05-03 10:00:00 +0900",
+    "content": "18주차의 IT 키워드는 “AI 에이전트, 차세대 반도체, 우주 데이터센터, 액체 냉각 기술” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 17주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202617-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-04-26 10:00:00 +0900",
+    "content": "17주차의 IT보안 키워드는 \"디펜더 제로데이(BlueHammer), AI 속도 격차, 패치 통합 오버로드, 셰어포인트 취약점, 커널 드라이버 차단”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 17주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202617-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-04-26 10:00:00 +0900",
+    "content": "17주차의 IT 키워드는 “에이전틱 AI, 베라 루빈 가속기, 양자 컴퓨팅 융합, 엣지 AI 반도체, 모듈형 하드웨어” 으로 요약됩니다."
   },
   
   {

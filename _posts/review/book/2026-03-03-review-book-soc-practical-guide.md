@@ -5,7 +5,7 @@ author: bin
 date: 2026-03-03 09:00:00 +0800
 categories: [Review, Book]
 tags: [SOC]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

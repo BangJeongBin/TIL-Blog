@@ -5,7 +5,7 @@ author: bin
 date: 2025-05-11 09:00:00 +0800
 categories: [Review, Note-Taking]
 tags: [Network, CS]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:
