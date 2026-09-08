@@ -7,6 +7,7 @@ categories: [NEWS, Security]
 tags: [NEWS, Security]
 pin: false
 math: true
+hidden: true
 mermaid: true
 image:
  path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/news-logo.png
