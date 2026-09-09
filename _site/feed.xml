@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-09-09T01:02:17+09:00</updated>
+  <updated>2026-09-09T15:31:55+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,63 @@
 
   
   <entry>
+    <title>2026년 34주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202634-security-issue-report/" rel="alternate" type="text/html" title="2026년 34주차 IT보안 뉴스 분석 보고서" />
+    <published>2026-08-23T10:00:00+09:00</published>
+  
+    <updated>2026-08-23T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202634-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202634-security-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="Security" />
+    
+  
+
+  <summary>34주차의 IT보안 키워드는 "공급망 취약점, 제로데이 우회, AI 시스템 보안, 네트워크 경계 방어”으로 요약됩니다.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>2026년 34주차 IT 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202634-it-issue-report/" rel="alternate" type="text/html" title="2026년 34주차 IT 뉴스 분석 보고서" />
+    <published>2026-08-23T10:00:00+09:00</published>
+  
+    <updated>2026-08-23T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202634-it-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202634-it-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="IT" />
+    
+  
+
+  <summary>34주차의 IT 키워드는 “온디바이스 AI, 차세대 메모리, 에이전틱 오케스트레이션, 소버린 클라우드” 으로 요약됩니다.</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>2026년 33주차 IT보안 뉴스 분석 보고서</title>
     <link href="http://localhost:4000/posts/202633-security-issue-report/" rel="alternate" type="text/html" title="2026년 33주차 IT보안 뉴스 분석 보고서" />
     <published>2026-08-16T10:00:00+09:00</published>
   
-    <updated>2026-08-16T10:00:00+09:00</updated>
+    <updated>2026-09-09T01:04:25+09:00</updated>
   
     <id>http://localhost:4000/posts/202633-security-issue-report/</id>
     <content type="text/html" src="http://localhost:4000/posts/202633-security-issue-report/" />
@@ -50,7 +102,7 @@
     <link href="http://localhost:4000/posts/202633-it-issue-report/" rel="alternate" type="text/html" title="2026년 33주차 IT 뉴스 분석 보고서" />
     <published>2026-08-16T10:00:00+09:00</published>
   
-    <updated>2026-08-16T10:00:00+09:00</updated>
+    <updated>2026-09-09T01:04:25+09:00</updated>
   
     <id>http://localhost:4000/posts/202633-it-issue-report/</id>
     <content type="text/html" src="http://localhost:4000/posts/202633-it-issue-report/" />
@@ -76,7 +128,7 @@
     <link href="http://localhost:4000/posts/202632-security-issue-report/" rel="alternate" type="text/html" title="2026년 32주차 IT보안 뉴스 분석 보고서" />
     <published>2026-08-09T10:00:00+09:00</published>
   
-    <updated>2026-08-09T10:00:00+09:00</updated>
+    <updated>2026-09-09T01:04:25+09:00</updated>
   
     <id>http://localhost:4000/posts/202632-security-issue-report/</id>
     <content type="text/html" src="http://localhost:4000/posts/202632-security-issue-report/" />
@@ -93,58 +145,6 @@
   
 
   <summary>32주차의 IT보안 키워드는 "Metabase SQL 인젝션, Progress Kemp 제로데이, Lazarus 루트킷, RaaS 폭증”으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2026년 32주차 IT 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202632-it-issue-report/" rel="alternate" type="text/html" title="2026년 32주차 IT 뉴스 분석 보고서" />
-    <published>2026-08-09T10:00:00+09:00</published>
-  
-    <updated>2026-08-09T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202632-it-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202632-it-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="IT" />
-    
-  
-
-  <summary>32주차의 IT 키워드는 “AI 인프라 자본 집중, 자율 에이전트 경쟁, EU AI 법 본격 시행, 차세대 AI 메모리 혁신” 으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2026년 31주차 IT보안 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202631-security-issue-report/" rel="alternate" type="text/html" title="2026년 31주차 IT보안 뉴스 분석 보고서" />
-    <published>2026-08-02T10:00:00+09:00</published>
-  
-    <updated>2026-08-02T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202631-security-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202631-security-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="Security" />
-    
-  
-
-  <summary>31주차의 IT보안 키워드는 "자율 AI 위협, 미네소타 OT 해킹, VMware 취약점, 데이터 침해 비용”으로 요약됩니다.</summary>
 
   </entry>
 

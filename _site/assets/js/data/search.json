@@ -1,6 +1,24 @@
 [
   
   {
+    "title": "2026년 34주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202634-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-08-23 10:00:00 +0900",
+    "content": "34주차의 IT보안 키워드는 \"공급망 취약점, 제로데이 우회, AI 시스템 보안, 네트워크 경계 방어”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 34주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202634-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-08-23 10:00:00 +0900",
+    "content": "34주차의 IT 키워드는 “온디바이스 AI, 차세대 메모리, 에이전틱 오케스트레이션, 소버린 클라우드” 으로 요약됩니다."
+  },
+  
+  {
     "title": "2026년 33주차 IT보안 뉴스 분석 보고서",
     "url": "/posts/202633-security-issue-report/",
     "categories": "NEWS, Security",
@@ -466,6 +484,15 @@
     "tags": "NEWS, IT",
     "date": "2026-03-01 10:00:00 +0900",
     "content": "9주차의 IT 키워드는 “에이전틱 AI(Agentic AI), MWC 2026 'IQ Era', 소버린 반도체 붐, 6G 위성 통신 융합” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "[Windows] 윈도우의 핵심 프로세스",
+    "url": "/posts/til-os-core-windows-processes/",
+    "categories": "TIL, OS, Windows",
+    "tags": "OS, Windows, Process",
+    "date": "2026-02-25 10:00:00 +0900",
+    "content": "Windows 핵심 프로세스들의 계층 구조와 기능별 분류"
   },
   
   {
