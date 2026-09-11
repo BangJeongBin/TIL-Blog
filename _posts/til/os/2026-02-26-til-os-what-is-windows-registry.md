@@ -16,12 +16,27 @@ image:
 ![windows-regedit](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fp3sK4%2Fbtsv8y0brFM%2FAAAAAAAAAAAAAAAAAAAAAFnlbZ0xW0tp00Wa65iv6E0TI56dKOqaO6WqAMU8nk9F%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1790780399%26allow_ip%3D%26allow_referer%3D%26signature%3D%252Fiaisjn%252Bz%252FM9XpDmrite4AgG4nQ%253D)
 _Windows의 레지스트리 편집기 (regedit.exe)[^1]_
 
+<br>
 
-## 𝙸. 레지스트리(Registry)란?
+## 𝙸. 레지스트리 개요
 ---
- "레지스트리(Registry)"는 운영체제, 설치된 프로그램, 사용자 계정마다의 설정 값을 담아두는 중앙 저장소이다.(리눅스는 파일 시스템의 형태로 구현되어 있다.) 예전 윈도우(3.1 이전)에서는 각 프로그램이 개별 INI 파일로 설정을 관리했는데, 이를 하나의 통합된 <mark>중앙 집중형 데이터베이스</mark>로 관리하기 위해 등장한 것이 레지스트리이다.
+### Registry
+---
+- 운영체제, 설치된 프로그램, 사용자 계정마다의 설정 값을 담아두는 중앙 저장소이다.(리눅스는 파일 시스템의 형태로 구현되어 있다.)
+	
+- 예전 윈도우(3.1 이전)에서는 각 프로그램이 개별 INI 파일로 설정을 관리했는데, 이를 하나의 통합된 **중앙 집중형 데이터베이스**로 관리하기 위해 등장한 것이 레지스트리이다.
+	
+- 레지스트리는 크게 **루트키**, **서브키**의 분류로 분류되어있으며 <u>3개의 루르키와 모든 서브키는 메모리에만 존재하고 실제 물리적인 데이터는 하이브에 저장</u>되어 있다.
 
-디스크에 저장된 레지스트리 데이터를 "레지스트리 하이브(Hive)" 파일이라고 부르는데, 대표적으로 <u>`C:\Windows\System32\Config` 경로에 시스템 관련 하이브</u>가, <u>각 사용자 폴더 안에 `NTUSER.DAT`라는 이름으로 사용자별 하이브가</u> 저장됩니다. 부팅 시 윈도우의 설정 관리자(CM, Configuration Manager)가 이 파일들을 읽어 메모리 상에 트리 형태의 자료구조로 로그/구성한다.
+<br>
+
+### Hive
+---
+- 서브키 아래의 트리 구조를 의미하며 레지스트리 정보를 저장하고 있는 **물리적인 파일**이다.
+	
+- 대표적으로 <u>`C:\Windows\System32\Config` 경로에 시스템 관련 하이브</u>가, <u>각 사용자 폴더 안에 `NTUSER.DAT`라는 이름으로 사용자별 하이브가</u> 저장된다.
+	
+- 부팅 시 윈도우의 설정 관리자(CM, Configuration Manager)가 이 파일들을 읽어 메모리 상에 트리 형태의 자료구조로 로그/구성한다.
 
 <br>
 
@@ -35,7 +50,7 @@ _Windows의 레지스트리 편집기 (regedit.exe)[^1]_
 | ----------------- | --------- | --------------------- |
 | 키(Key)            | 폴더        | 다른 키나 값을 담는 컨테이너      |
 | 값(Value)          | 파일        | 실제 데이터를 갖는 항목 (이름 존재) |
-| 값 타입(Value Type)  | 파일 확장자    | 값 데이터가 저장된 형식 (타입)   |
+| 값 타입(Value Type)  | 파일 확장자    | 값 데이터가 저장된 형식 (타입)    |
 | 값 데이터(Value Data) | 파일 내용     | 값이 실제로 담고 있는 데이터      |
 
 또한 레지스트리의 특징으로는 값 변경 시 즉시 운영체제와 응용 프로그램에 반영되어 별도 재부팅을 필요로 하지 않는 경우가 많으며, 일부 핵심 시스템 설정을 제외하곤 즉시 적용된다. 그렇기 때문에 더더욱 레지스트리 수정에는 신중을 가해야한다.
@@ -86,6 +101,7 @@ _값 타입(Value Type)의 종류[^2]_
 - [레지스트리(Registry) 에 대해 알아보겠습니다.](https://feccle.tistory.com/31)
 - [Windows registry information for advanced users](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users)
 - [[OS] 윈도우 레지스트리 개념과 구조, 주요 특징](https://star7sss.tistory.com/1085)
+- [01. 레지스트리 개요](https://www.forensic-artifacts.com/registry-forensics/main)
 
 <br>
 
