@@ -43,6 +43,8 @@ _Windows의 구성요소[^1]_
            └── CSRSS.EXE (Session 1 전용 서브시스템)
 ```
 
+<br>
+
 윈도우는 부팅 시 보통 100개 내외의 프로세스가 실행된다. 시스템이 부팅될 때 특정 순서에 따라 핵심 프로세스들이 부모-자식 관계를 형성하며 생성 및 초기화된다.
 
 <br>
@@ -64,10 +66,15 @@ _Windows의 구성요소[^1]_
 ### 시스템 초기화 · 커널 관련
 ---
 - `System`:	커널 모드 스레드가 실행되는 윈도우 커널 자체의 프로세스 (PID 4, 실행 파일 없음)
+	
 - `System Idle Process`:	CPU가 놀고 있는 시간을 나타내는 가상의 프로세스
+	
 - `smss.exe`:	세션 매니저. 세션 생성과 초기화를 담당하고 임무가 끝나면 종료
+	
 - `csrss.exe`:	Win32 서브시스템의 사용자 모드 파트너. 콘솔 창, 프로세스/스레드 생성 통지 등을 처리
+	
 - `wininit.exe`:	세션 0에서 서비스 제어 관리자·LSASS 등 핵심 백그라운드 프로세스를 기동
+	
 - `winlogon.exe`:	대화형 로그온 처리. 자격 증명 공급자를 불러오고 로그온/로그오프를 관리
 
 <br>
@@ -75,6 +82,7 @@ _Windows의 구성요소[^1]_
 ### 보안 · 인증
 ---
 - `lsass.exe`:	로그온 검증, 액세스 토큰 발급, 보안 정책 적용, 보안 이벤트 로깅을 담당하는 인증의 핵심
+	
 - `lsaiso.exe`:	Credential Guard 활성화 시 VBS(가상화 기반 보안)로 자격 증명을 격리된 영역에 보관
 
 <br>
@@ -82,8 +90,11 @@ _Windows의 구성요소[^1]_
 ### 서비스 관리
 ---
 - `services.exe`:	서비스 제어 관리자(SCM). 등록된 윈도우 서비스의 시작·중지·복구를 관리
+	
 - `svchost.exe`:	여러 서비스 DLL을 하나의 프로세스로 묶어 실행하는 범용 호스트
+	
 - `spoolsv.exe`:	인쇄 작업 큐 관리 및 프린터 드라이버 인터페이스 제공
+	
 - `taskhostw.exe`:	작업 스케줄러가 실행하는 DLL 기반 작업을 담는 호스트
 
 <br>
@@ -91,8 +102,11 @@ _Windows의 구성요소[^1]_
 ### 사용자 인터페이스
 ---
 - `explorer.exe`:	바탕화면·작업 표시줄·시작 메뉴·파일 탐색기를 제공하는 윈도우 셸
+	
 - `dwm.exe`:	창 합성(compositing)과 시각 효과 렌더링
+	
 - `ShellExperienceHost.exe`:	액션 센터, 시작 메뉴 타일 등 모던 UI 요소 렌더링
+	
 - `SearchUI.exe`:	검색 UI (최신 버전은 SearchApp.exe·SearchHost.exe로 이름이 바뀜)
 
 <br>
@@ -100,7 +114,9 @@ _Windows의 구성요소[^1]_
 ### 런타임 · 지원
 ---
 - `RuntimeBroker.exe`:	UWP 앱이 요청하는 카메라·위치 등 권한을 중개·검증
+	
 - `fontdrvhost.exe`:	사용자 모드에서 글꼴 렌더링 처리
+	
 - `ctfmon.exe`:	IME, 필기 인식, 음성 입력 등 대체 텍스트 입력 서비스 관리
 
 <br>
@@ -108,8 +124,11 @@ _Windows의 구성요소[^1]_
 ### 백그라운드 · 모니터링
 ---
 - `WmiPrvSE.exe`:	WMI 공급자를 호스팅해 관리 스크립트·쿼리 실행을 지원
+	
 - `SearchIndexer.exe`:	파일 콘텐츠를 인덱싱해 빠른 검색을 지원
+	
 - `MsMpEng.exe`:	Windows Defender의 실시간 검사 엔진
+	
 - `SecurityHealthService.exe`:	Windows 보안 센터 상태 점검 및 알림 관리
 
 <br>
@@ -129,7 +148,8 @@ Windows에서는 많은 프로세스가 복잡하게 동작하고 있기에 정�
 
 ## Related Posts
 ---
-- 
+- [[Windows] 윈도우의 레지스트리란?](https://bangjeongbin.github.io/TIL-Blog/posts/til-os-core-what-is-windows-registry/)
+- [[Windows] 윈도우 레지스트리 심화](https://bangjeongbin.github.io/TIL-Blog/posts/til-os-windows-registry-deep-dive)
 
 <br>
 

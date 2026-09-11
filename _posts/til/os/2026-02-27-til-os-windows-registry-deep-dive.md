@@ -89,15 +89,20 @@ _Master Key와 Derived Key[^3]_
 - **Master Key**
 	- Derived key의 원본을 말하며, Windows의 Configuration Manager가 각 하이브 파일을 읽어 구성하는 값들로 레지스트리 하이브로부터 직접 값을 읽어 구성된다.
 	- **HKEY_LOCAL_MACHINE**, **HKEY_USERS**가 여기에 해당
-	
+
+<br>
+
 - **Derived key**
 	- Master key의 심볼릭 링크 값들을 말하며, 해당 값들은 파일로 존재하지 않으며 메모리에만 존재한다.
 	- **HKET_CLASSES_ROOT**, **HKEY_CURRNET_USER**, **HKEY_CURRNET_CONFIG**가 여기에 해당
+
+<br>
 
 > E.g. HKEY_CURRENT_USER는 메모리상에서 사용자 SID에 해당하는 마스터 키 영역으로부터 파생되어 구성됩니다.
 {: .prompt-tip }
 
 <br>
+
 ## 𝙸𝙸𝙸. 주요 하이브 목록
 ---
 - **HKLM\HARDWARE**
