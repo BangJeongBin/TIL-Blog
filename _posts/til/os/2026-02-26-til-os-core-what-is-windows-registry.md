@@ -1,5 +1,5 @@
 ---
-title: "[Windows] 윈도우의 레지스트리란?
+title: "[Windows] 윈도우의 레지스트리란?"
 description: 윈도우 레지스트리(Registry) 구조 및 핵심 개념 정리
 author: bin
 date: 2026-02-26 09:00:00 +0800
