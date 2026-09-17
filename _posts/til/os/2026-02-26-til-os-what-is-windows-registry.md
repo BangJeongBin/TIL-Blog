@@ -9,12 +9,11 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png
+ path: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fp3sK4%2Fbtsv8y0brFM%2FAAAAAAAAAAAAAAAAAAAAAFnlbZ0xW0tp00Wa65iv6E0TI56dKOqaO6WqAMU8nk9F%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1790780399%26allow_ip%3D%26allow_referer%3D%26signature%3D%252Fiaisjn%252Bz%252FM9XpDmrite4AgG4nQ%253D
  alt: Today I Learnd
 ---
-
-![windows-regedit](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fp3sK4%2Fbtsv8y0brFM%2FAAAAAAAAAAAAAAAAAAAAAFnlbZ0xW0tp00Wa65iv6E0TI56dKOqaO6WqAMU8nk9F%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1790780399%26allow_ip%3D%26allow_referer%3D%26signature%3D%252Fiaisjn%252Bz%252FM9XpDmrite4AgG4nQ%253D)
 _Windows의 레지스트리 편집기 (regedit.exe)[^1]_
+{: .text-center }
 
 <br>
 
