@@ -9,12 +9,11 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png
+ path: https://learn.microsoft.com/ko-kr/windows-hardware/drivers/kernel/images/ntarch.png
  alt: Today I Learnd
 ---
-
-![windows_components](https://learn.microsoft.com/ko-kr/windows-hardware/drivers/kernel/images/ntarch.png)
 _Windows의 구성요소[^1]_
+{: .text-center }
 
 <br>
 
