@@ -1,6 +1,24 @@
 [
   
   {
+    "title": "2026년 35주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202635-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-08-30 10:00:00 +0900",
+    "content": "35주차의 IT보안 키워드는 \"AI 에이전트 위협, 제로데이 취약점, 클라우드 자격증명 유출, 공급망 보안”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 35주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202635-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-08-30 10:00:00 +0900",
+    "content": "35주차의 IT 키워드는 “자체 AI 반도체, 클라우드 계정 유출, 에이전트 표준화, 활성 취약점 대응” 으로 요약됩니다."
+  },
+  
+  {
     "title": "2026년 34주차 IT보안 뉴스 분석 보고서",
     "url": "/posts/202634-security-issue-report/",
     "categories": "NEWS, Security",
@@ -487,6 +505,24 @@
   },
   
   {
+    "title": "[Windows] 윈도우 레지스트리 심화",
+    "url": "/posts/til-os-windows-registry-deep-dive/",
+    "categories": "TIL, OS, Windows",
+    "tags": "OS, Windows, Registry",
+    "date": "2026-02-27 10:00:00 +0900",
+    "content": "레지스트리의 5가지 루트키와 주요 하이브 설명"
+  },
+  
+  {
+    "title": "[Windows] 윈도우의 레지스트리란?",
+    "url": "/posts/til-os-what-is-windows-registry/",
+    "categories": "TIL, OS, Windows",
+    "tags": "OS, Windows, Registry",
+    "date": "2026-02-26 10:00:00 +0900",
+    "content": "윈도우 레지스트리(Registry) 구조 및 핵심 개념 정리"
+  },
+  
+  {
     "title": "[Windows] 윈도우의 핵심 프로세스",
     "url": "/posts/til-os-core-windows-processes/",
     "categories": "TIL, OS, Windows",
@@ -727,6 +763,15 @@
     "tags": "Network, Wireshark, Packet",
     "date": "2026-01-09 10:00:00 +0900",
     "content": "Packet Diagram 설정"
+  },
+  
+  {
+    "title": "[Inflearn] \"컴공 문해력: 모든 언어에 통하는 생각의 기본기\" Review",
+    "url": "/posts/review-inflearn-computer-science-literacy/",
+    "categories": "Review, Online Academy",
+    "tags": "CS, Basic, Language",
+    "date": "2026-01-08 10:00:00 +0900",
+    "content": "[Inflearn] \"컴공 문해력: 모든 언어에 통하는 생각의 기본기\" 리뷰"
   },
   
   {

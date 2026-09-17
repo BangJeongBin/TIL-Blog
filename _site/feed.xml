@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-09-09T15:31:55+09:00</updated>
+  <updated>2026-09-17T17:48:53+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,58 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>2026년 35주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202635-security-issue-report/" rel="alternate" type="text/html" title="2026년 35주차 IT보안 뉴스 분석 보고서" />
+    <published>2026-08-30T10:00:00+09:00</published>
+  
+    <updated>2026-08-30T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202635-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202635-security-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="Security" />
+    
+  
+
+  <summary>35주차의 IT보안 키워드는 "AI 에이전트 위협, 제로데이 취약점, 클라우드 자격증명 유출, 공급망 보안”으로 요약됩니다.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>2026년 35주차 IT 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202635-it-issue-report/" rel="alternate" type="text/html" title="2026년 35주차 IT 뉴스 분석 보고서" />
+    <published>2026-08-30T10:00:00+09:00</published>
+  
+    <updated>2026-08-30T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202635-it-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202635-it-issue-report/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="NEWS" />
+    
+    <category term="IT" />
+    
+  
+
+  <summary>35주차의 IT 키워드는 “자체 AI 반도체, 클라우드 계정 유출, 에이전트 표준화, 활성 취약점 대응” 으로 요약됩니다.</summary>
+
+  </entry>
 
   
   <entry>
@@ -93,58 +145,6 @@
   
 
   <summary>33주차의 IT보안 키워드는 "제로데이 취약점, AI 공급망 공격, 랜섬웨어 확산, 중요 기반시설 보안”으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2026년 33주차 IT 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202633-it-issue-report/" rel="alternate" type="text/html" title="2026년 33주차 IT 뉴스 분석 보고서" />
-    <published>2026-08-16T10:00:00+09:00</published>
-  
-    <updated>2026-09-09T01:04:25+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202633-it-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202633-it-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="IT" />
-    
-  
-
-  <summary>33주차의 IT 키워드는 “인공지능 인프라, 차세대 반도체, 모바일 에코시스템, 사이버 보안” 으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2026년 32주차 IT보안 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202632-security-issue-report/" rel="alternate" type="text/html" title="2026년 32주차 IT보안 뉴스 분석 보고서" />
-    <published>2026-08-09T10:00:00+09:00</published>
-  
-    <updated>2026-09-09T01:04:25+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202632-security-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202632-security-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="Security" />
-    
-  
-
-  <summary>32주차의 IT보안 키워드는 "Metabase SQL 인젝션, Progress Kemp 제로데이, Lazarus 루트킷, RaaS 폭증”으로 요약됩니다.</summary>
 
   </entry>
 
