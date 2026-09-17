@@ -505,6 +505,15 @@
   },
   
   {
+    "title": "[Windows] 윈도우의 Privilege와 Integrity Level",
+    "url": "/posts/til-os-windows-privilege-and-integrity-level/",
+    "categories": "TIL, OS, Windows",
+    "tags": "OS, Windows, Privilege, Integrity Level",
+    "date": "2026-02-28 10:00:00 +0900",
+    "content": "Privilege와 Integrity Level에 대하여"
+  },
+  
+  {
     "title": "[Windows] 윈도우 레지스트리 심화",
     "url": "/posts/til-os-windows-registry-deep-dive/",
     "categories": "TIL, OS, Windows",
