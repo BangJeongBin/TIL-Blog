@@ -9,12 +9,11 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/til-logo.png
+ path: https://i.pinimg.com/736x/db/e7/ab/dbe7abb64b7720dd3d03608e41e570c5.jpg
  alt: Today I Learnd
 ---
-
-![windows-hive-structure](https://i.pinimg.com/736x/db/e7/ab/dbe7abb64b7720dd3d03608e41e570c5.jpg)
 _레지스트리의 하이브 구조[^1]_
+{: .text-center }
 
 <br>
 
