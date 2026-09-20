@@ -177,6 +177,7 @@ _UAC 설정 4단계 (Windows 7)[^3]_
 - [User Account Control](https://en.wikipedia.org/wiki/User_Account_Control)
 - [사용자 계정 컨트롤(UAC)의 역할 및 설정 끄기](https://m.blog.naver.com/kangyh5/223826000461)
 - [사용자 계정 컨트롤 (UAC)](https://wikidocs.net/307277)
+- [사용자 계정 컨트롤](https://namu.wiki/w/%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B3%84%EC%A0%95%20%EC%BB%A8%ED%8A%B8%EB%A1%A4)
 
 <br>
 
