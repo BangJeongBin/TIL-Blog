@@ -71,6 +71,10 @@ _UAC 프롬프트의 종류 (Windows 11)[^2]_
 {: .prompt-tip }
 
 <br>
+<br>
+<br>
+<br>
+<br>
 
 ## 𝙸𝙸. UAC 동작 원리
 ---
@@ -107,6 +111,10 @@ _관리자와 표준 사용자의 로그인 프로세스 차이[^1]_
 - **실행 조건**: 사용자가 동의(Consent)하거나 자격 증명을 입력하여 승인할 때에만 해당 프로그램에 전체 관리자 권한을 가진 '상승된 토큰'이 할당되어 실행
  
 <br>
+<br>
+<br>
+<br>
+<br>
 
 ## 𝙸𝙸𝙸. UAC 설정 4단계
 ---
@@ -123,6 +131,10 @@ _UAC 설정 4단계 (Windows 7)[^3]_
 | **바탕화면이 어두워지지 않게** | 기본 알림과 동일하나 보안 데스크톱(어두워지는 화면)에서 실행되지 않고 별도의 알림 창으로 활성화된다.<br>공격자나 악성코드가 UAC 프롬프트와 상호작용(강제 허용 응답 등)할 가능성이 높아질 가능성이 있다. |
 |     **알리지 않음**     | UAC 비활성화 모드이다.<br>**보안상 전혀 권장하지 않음.**                                                                                 |
 
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## 𝙸𝚅. UAC Auto-Elevation
@@ -167,17 +179,25 @@ _UAC 설정 4단계 (Windows 7)[^3]_
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 ## Related Posts
 ---
 - [[Windows] 윈도우의 Privilege와 Integrity Level](https://bangjeongbin.github.io/TIL-Blog/posts/til-os-windows-privilege-and-integrity-level)
 
 <br>
+<br>
+<br>
 
 ## Footnote
 ---
 > <a name="footnote_1">ⓐ</a> 최소 권한 원칙(PoLP): "최소 권한 액세스"라고도 하는 최소 권한 원칙은 사용자가 자신의 책임을 수행하기 위해 절대적으로 필요한 항목에만 액세스할 수 있어야 한다는 개념입니다.
 
+<br>
+<br>
 <br>
 
 ## Reference
