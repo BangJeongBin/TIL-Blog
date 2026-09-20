@@ -487,6 +487,15 @@
   },
   
   {
+    "title": "[Windows] 윈도우의 UAC(User Account Control)란?",
+    "url": "/posts/til-os-windows-what-is-uac/",
+    "categories": "TIL, OS, Windows",
+    "tags": "OS, Windows, UAC",
+    "date": "2026-03-01 10:00:00 +0900",
+    "content": "UAC의 개념과 동작원리에 관하여"
+  },
+  
+  {
     "title": "2026년 9주차 IT보안 뉴스 분석 보고서",
     "url": "/posts/202609-security-issue-report/",
     "categories": "NEWS, Security",

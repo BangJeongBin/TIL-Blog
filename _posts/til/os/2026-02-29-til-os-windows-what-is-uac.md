@@ -81,7 +81,6 @@ _UAC 프롬프트의 종류 (Windows 11)[^2]_
  또한 관리자 그룹(Administrators)에 속하는 사용자가 로그인온하면 **표준 사용자 액세스 토큰**과 **관리자 액세스 토큰**이라는 <u>두 개의 별도 액세스 토큰이 만들어진다.</u>
 
 ![diff login admin and user](https://learn.microsoft.com/ko-kr/windows/security/application-security/application-control/user-account-control/images/uac-windows-logon-process.gif)
-{: .align-center }
 _관리자와 표준 사용자의 로그인 프로세스 차이[^1]_
 {: .text-center }
 
@@ -112,7 +111,6 @@ _관리자와 표준 사용자의 로그인 프로세스 차이[^1]_
 ## 𝙸𝙸𝙸. UAC 설정 4단계
 ---
 ![uac settings](https://learn.microsoft.com/ko-kr/windows/win32/uxguide/images/winenv-uac-image3.png)
-{: .align-center }
 _UAC 설정 4단계 (Windows 7)[^3]_
 {: .text-center }
 
