@@ -12,7 +12,7 @@ image:
  path: https://learn.microsoft.com/en-us/windows/security/application-security/application-control/user-account-control/images/uac-consent-prompt-admin.png
  alt: Today I Learnd
 ---
-_윈도우의 UAC[^1]_
+_윈도우의 UAC 프롬프트[^1]_
 {: .text-center }
 
 <br>
@@ -21,15 +21,17 @@ _윈도우의 UAC[^1]_
 ---
 ### UAC 등장 배경
 ---
- `Windows XP` 때는 운영체제는 초기 설치 시 생성되는 첫 번째 사용자 계정을 자동으로 **관리자 그룹(Administrators)**에 포함시켰다. 그러면 세션에서 실행되는 모든 프로세스가 곧바로 관리자 권한을 상속받게 되었는데 이렇게 되면 대다수의 사용자가 항상 관리자 권한으로 시스템을 사용하게 된다.
+`Windows XP` 때는 운영체제는 초기 설치 시 생성되는 첫 번째 사용자 계정을 자동으로 **관리자 그룹(Administrators)**에 포함시켰다. 그러면 세션에서 실행되는 모든 프로세스가 곧바로 관리자 권한을 상속받게 되었는데 이렇게 되면 대다수의 사용자가 항상 관리자 권한으로 시스템을 사용하게 된다.
    
- 이로 인해 일반적인 사용자가 관리자 권한으로 작업할 수밖에 없는 환경이 형성되었고, 악성코드(백도어, 원격 쉘 등)가 실행될 경우 곧바로 관리자 권한을 획득하여 시스템 전체에 영향을 미치는 심각한 보안 사고가 빈번하게 발생히였다. 그래서 `Windows Vista`부터 새로운 권한 관리 메커니즘인 **UAC**를 도입하게되었다.
+이로 인해 일반적인 사용자가 관리자 권한으로 작업할 수밖에 없는 환경이 형성되었고, 악성코드(백도어, 원격 쉘 등)가 실행될 경우 곧바로 관리자 권한을 획득하여 시스템 전체에 영향을 미치는 심각한 보안 사고가 빈번하게 발생히였다. 그래서 `Windows Vista`부터 새로운 권한 관리 메커니즘인 **UAC**를 도입하게되었다.
 
 <br>
 
 ### UAC의 정의 및 주요 목적
 ---
- **UAC**의 핵심은 <mark>최소 권한의 원칙(Principle of Least Privilege)</mark>에 기반하여 작동한다. 이 말은 즉 필요한 순간에, 필요한 만큼만 권한을 부여한다는 개념이다. 실제로 <u>관리자 그룹(Administrators)에 속한 계정이라도, 모든 프로세스는 기본적으로 일반 사용자 수준의 권한으로 실행한다.</u>
+**UAC**의 핵심은 <mark>최소 권한 원칙(Principle of Least Privilege)</mark><sup>[ⓐ](#footnote_1)</sup>에 기반하여 작동한다. 이 말은 즉 필요한 순간에, 필요한 만큼만 권한을 부여한다는 개념이다. 실제로 <u>관리자 그룹(Administrators)에 속한 계정이라도, 모든 프로세스는 기본적으로 일반 사용자 수준의 권한으로 실행한다.</u>
+
+<br>
 
 다음은 **UAC의 주요 도입 목적** 4가지 이다.
 
@@ -59,11 +61,12 @@ _UAC 프롬프트의 종류 (Windows 11)[^2]_
 - 디지털 서명이 없거나 유효하지 않은 게시자의 프로그램이 관리자 권한을 요청할 때 나타난다. 공식 기관에서 발급된 인증서가 아니거나 파일이 변조되었을 때 주로 발생한다.
 
 #### 파란색/회색 배경 (시스템 작업)
-- **<span style="color:blue">게시자가 알려지거나 신뢰할 수 있는 앱</span>
+- <span style="color:blue">게시자가 알려지거나 신뢰할 수 있는 앱</span>
 - Windows 자체의 설정이나 시스템 작업이 관리자 권한을 요청할 때 나타난다. 일반적으로 위험 위협이 크게 없다.
 
 <br>
 
+> **참고 자료**    
 > [**UAC 프롬프트를 노출시키는 주요 작업들 - WIKIPEDIA**](https://en.wikipedia.org/wiki/User_Account_Control)
 {: .prompt-tip }
 
@@ -83,7 +86,7 @@ _관리자와 표준 사용자의 로그인 프로세스 차이[^1]_
 
 <br>
 
-### 엑세스 토큰 구조 ----> 여기 확인
+### 엑세스 토큰 구조
 ---
 #### 표준 사용자 액세스 토큰 (Standard User Access Token)
 - **권한 필터링**: 상승된 토큰과 동일한 사용자 식별 정보를 가지고 있지만, 관리자 전용 윈도우 권한과 관리자 SID가 제거된 상태의 토큰
@@ -128,7 +131,7 @@ _UAC 설정 4단계 (Windows 7)[^3]_
 
  프로세스가 실행될 때 윈도우의 응용 프로그램 정보 서비스(AIS, Application Information Service / AppInfo)는 해당 프로세스가 UAC 프롬프트(경고창) 없이 관리자 권한(`Administrator Access Token`)을 자동으로 획득할 수 있는지 검증한다.
 
- 자동 권한 상승이 이루어지기 위해서는 다음 4가지 조건이 **예외 없이 모두 동시에 충족**되어야 한다.
+ 자동 권한 상승이 이루어지기 위해서는 다음 **4가지 조건이 예외 없이 모두 동시에 충족**되어야 한다.
 
 <br>
 
@@ -168,6 +171,12 @@ _UAC 설정 4단계 (Windows 7)[^3]_
 ## Related Posts
 ---
 - [[Windows] 윈도우의 Privilege와 Integrity Level](https://bangjeongbin.github.io/TIL-Blog/posts/til-os-windows-privilege-and-integrity-level)
+
+<br>
+
+## Footnote
+---
+> <a name="footnote_1">ⓐ</a> 최소 권한 원칙(PoLP): "최소 권한 액세스"라고도 하는 최소 권한 원칙은 사용자가 자신의 책임을 수행하기 위해 절대적으로 필요한 항목에만 액세스할 수 있어야 한다는 개념입니다.
 
 <br>
 
