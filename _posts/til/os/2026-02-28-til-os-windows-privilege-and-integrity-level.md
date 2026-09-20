@@ -115,7 +115,7 @@ _Process Explorer를 사용한 Integrity Level 확인[^2]_
 
 ## Related Posts
 ---
-- 
+- [[Windows] 윈도우의 UAC(User Account Control)란?](https://bangjeongbin.github.io/TIL-Blog/posts/til-os-windows-what-is-uac)
 
 <br>
 
