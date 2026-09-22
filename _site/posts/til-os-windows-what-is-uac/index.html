@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@BangJeongBin" />
 <meta name="twitter:creator" content="@Jeongbin Bang" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2026-09-20T22:40:46+09:00","datePublished":"2026-03-01T10:00:00+09:00","description":"UAC의 개념과 동작원리에 관하여","headline":"[Windows] 윈도우의 UAC(User Account Control)란?","image":{"alt":"Today I Learnd","url":"https://learn.microsoft.com/en-us/windows/security/application-security/application-control/user-account-control/images/uac-consent-prompt-admin.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/til-os-windows-what-is-uac/"},"url":"http://localhost:4000/posts/til-os-windows-what-is-uac/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2026-09-20T23:10:59+09:00","datePublished":"2026-03-01T10:00:00+09:00","description":"UAC의 개념과 동작원리에 관하여","headline":"[Windows] 윈도우의 UAC(User Account Control)란?","image":{"alt":"Today I Learnd","url":"https://learn.microsoft.com/en-us/windows/security/application-security/application-control/user-account-control/images/uac-consent-prompt-admin.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/til-os-windows-what-is-uac/"},"url":"http://localhost:4000/posts/til-os-windows-what-is-uac/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1172,7 +1172,7 @@
 
 <time
   
-  data-ts="1789911646"
+  data-ts="1789913459"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -1260,7 +1260,8 @@
 
 <p>이로 인해 일반적인 사용자가 관리자 권한으로 작업할 수밖에 없는 환경이 형성되었고, 악성코드(백도어, 원격 쉘 등)가 실행될 경우 곧바로 관리자 권한을 획득하여 시스템 전체에 영향을 미치는 심각한 보안 사고가 빈번하게 발생히였다. 그래서 <code class="language-plaintext highlighter-rouge">Windows Vista</code>부터 새로운 권한 관리 메커니즘인 <strong>UAC</strong>를 도입하게되었다.</p>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="uac의-정의-및-주요-목적"><span class="me-2">UAC의 정의 및 주요 목적</span><a href="#uac의-정의-및-주요-목적" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1297,7 +1298,8 @@
   </tbody>
 </table></div>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="uac-프롬프트의-종류"><span class="me-2">UAC 프롬프트의 종류</span><a href="#uac-프롬프트의-종류" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1348,9 +1350,10 @@
 <p class="text-center"><a href="https://learn.microsoft.com/ko-kr/windows/security/application-security/application-control/user-account-control/images/uac-windows-logon-process.gif" class="popup img-link shimmer"><img src="https://learn.microsoft.com/ko-kr/windows/security/application-security/application-control/user-account-control/images/uac-windows-logon-process.gif" alt="diff login admin and user" loading="lazy"></a>
 <em>관리자와 표준 사용자의 로그인 프로세스 차이<sup id="fnref:1:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></em></p>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
-<h3 id="엑세스-토큰-구조"><span class="me-2">엑세스 토큰 구조</span><a href="#엑세스-토큰-구조" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h3 id="엑세스-토큰-access-token-구조"><span class="me-2">엑세스 토큰 (Access Token) 구조</span><a href="#엑세스-토큰-access-token-구조" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
 <h4 id="표준-사용자-액세스-토큰-standard-user-access-token"><span class="me-2">표준 사용자 액세스 토큰 (Standard User Access Token)</span><a href="#표준-사용자-액세스-토큰-standard-user-access-token" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <ul>
@@ -1437,7 +1440,8 @@
 
 <p>자동 권한 상승이 이루어지기 위해서는 다음 <strong>4가지 조건이 예외 없이 모두 동시에 충족</strong>되어야 한다.</p>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="uac-자동-권한-상승auto-elevation-필수-조건"><span class="me-2">UAC 자동 권한 상승(Auto-Elevation) 필수 조건</span><a href="#uac-자동-권한-상승auto-elevation-필수-조건" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1509,7 +1513,7 @@
 <h2 id="footnote"><span class="me-2">Footnote</span><a href="#footnote" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
 <blockquote>
-  <p><a name="footnote_1">ⓐ</a> 최소 권한 원칙(PoLP): “최소 권한 액세스”라고도 하는 최소 권한 원칙은 사용자가 자신의 책임을 수행하기 위해 절대적으로 필요한 항목에만 액세스할 수 있어야 한다는 개념입니다.</p>
+  <p><a name="footnote_1">ⓐ</a> 최소 권한 원칙(PoLP): “최소 권한 액세스”라고도 하는 최소 권한 원칙은 사용자가 자신의 책임을 수행하기 위해 절대적으로 필요한 항목에만 액세스할 수 있어야 한다는 개념이다.</p>
 </blockquote>
 
 <p><br />
@@ -1679,35 +1683,35 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/til-os-windows-what-is-uac/">[Windows] 윈도우의 UAC(User Account Control)란?</a>
+          <a href="/posts/review-book-all-about-product-management/">[Book] "제품의 탄생" Review</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/til-os-windows-privilege-and-integrity-level/">[Windows] 윈도우의 Privilege와 Integrity Level</a>
+          <a href="/posts/leetcode-3423/">[LeetCode 3423] Maximum Difference Between Adjacent Elements in a Circular Array</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/leetcode-66/">[LeetCode 66] Plus One</a>
+          <a href="/posts/leetcode-1/">[LeetCode 1] Two Sum</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/leetcode-67/">[LeetCode 67] Add Binary</a>
+          <a href="/posts/leetcode-9/">[LeetCode 9] Palindrome Number</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/til-os-core-windows-processes/">[Windows] 윈도우의 핵심 프로세스</a>
+          <a href="/posts/leetcode-13/">[LeetCode 13] Roman to Integer</a>
         </li>
       
     </ul>
