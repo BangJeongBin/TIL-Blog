@@ -9,7 +9,7 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/review-logo.png
+ path: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788994567631.jpg
  alt: Review
 ---
 
@@ -17,7 +17,7 @@ image:
 ---
 ![soc-practical-guide](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788994567631.jpg)
 
-"보안관제 실무가이드" 독후감상 입니다.
+<center><strong>"보안관제 실무가이드"</strong> 독후감상 입니다.</center>
 
 <br>
 
@@ -31,11 +31,14 @@ image:
 	- 국내도서 > 컴퓨터/IT > 보안/해킹
 
 <br>
+<br>
 
 **실시간 정보보안관제 기술, 보안정책 수립과 보안 대책 구현, 취약점 진단, 침해사고 분석 기술 등 보안관제 전문능력 향상을 위한 실무 지침서!**
 
 정보보안관제란 정보시스템에 가해지는 보안 위협을 24시간 365일 실시간으로 모니터링하여 악의적인 스캔 공격, 해킹 등 다양한 침해 공격을 탐지하고 다양한 정보보호 솔루션과 정보시스템에서 생성되는 로그를 분석하여 사이버 위협에 대응하는 것을 말한다. 이 책은 정보보안관제 업무를 담당하거나 희망하는 독자를 위해 정보시스템의 서버(시스템), 네트워크 장비 및 정보보안장비에 대한 전문지식과 운용기술을 갖추고 이와 더불어 실시간 정보보안관제 기술과 능력, 보안정책수립과 보안대책 구현, 취약점 진단 및 침해사고 분석의 기술, 정보보호 관련 법규 등 다양한 보안전문 능력을 보유하고 사이버 공격에 대한 신속하고 정확한 대응 업무 수행 능력을 갖출 수 있도록 돕는다.
 
+<br>
+<br>
 <br>
 
 <!-- ## 인상 깊은 구절
@@ -53,6 +56,8 @@ image:
 part 2 에서는 이제 실무적인 영역을 다룬다. 이 또한 너무 많은 분량이기에 책에서는 깊이는 깊지 않지만 넓음 범위를 다루며 업무의 전반적인 흐름에 따라 친절하게 알려준다. 그렇기에 나는 이 책을 보안관제에 처음 입문한다면 한 번쯤은 읽어보면 도움이 많이 될거라 생각된다. 또한 시간이 지남에 따라 아는 지식이 늘어가며 전에 보이지 않던 새로운 부분들이 보일 것이라 생각된다.
 
 <br>
+<br>
+<br>
 
 ## 평점
 ---
@@ -61,12 +66,22 @@ part 2 에서는 이제 실무적인 영역을 다룬다. 이 또한 너무 많�
 > 보안관제 직무라면 한 번쯤은 꼭 읽어봐야할 책!
 
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Related Posts
 ---
 - [[Book] "보안관제 실무가이드" Note-Taking](https://bangjeongbin.github.io/TIL-Blog/posts/note-taking-book-soc-practical-guide)
 
-
+<br>
+<br>
 <br>
 
 ## Reference
