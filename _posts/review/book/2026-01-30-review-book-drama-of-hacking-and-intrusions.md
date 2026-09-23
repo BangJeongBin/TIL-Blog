@@ -9,7 +9,7 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/review-logo.png
+ path: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788955508437.jpg
  alt: Review
 ---
 
@@ -17,7 +17,7 @@ image:
 ---
 ![drama-of-hacking-and-intrusions](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788955508437.jpg)
 
-"해킹, 침입의 드라마" 독후감상 입니다.
+<center><strong>"해킹, 침입의 드라마"</strong> 독후감상 입니다.</center>
 
 <br>
 
@@ -33,6 +33,7 @@ image:
 	- 국내도서 > 대학교재 > 컴퓨터
 
 <br>
+<br>
 
 **세상을 떠들썩하게 했던 해커들을 직접 만나 인터뷰한 내용을 정리한 책**
 
@@ -41,11 +42,16 @@ image:
 라스베가스의 카지노 기계를 해킹하여 떼돈을 벌었던 일당들, 오사마 빈 라덴과 연관된 인물에게 미국의 주요 기관의 정보를 해킹하여 제공했던 어린 해커들 등 이 책에서는 기상천외하면서도 구식인 속임수 수법들과 함께 첨단 기술을 이용한 해킹 실화들을 같이 소개하고 있다.
 
 <br>
+<br>
+<br>
 
 ## 인상 깊은 구절
 ---
-> 사람들은 '그따위 귀찮은 일을 누가 하겠어' 하고 말하지만, 그 귀찮은 일을 할 사람이 핀란드 어딘가에는 있을 겁니다. - p.50
+> **사람들은 '그따위 귀찮은 일을 누가 하겠어' 하고 말하지만, 그 귀찮은 일을 할 사람이 핀란드 어딘가에는 있을 겁니다. - p.50**
+{: .prompt-tip }
 
+<br>
+<br>
 <br>
 
 ##  느낀 점
@@ -59,13 +65,24 @@ image:
 앞으로는 AI의 발전으로 인해 더 많은 침해사고 시도가 이루어질텐데 많은 사례들을 참고 삼아서 개인의 보안의식을 더욱 높여가야겠다는 생각이 든다.
 
 <br>
+<br>
+<br>
 
 ## 평점
 ---
 <h4 style="text-align: center;"><span style="color:yellow">★ ★ ★ ☆</span> (3.5/5)</h4>
 
-> 사람 생각하는거 다 똑같다는걸 다시 한 번 깨닫게 되었다.
+> **사람 생각하는거 다 똑같다는걸 다시 한 번 깨닫게 되었다.**
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 <!-- ## Related Posts
