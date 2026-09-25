@@ -9,7 +9,7 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/review-logo.png
+ path: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/480D241111630.jpg
  alt: Review
 ---
 
@@ -17,7 +17,7 @@ image:
 ---
 ![pre-learning-information-security-for-students](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/480D241111630.jpg)
 
-"고등학생을 위한 미리 배우는 정보보안학" 독후감상 입니다.
+<center><strong>"고등학생을 위한 미리 배우는 정보보안학"</strong> 독후감상 입니다.</center>
 
 <br>
 
@@ -31,6 +31,7 @@ image:
 	- eBook > 청소년 > 공부방법
 
 <br>
+<br>
 
 정보보안의 중요성이 날로 증대되는 현대 사회에서, 이 분야에 대한 기초적인 이해는 더 이상 전문가들만의 영역이 아닙니다. 본서는 고등학생들이 대학 수준의 정보보안학을 쉽고 체계적으로 학습할 수 있도록 구성된 입문서입니다. 정보보안의 기초부터 최신 기술 동향까지 23개의 주제를 통해 폭넓게 다루며, 각 장은 핵심 개념과 실제 사례를 바탕으로 설명하여 독자들의 이해를 돕습니다.  
   
@@ -40,6 +41,8 @@ image:
   
 미래의 정보보안 전문가를 꿈꾸는 학생들에게 이 책은 좋은 길잡이가 될 것입니다. 각 장의 끝에는 심화 학습을 위한 참고 자료와 실습 과제가 제시되어 있어, 관심 있는 독자들이 더 깊이 있는 학습을 할 수 있도록 안내합니다. 또한 최신 기술 동향과 미래 전망을 다루는 장을 통해, 학생들은 빠르게 변화하는 정보보안 분야의 미래를 예측하고 준비할 수 있을 것입니다.
 
+<br>
+<br>
 <br>
 
 <!-- ## 인상 깊은 구절
@@ -59,13 +62,24 @@ image:
 책이란 세상에 나오기까지 많은 사람들의 손을 거쳐서 오랜 시간이 걸려서 나오는 컨텐츠 이기에 그 가치를 높게 평가받는데 앞으로 이런 방식의 출판이 주류를 이룰 것이라 생각하니 개탄스럽고 한 편으론 AI가 더 발전하면 과연 구분 할 수있을지에 대한 의문도 있다. 텍스트를 다루는 직업들은 AI에게 대체되는 1순위라고들 말하던데 그 공포감이 피부로 와닿는다.
 
 <br>
+<br>
+<br>
 
 ## 평점
 ---
 <h4 style="text-align: center;"><span style="color:yellow">★</span> (1/5)</h4>
 
->이 책을 읽는 것과 목차를 AI에게 주고 설명해달라고 하는 것과 뭐가 다를까?
+> **이 책을 읽는 것과 목차를 AI에게 주고 설명해달라고 하는 것과 뭐가 다를까?**
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 <!-- ## Related Posts
