@@ -9,14 +9,15 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/review-logo.png
+ path: https://cdn.inflearn.com/public/courses/329534/cover/76d5fd7f-3e76-4801-bb8f-523d10ff5829/329534-eng.jpg
  alt: Review
 ---
+_외워서 끝내는 네트워크 핵심이론 - 기초[^1]_
+{: .text-center }
+
 ## About
 ---
-![inflearn-network-core-theory-of-memorabilization](https://cdn.inflearn.com/public/courses/329534/cover/76d5fd7f-3e76-4801-bb8f-523d10ff5829/329534-eng.jpg)
-
-Inflearn "외워서 끝내는 네트워크 핵심이론 - 기초" 강의 리뷰입니다.
+<center>Inflearn <strong>"외워서 끝내는 네트워크 핵심이론 - 기초"</strong> 강의 리뷰입니다.</center>
 
 <br>
 
@@ -26,7 +27,7 @@ TCP/IP에서 HTTP까지! 네트워크에 대한 기본 이론이 부족한 분�
 
 <br>
 
-- **강의 링크**: [외워서 끝내는 네트워크 핵심이론 - 기초](https://www.inflearn.com/course/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%95%B5%EC%8B%AC%EC%9D%B4%EB%A1%A0-%EA%B8%B0%EC%B4%88)
+- **강의 링크**: [외워서 끝내는 네트워크 핵심이론 - 기초](https://www.inflearn.com/course/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%95%B5%EC%8B%AC%EC%9D%B4%EB%A1%A0-%EA%B8%B0%EC%B4%88?cid=329534)
 - **강사**: [널널한 개발자](https://www.inflearn.com/users/865030/@nullnull8537)
 - **카테고리**: 보안·네트워크 / 네트워크
 - **태그**: `#네트워크`, `#프로토콜`
@@ -34,6 +35,7 @@ TCP/IP에서 HTTP까지! 네트워크에 대한 기본 이론이 부족한 분�
 - **강의 시간**: 7시간 11분
 - **난이도**: 입문
 
+<br>
 <br>
 
 ### 학습 목표
@@ -45,6 +47,7 @@ TCP/IP에서 HTTP까지! 네트워크에 대한 기본 이론이 부족한 분�
 - Port 번호의 역할
 
 <br>
+<br>
 
 ### 주요 학습 내용
 ---
@@ -53,6 +56,8 @@ TCP/IP에서 HTTP까지! 네트워크에 대한 기본 이론이 부족한 분�
 - 이해하려 하지 마시고 암기해서 우선 끝을 내세요. 그 암기의 결과로 언젠가 자연스럽게 네트워크를 이해할 수 있도록 도움을 드리는 것이 이번 강의의 목표입니다. 책을 봐도 이해하기 어려운 네트워크를 좀 더 쉽게 이해할 수 있도록 기초 체력을 다짐으로써, 추후 TCP/IP 네트워크 관련 서적을 보거나 조금 더 깊이있는 내용을 공부할 때 그 의미를 좀 더 쉽게 받아들일 수 있게 되기를 바랍니다. **오랫동안 개발에 부딪히며 공부해온 과정에서 제가 알게 된 것들을 빠르게, 그리고 효율적으로 알려드리겠습니다.**
 
 <br>
+<br>
+<br>
 
 ## Lessons Learned
 ---
@@ -60,6 +65,15 @@ TCP/IP에서 HTTP까지! 네트워크에 대한 기본 이론이 부족한 분�
 
 유료 강의이기에 금액을 지불하였는데 전혀 금액이 아깝지 않은 정도의 퀄리티를 가진 강의이다. 이 강의애서 배운 기초를 다진다면 다음 스텝으로 넘어가는데 큰 무리가 없을 듯 하다. 한 번이 아닌 지속적으로 보면서 되새긴다면 네트워크의 기초 영역은 마스터 할 것 이라고 감히 말 할 수 있을 듯 하다.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## Certificate
@@ -77,3 +91,7 @@ TCP/IP에서 HTTP까지! 네트워크에 대한 기본 이론이 부족한 분�
 ## Reference
 ---
 본 포스트는 학습 목적으로 작성되었으며, 강의 내용의 저작권은 [널널한 개발자](https://www.inflearn.com/users/865030/@nullnull8537)에게 있습니다.
+
+<br>
+
+[^1]: 출처: https://www.inflearn.com/course/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%95%B5%EC%8B%AC%EC%9D%B4%EB%A1%A0-%EA%B8%B0%EC%B4%88?cid=329534
