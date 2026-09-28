@@ -9,14 +9,17 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/review-logo.png
+ path: https://cdn.inflearn.com/wp-content/uploads/boan.png
  alt: Review
 ---
+_정보보안 전문가란? 무엇을 하고 어떻게 준비해야 할까.[^1]_
+{: .text-center }
+
+<br>
+
 ## About
 ---
-![inflearn-what-is-an-information-security-expert](https://cdn.inflearn.com/wp-content/uploads/boan.png)
-
-Inflearn "정보보안 전문가란? 무엇을 하고 어떻게 준비해야 할까." 강의 리뷰입니다.
+<center>Inflearn <strong>"정보보안 전문가란? 무엇을 하고 어떻게 준비해야 할까."</strong> 강의 리뷰입니다.</center>
 
 <br>
 
@@ -36,12 +39,14 @@ Inflearn "정보보안 전문가란? 무엇을 하고 어떻게 준비해야 할
 - **난이도**: 입문
 
 <br>
+<br>
 
 ### 학습 목표
 ---
 - 정보보안 직무, 분야, 되기위한 학습 지식
 - 정보보안전문가
 
+<br>
 <br>
 
 ### 주요 학습 내용
@@ -50,6 +55,8 @@ Inflearn "정보보안 전문가란? 무엇을 하고 어떻게 준비해야 할
 - 다루는 분야 : 정보보안 직무, 분야, 되기위한 학습 지식
 
 <br>
+<br>
+<br>
 
 ## Lessons Learned
 ---
@@ -57,6 +64,15 @@ Inflearn "정보보안 전문가란? 무엇을 하고 어떻게 준비해야 할
 
 나도 정보보안전문가를 목표로 공부하고 있는 입장에서 현실적으로 생각을 많이하게 된다. 또한 나는 어떤 직무를 하고 싶은지, 해당 직무를 목표로 한다면 어떤 기술을 습득해야 하는지에 대해서 가이드가 되어준다. 적재적소에 좋은 강의를 들은 것 같다.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 <!-- ## Related Posts
@@ -68,3 +84,7 @@ Inflearn "정보보안 전문가란? 무엇을 하고 어떻게 준비해야 할
 ## Reference
 ---
 본 포스트는 학습 목적으로 작성되었으며, 강의 내용의 저작권은 [보안프로젝트](https://www.inflearn.com/users/20967/@boanproject)에게 있습니다.
+
+<br>
+
+[^1]: 출처: https://www.inflearn.com/course/%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88-%EC%A0%84%EB%AC%B8%EA%B0%80
