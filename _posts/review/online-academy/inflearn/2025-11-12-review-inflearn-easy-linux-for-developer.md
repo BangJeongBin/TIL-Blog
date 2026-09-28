@@ -9,14 +9,17 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/review-logo.png
+ path: https://cdn.inflearn.com/public/courses/333415/cover/94e7a100-ac60-44be-9958-d3e7e9e8324a/333415.png
  alt: Review
 ---
+_개발자를 위한 쉬운 리눅스[^1]_
+{: .text-center }
+
+<br>
+
 ## About
 ---
-![inflearn-easy-linux-for-developer](https://cdn.inflearn.com/public/courses/333415/cover/94e7a100-ac60-44be-9958-d3e7e9e8324a/333415.png)
-
-Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
+<center>Inflearn <strong>"개발자를 위한 쉬운 리눅스"</strong> 강의 리뷰입니다.</center>
 
 <br>
 
@@ -26,7 +29,7 @@ Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
 
 <br>
 
-- **강의 링크**: [개발자를 위한 쉬운 리눅스](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%89%AC%EC%9A%B4-%EB%A6%AC%EB%88%85%EC%8A%A4)
+- **강의 링크**: [개발자를 위한 쉬운 리눅스](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%89%AC%EC%9A%B4-%EB%A6%AC%EB%88%85%EC%8A%A4?cid=333415)
 - **강사**: [황현우](https://www.inflearn.com/users/1029512/@daintree)
 - **카테고리**: 보안·네트워크 / 시스템·운영체제
 - **태그**: `#3시간 만에 완강할 수 있는 강의`, `#리눅스`, `#명령어`, `#터미널`, `#Linux`
@@ -34,6 +37,7 @@ Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
 - **강의 시간**: 1시간 25분
 - **난이도**: 입문
 
+<br>
 <br>
 
 ### 학습 목표
@@ -43,6 +47,7 @@ Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
 - vi 편집기 사용 방법
 - 커스텀명령어와 환경변수 활용 방법
 
+<br>
 <br>
 
 ### 주요 학습 내용
@@ -57,6 +62,8 @@ Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
 	- watch, export, alias 명령
 
 <br>
+<br>
+<br>
 
 ## Lessons Learned
 ---
@@ -64,6 +71,15 @@ Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
 
 실질적으로 리눅스가 아니더라도 vi 나 쉘 환경을 사용하는 경우가 있는데 이때 사용하는 기본적인 명령어 들만 알고 있어도 작업 능률이 크게 향상되기 때문에 해당 강의가 도움이 많이 될것 이라고 생각된다. 특히 백엔드, 클라우드, 서버 개발을 하는 경우엔 CLI 환경을 피할 수 없는데 그때 이 강의에서 배운 내용을 써먹어야겠다.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## Related Posts
@@ -75,3 +91,7 @@ Inflearn "개발자를 위한 쉬운 리눅스" 강의 리뷰입니다.
 ## Reference
 ---
 본 포스트는 학습 목적으로 작성되었으며, 강의 내용의 저작권은 [황현우](https://www.inflearn.com/users/1029512/@daintree)에게 있습니다.
+
+<br>
+
+[^1]: 출처: https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%89%AC%EC%9A%B4-%EB%A6%AC%EB%88%85%EC%8A%A4?cid=333415
