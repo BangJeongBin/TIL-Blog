@@ -15,6 +15,8 @@ image:
 _외워서 끝내는 네트워크 핵심이론 - 기초[^1]_
 {: .text-center }
 
+<br>
+
 ## About
 ---
 <center>Inflearn <strong>"외워서 끝내는 네트워크 핵심이론 - 기초"</strong> 강의 리뷰입니다.</center>

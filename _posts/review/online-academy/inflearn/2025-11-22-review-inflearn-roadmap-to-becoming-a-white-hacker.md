@@ -9,14 +9,17 @@ pin: false
 math: true
 mermaid: true
 image:
- path: https://bangjeongbin.github.io/TIL-Blog/assets/img/posts/common/review-logo.png
+ path: https://cdn.inflearn.com/public/files/courses/334458/cover/01jrdgf40m8rsg7qwxe137347d
  alt: Review
 ---
+_누구도 알려주지 않던 화이트 해커가 되기 위한 로드맵 A to Z[^1]_
+{: .text-center }
+
+<br>
+
 ## About
 ---
-![inflearn-roadmap-to-becoming-a-white-hacker](https://cdn.inflearn.com/public/files/courses/334458/cover/01jrdgf40m8rsg7qwxe137347d)
-
-Inflearn "누구도 알려주지 않던 화이트 해커가 되기 위한 로드맵 A to Z" 강의 리뷰입니다.
+<center>Inflearn <strong>"누구도 알려주지 않던 화이트 해커가 되기 위한 로드맵 A to Z"</strong> 강의 리뷰입니다.</center>
 
 <br>
 
@@ -35,6 +38,7 @@ Inflearn "누구도 알려주지 않던 화이트 해커가 되기 위한 로드
 - **난이도**: 입문
 
 <br>
+<br>
 
 ### 학습 목표
 ---
@@ -45,6 +49,7 @@ Inflearn "누구도 알려주지 않던 화이트 해커가 되기 위한 로드
 - Web site 해커가 되는 법
 - Application 해커가 되는 법
 
+<br>
 <br>
 
 ### 주요 학습 내용
@@ -57,6 +62,8 @@ Inflearn "누구도 알려주지 않던 화이트 해커가 되기 위한 로드
 - 기초 뿐 아니라, 입문 이후 전문가까지 진행해야할 방향성에 대해 제공합니다.
 
 <br>
+<br>
+<br>
 
 ## Lessons Learned
 ---
@@ -64,6 +71,15 @@ Inflearn "누구도 알려주지 않던 화이트 해커가 되기 위한 로드
 
 정보보안 전문가를 목표로 하고있는 사람으로서 큰 틀을 잡게 해주는 고마운 강의이다. 각 분야의 현실에 대해서도 알려줘서 나랑 맞는 분야는 어떤게 있는지, 내가 지금 뭘 하면 되는지에 대한 다양한 인사이트를 제공해준다. 나를 포함해서 정보보안 전문가를 지망하는 사람들이 가장 먼저 보면 좋을 강의라고 생각된다.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## Certificate
@@ -81,3 +97,7 @@ Inflearn "누구도 알려주지 않던 화이트 해커가 되기 위한 로드
 ## Reference
 ---
 본 포스트는 학습 목적으로 작성되었으며, 강의 내용의 저작권은 [KnockOn](https://www.inflearn.com/users/1256294/@knockon)에게 있습니다.
+
+<br>
+
+[^1]: 출처: https://www.inflearn.com/course/%ED%99%94%EC%9D%B4%ED%8A%B8-%ED%95%B4%EC%BB%A4-%EB%A1%9C%EB%93%9C%EB%A7%B5-a-to-z
