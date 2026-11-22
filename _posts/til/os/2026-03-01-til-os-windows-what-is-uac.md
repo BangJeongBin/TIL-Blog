@@ -2,7 +2,7 @@
 title: "[Windows] 윈도우의 UAC(User Account Control)란?"
 description: UAC의 개념과 동작원리에 관하여
 author: bin
-date: 2026-02-29 09:00:00 +0800
+date: 2026-03-01 09:00:00 +0800
 categories: [TIL, OS, Windows]
 tags: [OS, Windows, UAC]
 pin: false
