@@ -1,6 +1,213 @@
 [
   
   {
+    "title": "[Book] \"어디에나 있고 무엇이든 하는 알고리즘 이야기\" Review",
+    "url": "/posts/review-book-algorithms-that-are-everywhere-and-do-anything/",
+    "categories": "Review, Book",
+    "tags": "",
+    "date": "2026-11-21 10:00:00 +0900",
+    "content": "[Book] \"어디에나 있고 무엇이든 하는 알고리즘 이야기\" 리뷰"
+  },
+  
+  {
+    "title": "2026년 46주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202646-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-11-15 10:00:00 +0900",
+    "content": "46주차의 IT보안 키워드는 \"에이전트형 공격 도구, 관리 평면 집중 공격, AI 서비스 공급망 노출, 법 집행 공조”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 46주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202646-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-11-15 10:00:00 +0900",
+    "content": "46주차의 IT 키워드는 “AI 인프라 지배구조 리스크, 클라우드 단일 장애점, 에이전트 접근 통제, 원격관리 플랫폼 공격” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 45주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202645-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-11-08 10:00:00 +0900",
+    "content": "45주차의 IT보안 키워드는 \"공개 후 악용 시간 단위화, 신뢰 경로 공급망 침해, 콜드체인 OT 공격, 에이전트 공격 도구 노출”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 45주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202645-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-11-08 10:00:00 +0900",
+    "content": "45주차의 IT 키워드는 “AI 인프라 투자심리 급락, 방어용 AI 제한 공개, 에이전트 공격 도구 확산, 콜드체인 OT 공격” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 44주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202644-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-11-01 10:00:00 +0900",
+    "content": "44주차의 IT보안 키워드는 \"공개 후 악용 창 축소, 개발자·신원 신뢰 경로 침해, 국가 배후 대형 절도, OT·인프라 표적화”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 44주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202644-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-11-01 10:00:00 +0900",
+    "content": "44주차의 IT 키워드는 “AI 투자 수익성 검증, 에이전트 접근 통제, 공급망·신뢰 인프라 공격, 국가 배후 대형 절도” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 43주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202643-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-10-25 10:00:00 +0900",
+    "content": "43주차의 IT보안 키워드는 \"AI 발견 취약점의 공개 전 악용, 에이전트형 공격 실전화, 신뢰 인프라 연쇄 침해, 감독 장치 약화”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 43주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202643-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-10-25 10:00:00 +0900",
+    "content": "43주차의 IT 키워드는 “AI 발견 취약점의 공개 전 악용, 신뢰 인프라 연쇄 침해, 에이전트 통제 이탈과 소송, 에이전트 앱·클라우드 유통 재편” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 42주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202642-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-10-18 10:00:00 +0900",
+    "content": "42주차의 IT보안 키워드는 \"엣지 장비 제로데이, 신뢰 경로 침해, EOL·OT 물리 피해, AI 에이전트 규제 집행”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 42주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202642-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-10-18 10:00:00 +0900",
+    "content": "42주차의 IT 키워드는 “AI 에이전트 규제 집행, 엣지·레거시 장비 악용, 패치 물량 폭증, AI 도입 검증 병목” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 41주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202641-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-10-11 10:00:00 +0900",
+    "content": "41주차의 IT보안 키워드는 \"에이전트 사고 책임, 신뢰 경로 악용, 공급망 시크릿 탈취, AI 취약점 보고 홍수”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 41주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202641-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-10-11 10:00:00 +0900",
+    "content": "41주차의 IT 키워드는 “에이전트 사고 공개와 책임, 신뢰 인프라 침해, 런타임 격리, AI 자금 압박” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 40주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202640-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-10-04 10:00:00 +0900",
+    "content": "40주차의 IT보안 키워드는 \"폭주 에이전트 책임, 관리 평면 제로데이, 대규모 개인정보 유출, AI 에이전트 인증 약점”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 40주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202640-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-10-04 10:00:00 +0900",
+    "content": "40주차의 IT 키워드는 “자율 규제 대 집행, 관리 평면 제로데이, 대규모 개인정보 유출, 모델 접근 통제” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 39주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202639-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-09-27 10:00:00 +0900",
+    "content": "39주차의 IT보안 키워드는 \"엣지 장비 제로데이, AI 에이전트 보안 사고, 신원·서드파티 신뢰 악용, 규제·책임 강화”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 39주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202639-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-09-27 10:00:00 +0900",
+    "content": "39주차의 IT 키워드는 “에이전트 AI 통제 실패, 엣지 제로데이, AI 공격 내재화, 규제 가속” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 38주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202638-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-09-20 10:00:00 +0900",
+    "content": "38주차의 IT보안 키워드는 \"Chrome V8 제로데이, 다크웹 유통망 침해, EDR 무력화 기법, PQC 양자 보안”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 38주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202638-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-09-20 10:00:00 +0900",
+    "content": "38주차의 IT 키워드는 “온디바이스 AI 칩셋, 차세대 스마트 디바이스, 양자 내성 암호 표준, 데이터센터 전력 솔루션” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 37주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202637-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-09-13 10:00:00 +0900",
+    "content": "37주차의 IT보안 키워드는 \"패치 튜즈데이 제로데이, 엣지 장비 무기화, AI 탈옥 공격, 랜섬웨어 갈취 고도화”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 37주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202637-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-09-13 10:00:00 +0900",
+    "content": "37주차의 IT 키워드는 “피지컬 AI 로보틱스, 엣지 추론 아키텍처, AI 에이전트 자율성, 2차 디바이스 혁신” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 36주차 IT보안 뉴스 분석 보고서",
+    "url": "/posts/202636-security-issue-report/",
+    "categories": "NEWS, Security",
+    "tags": "NEWS, Security",
+    "date": "2026-09-06 10:00:00 +0900",
+    "content": "36주차의 IT보안 키워드는 \"패치 튜즈데이 제로데이, 경계 장비 침투, Chrome V8 악용, AI 에이전트 위협”으로 요약됩니다."
+  },
+  
+  {
+    "title": "2026년 36주차 IT 뉴스 분석 보고서",
+    "url": "/posts/202636-it-issue-report/",
+    "categories": "NEWS, IT",
+    "tags": "NEWS, IT",
+    "date": "2026-09-06 10:00:00 +0900",
+    "content": "36주차의 IT 키워드는 “차세대 프론티어 모델, 브라우저 주명기 단축, AI 에이전트 표준화, 오픈소스 생태계 재편” 으로 요약됩니다."
+  },
+  
+  {
     "title": "2026년 35주차 IT보안 뉴스 분석 보고서",
     "url": "/posts/202635-security-issue-report/",
     "categories": "NEWS, Security",
@@ -475,6 +682,15 @@
     "tags": "NEWS, IT",
     "date": "2026-03-08 10:00:00 +0900",
     "content": "10주차의 IT 키워드는 “에이전틱 AI 생산 단계 진입(Agentic Production), HBM4 표준 주도권, 피지컬 AI(Physical AI)의 실체화, 6G 저궤도 융합” 으로 요약됩니다."
+  },
+  
+  {
+    "title": "[Linux] SysVinit의 개념과 systemd와의 차이",
+    "url": "/posts/til-os-linux-the-concept-of-sysvinit-and-the-difference-from-systemd/",
+    "categories": "TIL, OS, Linux",
+    "tags": "OS, Linux, Process, init, SysVinit, systemd",
+    "date": "2026-03-05 10:00:00 +0900",
+    "content": "리눅스의 init 프로세스인 SysVinit의 개념 및 전통의 SysVinit과 systemd의 차이점"
   },
   
   {
@@ -1024,6 +1240,123 @@
     "tags": "Linux",
     "date": "2025-11-12 10:00:00 +0900",
     "content": "[Inflearn] \"개발자를 위한 쉬운 리눅스\" 리뷰"
+  },
+  
+  {
+    "title": "[LeetCode 196] Delete Duplicate Emails",
+    "url": "/posts/leetcode-196/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-25 10:00:00 +0900",
+    "content": "LeetCode 196 (SQL) <br> [Delete Duplicate Emails] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 195] Tenth Line",
+    "url": "/posts/leetcode-195/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-25 10:00:00 +0900",
+    "content": "LeetCode 195 (Java) <br> [Tenth Line] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 193] Valid Phone Numbers",
+    "url": "/posts/leetcode-193/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-25 10:00:00 +0900",
+    "content": "LeetCode 193 (Java) <br> [Valid Phone Numbers] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 191] Number of 1 Bits",
+    "url": "/posts/leetcode-191/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-24 10:00:00 +0900",
+    "content": "LeetCode 191 (Java) <br> [Number of 1 Bits] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 190] Reverse Bits",
+    "url": "/posts/leetcode-190/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-23 10:00:00 +0900",
+    "content": "LeetCode 190 (Java) <br> [Reverse Bits] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 3195] Find the Minimum Area to Cover All Ones I",
+    "url": "/posts/leetcode-3195/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-22 10:00:00 +0900",
+    "content": "LeetCode 3195 (Java) <br> [Find the Minimum Area to Cover All Ones I] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 1504] Count Submatrices With All Ones",
+    "url": "/posts/leetcode-1504/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-21 10:00:00 +0900",
+    "content": "LeetCode 1504 (Java) <br> [Count Submatrices With All Ones] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 183] Customers Who Never Order",
+    "url": "/posts/leetcode-183/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-20 10:00:00 +0900",
+    "content": "LeetCode 183 (SQL) <br> [Customers Who Never Order] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 2348] Number of Zero-Filled Subarrays",
+    "url": "/posts/leetcode-2348/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-19 10:00:00 +0900",
+    "content": "LeetCode 2348 (Java) <br> [Number of Zero-Filled Subarrays] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 182] Duplicate Emails",
+    "url": "/posts/leetcode-182/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-18 10:00:00 +0900",
+    "content": "LeetCode 182 (SQL) <br> [Duplicate Emails] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 181] Employees Earning More Than Their Managers",
+    "url": "/posts/leetcode-181/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-17 10:00:00 +0900",
+    "content": "LeetCode 181 (SQL) <br> [Employees Earning More Than Their Managers] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 175] Combine Two Tables",
+    "url": "/posts/leetcode-175/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-15 10:00:00 +0900",
+    "content": "LeetCode 175 (SQL) <br> [Combine Two Tables] 문제 풀이"
+  },
+  
+  {
+    "title": "[LeetCode 2264] Largest 3-Same-Digit Number in String",
+    "url": "/posts/leetcode-2264/",
+    "categories": "Algorithm Test, LeetCode",
+    "tags": "LeetCode, Java",
+    "date": "2025-08-14 10:00:00 +0900",
+    "content": "LeetCode 2264 (Java) <br> [Largest 3-Same-Digit Number in String] 문제 풀이"
   },
   
   {

@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>TIL-Blog</title>
   <subtitle>하나하나하나</subtitle>
-  <updated>2026-09-22T22:53:31+09:00</updated>
+  <updated>2026-11-22T22:42:56+09:00</updated>
   <author>
     <name>BangJeongBin</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,40 @@
 
   
   <entry>
-    <title>2026년 35주차 IT보안 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202635-security-issue-report/" rel="alternate" type="text/html" title="2026년 35주차 IT보안 뉴스 분석 보고서" />
-    <published>2026-08-30T10:00:00+09:00</published>
+    <title>[Book] "어디에나 있고 무엇이든 하는 알고리즘 이야기" Review</title>
+    <link href="http://localhost:4000/posts/review-book-algorithms-that-are-everywhere-and-do-anything/" rel="alternate" type="text/html" title="[Book] &amp;quot;어디에나 있고 무엇이든 하는 알고리즘 이야기&amp;quot; Review" />
+    <published>2026-11-21T10:00:00+09:00</published>
   
-    <updated>2026-08-30T10:00:00+09:00</updated>
+    <updated>2026-11-21T16:11:12+09:00</updated>
   
-    <id>http://localhost:4000/posts/202635-security-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202635-security-issue-report/" />
+    <id>http://localhost:4000/posts/review-book-algorithms-that-are-everywhere-and-do-anything/</id>
+    <content type="text/html" src="http://localhost:4000/posts/review-book-algorithms-that-are-everywhere-and-do-anything/" />
+    <author>
+      <name>bin</name>
+    </author>
+
+  
+    
+    <category term="Review" />
+    
+    <category term="Book" />
+    
+  
+
+  <summary>[Book] "어디에나 있고 무엇이든 하는 알고리즘 이야기" 리뷰</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>2026년 46주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202646-security-issue-report/" rel="alternate" type="text/html" title="2026년 46주차 IT보안 뉴스 분석 보고서" />
+    <published>2026-11-15T10:00:00+09:00</published>
+  
+    <updated>2026-11-15T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/202646-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202646-security-issue-report/" />
     <author>
       <name>bin</name>
     </author>
@@ -40,20 +66,20 @@
     
   
 
-  <summary>35주차의 IT보안 키워드는 "AI 에이전트 위협, 제로데이 취약점, 클라우드 자격증명 유출, 공급망 보안”으로 요약됩니다.</summary>
+  <summary>46주차의 IT보안 키워드는 "에이전트형 공격 도구, 관리 평면 집중 공격, AI 서비스 공급망 노출, 법 집행 공조”으로 요약됩니다.</summary>
 
   </entry>
 
   
   <entry>
-    <title>2026년 35주차 IT 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202635-it-issue-report/" rel="alternate" type="text/html" title="2026년 35주차 IT 뉴스 분석 보고서" />
-    <published>2026-08-30T10:00:00+09:00</published>
+    <title>2026년 46주차 IT 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202646-it-issue-report/" rel="alternate" type="text/html" title="2026년 46주차 IT 뉴스 분석 보고서" />
+    <published>2026-11-15T10:00:00+09:00</published>
   
-    <updated>2026-08-30T10:00:00+09:00</updated>
+    <updated>2026-11-15T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/202635-it-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202635-it-issue-report/" />
+    <id>http://localhost:4000/posts/202646-it-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202646-it-issue-report/" />
     <author>
       <name>bin</name>
     </author>
@@ -66,20 +92,20 @@
     
   
 
-  <summary>35주차의 IT 키워드는 “자체 AI 반도체, 클라우드 계정 유출, 에이전트 표준화, 활성 취약점 대응” 으로 요약됩니다.</summary>
+  <summary>46주차의 IT 키워드는 “AI 인프라 지배구조 리스크, 클라우드 단일 장애점, 에이전트 접근 통제, 원격관리 플랫폼 공격” 으로 요약됩니다.</summary>
 
   </entry>
 
   
   <entry>
-    <title>2026년 34주차 IT보안 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202634-security-issue-report/" rel="alternate" type="text/html" title="2026년 34주차 IT보안 뉴스 분석 보고서" />
-    <published>2026-08-23T10:00:00+09:00</published>
+    <title>2026년 45주차 IT보안 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202645-security-issue-report/" rel="alternate" type="text/html" title="2026년 45주차 IT보안 뉴스 분석 보고서" />
+    <published>2026-11-08T10:00:00+09:00</published>
   
-    <updated>2026-08-23T10:00:00+09:00</updated>
+    <updated>2026-11-08T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/202634-security-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202634-security-issue-report/" />
+    <id>http://localhost:4000/posts/202645-security-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202645-security-issue-report/" />
     <author>
       <name>bin</name>
     </author>
@@ -92,20 +118,20 @@
     
   
 
-  <summary>34주차의 IT보안 키워드는 "공급망 취약점, 제로데이 우회, AI 시스템 보안, 네트워크 경계 방어”으로 요약됩니다.</summary>
+  <summary>45주차의 IT보안 키워드는 "공개 후 악용 시간 단위화, 신뢰 경로 공급망 침해, 콜드체인 OT 공격, 에이전트 공격 도구 노출”으로 요약됩니다.</summary>
 
   </entry>
 
   
   <entry>
-    <title>2026년 34주차 IT 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202634-it-issue-report/" rel="alternate" type="text/html" title="2026년 34주차 IT 뉴스 분석 보고서" />
-    <published>2026-08-23T10:00:00+09:00</published>
+    <title>2026년 45주차 IT 뉴스 분석 보고서</title>
+    <link href="http://localhost:4000/posts/202645-it-issue-report/" rel="alternate" type="text/html" title="2026년 45주차 IT 뉴스 분석 보고서" />
+    <published>2026-11-08T10:00:00+09:00</published>
   
-    <updated>2026-08-23T10:00:00+09:00</updated>
+    <updated>2026-11-08T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/202634-it-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202634-it-issue-report/" />
+    <id>http://localhost:4000/posts/202645-it-issue-report/</id>
+    <content type="text/html" src="http://localhost:4000/posts/202645-it-issue-report/" />
     <author>
       <name>bin</name>
     </author>
@@ -118,33 +144,7 @@
     
   
 
-  <summary>34주차의 IT 키워드는 “온디바이스 AI, 차세대 메모리, 에이전틱 오케스트레이션, 소버린 클라우드” 으로 요약됩니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2026년 33주차 IT보안 뉴스 분석 보고서</title>
-    <link href="http://localhost:4000/posts/202633-security-issue-report/" rel="alternate" type="text/html" title="2026년 33주차 IT보안 뉴스 분석 보고서" />
-    <published>2026-08-16T10:00:00+09:00</published>
-  
-    <updated>2026-09-09T01:04:25+09:00</updated>
-  
-    <id>http://localhost:4000/posts/202633-security-issue-report/</id>
-    <content type="text/html" src="http://localhost:4000/posts/202633-security-issue-report/" />
-    <author>
-      <name>bin</name>
-    </author>
-
-  
-    
-    <category term="NEWS" />
-    
-    <category term="Security" />
-    
-  
-
-  <summary>33주차의 IT보안 키워드는 "제로데이 취약점, AI 공급망 공격, 랜섬웨어 확산, 중요 기반시설 보안”으로 요약됩니다.</summary>
+  <summary>45주차의 IT 키워드는 “AI 인프라 투자심리 급락, 방어용 AI 제한 공개, 에이전트 공격 도구 확산, 콜드체인 OT 공격” 으로 요약됩니다.</summary>
 
   </entry>
 
