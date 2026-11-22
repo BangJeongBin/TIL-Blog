@@ -186,7 +186,7 @@ K01speech-dispatcher -> ../init.d/speech-dispatcher
 
 ## 𝙸𝚅. SysVinit, systemd 차이점
 ---
-SysVinit은 Runlevel과 `/etc/rcN.d/`의 S/K 스크립트를 순차 실행하는 단순한 구조인데 반해 systemd는 유닛 파일과 의존성 선언으로 병렬 부팅, 서비스 감시, 중앙 로그까지 강력한 기능들을 제공한다.
+SysVinit은 Runlevel과 `/etc/rcN.d/`의 S/K 스크립트를 순차 실행하는 단순한 구조인데 반해 systemd는 유닛 파일과 의존성 선언으로 병렬 부팅, 서비스 감시, 중앙 로그까지 강력한 기능들을 제공한다.
 
 이렇듯 systemd의 기능이 SysVinit 구현 방식보다 더 좋은 상황이 많아 현대의 Linux 배포판들은 systemd 방식을 채택하는 경우가 많다.
 
