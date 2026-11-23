@@ -159,17 +159,23 @@ _UAC 설정 4단계 (Windows 7)[^3]_
     
 - 일반 사용자(Standard User) 계정에서 실행할 경우에는 자동 권한 상승이 불가능하며, 항상 관리자 자격 증명을 요구하는 프롬프트가 출력
 
+<br>
+
 #### 2. 디지털 서명 조건 (Microsoft Digital Signature)
 
 - 실행 파일(`.exe`)이 **마이크로소프트(Microsoft)의 유효한 디지털 서명**으로 서명되어 있어야 한다.
     
 - 서명이 없거나, 타사(Third-party) 서명, 혹은 서명이 훼손된 파일은 자동 권한 상승 대상에서 제외
 
+<br>
+
 #### 3. 매니페스트(Manifest) 설정 조건
 
 - 실행 파일의 리소스 섹션 내에 포함된 XML 구조의 **매니페스트 파일**에 자동 권한 상승 명시가 존재해야 한다.
     
 - `<autoElevate>true</autoElevate>` (또는 `autoElevate="true"`) 속성이 설정되어 있고, executionLevel이 `requireAdministrator` 또는 `highestAvailable`로 지정되어 있어야 운영체제가 자동 권한 상승 절차를 발동
+
+<br>
 
 #### 4. 신뢰할 수 있는 경로 조건 (Trusted Directory)
 
