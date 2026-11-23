@@ -28,6 +28,7 @@ _Windows의 레지스트리 편집기 (regedit.exe)[^1]_
 - 레지스트리는 크게 **루트키**, **서브키**의 분류로 분류되어있으며 <u>3개의 루르키와 모든 서브키는 메모리에만 존재하고 실제 물리적인 데이터는 하이브에 저장</u>되어 있다.
 
 <br>
+<br>
 
 ### Hive
 ---
@@ -37,6 +38,10 @@ _Windows의 레지스트리 편집기 (regedit.exe)[^1]_
 	
 - 부팅 시 윈도우의 설정 관리자(CM, Configuration Manager)가 이 파일들을 읽어 메모리 상에 트리 형태의 자료구조로 로그/구성한다.
 
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## 𝙸𝙸. 레지스트리의 구조
@@ -55,6 +60,7 @@ _Windows의 레지스트리 편집기 (regedit.exe)[^1]_
 또한 레지스트리의 특징으로는 값 변경 시 즉시 운영체제와 응용 프로그램에 반영되어 별도 재부팅을 필요로 하지 않는 경우가 많으며, 일부 핵심 시스템 설정을 제외하곤 즉시 적용된다. 그렇기 때문에 더더욱 레지스트리 수정에는 신중을 가해야한다.
 
 <br>
+<br>
 
 ### 값 타입(Value Type)의 종류
 ---
@@ -62,6 +68,10 @@ _Windows의 레지스트리 편집기 (regedit.exe)[^1]_
 ![](https://lh3.googleusercontent.com/d/1YLRsWOJW2BVyqkf8rD_BQELCNVNa3Y-a)
 _값 타입(Value Type)의 종류[^2]_
 
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## 𝙸𝙸𝙸. 보안관점에서의 레지스트리
@@ -88,11 +98,17 @@ _값 타입(Value Type)의 종류[^2]_
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 ## Related Posts
 ---
 - [[Windows] 윈도우의 핵심 프로세스](https://bangjeongbin.github.io/TIL-Blog/posts/til-os-core-windows-processes/)
 
+<br>
+<br>
 <br>
 
 ## Reference
