@@ -47,6 +47,7 @@ _Windows의 구성요소[^1]_
 윈도우는 부팅 시 보통 100개 내외의 프로세스가 실행된다. 시스템이 부팅될 때 특정 순서에 따라 핵심 프로세스들이 부모-자식 관계를 형성하며 생성 및 초기화된다.
 
 <br>
+<br>
 
 ### 간략한 부팅의 순서
 ---
@@ -58,6 +59,10 @@ _Windows의 구성요소[^1]_
         
 3. 초기화 세션 SMSS의 종료: Session 0과 Session 1을 생성한 세션별 `SMSS.EXE` 및 로그인 후의 `USERINIT.EXE`는 역할을 마치면 자연스럽게 종료(Terminated)된다.
 
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## 𝙸𝙸. 기능별 프로세스 분류
@@ -77,6 +82,7 @@ _Windows의 구성요소[^1]_
 - `winlogon.exe`:	대화형 로그온 처리. 자격 증명 공급자를 불러오고 로그온/로그오프를 관리
 
 <br>
+<br>
 
 ### 보안 · 인증
 ---
@@ -84,6 +90,7 @@ _Windows의 구성요소[^1]_
 	
 - `lsaiso.exe`:	Credential Guard 활성화 시 VBS(가상화 기반 보안)로 자격 증명을 격리된 영역에 보관
 
+<br>
 <br>
 
 ### 서비스 관리
@@ -97,6 +104,7 @@ _Windows의 구성요소[^1]_
 - `taskhostw.exe`:	작업 스케줄러가 실행하는 DLL 기반 작업을 담는 호스트
 
 <br>
+<br>
 
 ### 사용자 인터페이스
 ---
@@ -109,6 +117,7 @@ _Windows의 구성요소[^1]_
 - `SearchUI.exe`:	검색 UI (최신 버전은 SearchApp.exe·SearchHost.exe로 이름이 바뀜)
 
 <br>
+<br>
 
 ### 런타임 · 지원
 ---
@@ -118,6 +127,7 @@ _Windows의 구성요소[^1]_
 	
 - `ctfmon.exe`:	IME, 필기 인식, 음성 입력 등 대체 텍스트 입력 서비스 관리
 
+<br>
 <br>
 
 ### 백그라운드 · 모니터링
@@ -130,6 +140,10 @@ _Windows의 구성요소[^1]_
 	
 - `SecurityHealthService.exe`:	Windows 보안 센터 상태 점검 및 알림 관리
 
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## 𝙸𝙸𝙸. 마무리
@@ -144,6 +158,10 @@ Windows에서는 많은 프로세스가 복잡하게 동작하고 있기에 정�
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 ## Related Posts
 ---
@@ -151,11 +169,15 @@ Windows에서는 많은 프로세스가 복잡하게 동작하고 있기에 정�
 - [[Windows] 윈도우 레지스트리 심화](https://bangjeongbin.github.io/TIL-Blog/posts/til-os-windows-registry-deep-dive)
 
 <br>
+<br>
+<br>
 
 ## Footnote
 ---
 > <a name="footnote_1">ⓐ</a> PID 4: 윈도우 System 프로세스에 항상 고정으로 할당되는 PID 번호. 윈도우 운영체제가 컴퓨터를 구동하고 유지하는 데 필수적인 프로세스이므로, 임의로 종료하거나 없앨 수 없는 특징이 있다.
 
+<br>
+<br>
 <br>
 
 ## Reference
@@ -165,6 +187,5 @@ Windows에서는 많은 프로세스가 복잡하게 동작하고 있기에 정�
 - [[Windows] Windows 주요 프로세스 분석](https://darksoulstory.tistory.com/487)
 
 <br>
-
 
 [^1]: 출처: https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/overview-of-windows-components
