@@ -28,7 +28,7 @@ _윈도우의 Integrity Level 피라미드[^1]_
 <br>
 
 현재 프로세스가 어떤 권한을 갖고 있고 어떤 상태(**Enabled**/**Disabled**)인지는 `whoami /priv` 명령어로 확인 가능
-```
+```bash
 C:\Windows\ServiceProfiles>whoami /priv
 
 PRIVILEGES INFORMATION
@@ -43,6 +43,10 @@ SeIncreaseWorkingSetPrivilege  Increase a process working set       Disabled
 SeTimeZonePrivilege            Change the time zone                 Disabled
 ```
 
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## 𝙸𝙸. 무결성 수준 (Integrity Level, IL)
@@ -61,6 +65,7 @@ _Process Explorer를 사용한 Integrity Level 확인[^2]_
 {: .prompt-tip }
 
 <br>
+<br>
 
 ### Integrity Level 5단계
 ---
@@ -73,6 +78,10 @@ _Process Explorer를 사용한 Integrity Level 확인[^2]_
 |    **LOW**    | S-1-16-4096  | 웹 브라우저(Chrome, Edge 등)의 탭 프로세스나 PDF 뷰어 등 인터넷 자원을 처리하는 애플리케이션에 적용.<br>악성 파일이 다운로드되거나 웹을 통해 실행되더라도, 시스템 파일이나 다른 프로그램의 메모리를 오염시키지 못하도록 격리(Sandbox)하는 역할. |
 | **UNTRUSTED** |   S-1-16-0   | 가장 낮은 수준. 신뢰할 수 없는 외부 콘텐츠를 처리하는 프로세스가 주로 사용.<br>시스템의 거의 모든 영역에 쓰기 권한이 차단.                                                                             |
 
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## 𝙸𝙸𝙸. Privilege와 IL의 동작 방식
@@ -96,6 +105,7 @@ _Process Explorer를 사용한 Integrity Level 확인[^2]_
 - **Privilege의 작용**: UAS 승인을 통한 High IL 상태가 되더라도, 해당 프로세스 액세스 토큰 안에 `SeTimeZonePrivilege` 또는 `SeSystemtimePrivilege`라는 특정 권한이 부여되어 있고 **활성화 상태**여야만 최종적으로 시계가 변경된다.
 
 <br>
+<br>
 
 ### 차이점 정리
 ---
@@ -112,11 +122,17 @@ _Process Explorer를 사용한 Integrity Level 확인[^2]_
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 ## Related Posts
 ---
 - [[Windows] 윈도우의 UAC(User Account Control)란?](https://bangjeongbin.github.io/TIL-Blog/posts/til-os-windows-what-is-uac)
 
+<br>
+<br>
 <br>
 
 ## Reference
