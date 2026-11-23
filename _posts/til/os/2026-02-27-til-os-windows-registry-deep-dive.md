@@ -22,6 +22,7 @@ _레지스트리의 하이브 구조[^1]_
 레지스트리는 최상위 경로에 위치한 5개의 루트 키를 중심으로 구조를 형성한다.
 
 <br>
+<br>
 
 ### HKLM (HKEY_LOCAL_MACHINE)
 ---
@@ -34,6 +35,7 @@ _레지스트리의 하이브 구조[^1]_
 - 자체 하이브를 갖고 있으며, HKLM 하이브 중 일부는 관리자 계정으로도 접근하지 못하는 하이브가 있어 시스템 계정으로 접근 가능
 
 <br>
+<br>
 
 ### HKU (HKEY_USERS)
 ---
@@ -45,6 +47,7 @@ _레지스트리의 하이브 구조[^1]_
 	
 - HKCU는 사실 이 중 현재 사용자 항목을 가리키는 링크이다.
 
+<br>
 <br>
 
 ### HKCU (HKEY_CURRENT_USER)
@@ -59,6 +62,7 @@ _레지스트리의 하이브 구조[^1]_
 _HKEY_CURRENT_USER[^2]_
 
 <br>
+<br>
 
 ### HKCR (HKEY_CLASSES_ROOT)
 ---
@@ -69,6 +73,7 @@ _HKEY_CURRENT_USER[^2]_
 - 해당 루트키는 하위 서브키로 HKLM\SOFTWARE\Classes와 HKU\<SID>\Classes의 심볼릭 링크 정보를 가짐 (.btapp)
 
 <br>
+<br>
 
 ### HKCC (HKEY_CURRENT_CONFIG)
 ---
@@ -78,6 +83,10 @@ _HKEY_CURRENT_USER[^2]_
 	
 - 별도의 하이브를 갖고 있지 않으며 프로그램이 현재 활성화된 하드웨어를 알아보기 위해 이 루트키 참조한다.
 
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## 𝙸𝙸. 마스터 키 (Master key), 파생 키 (Derived key)
@@ -100,6 +109,10 @@ _Master Key와 Derived Key[^3]_
 > E.g. HKEY_CURRENT_USER는 메모리상에서 사용자 SID에 해당하는 마스터 키 영역으로부터 파생되어 구성됩니다.
 {: .prompt-tip }
 
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## 𝙸𝙸𝙸. 주요 하이브 목록
@@ -132,6 +145,10 @@ _Master Key와 Derived Key[^3]_
 	- 해당 하이브에서 중요한 것은 바로 **CurrentControlSet** 키
 
 <br>
+<br>
+<br>
+<br>
+<br>
 
 ## 𝙸𝚅. 포렌식 관점에서의 하이브
 ---
@@ -145,12 +162,18 @@ _Master Key와 Derived Key[^3]_
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 ## Related Posts
 ---
 - [[Windows] 윈도우의 핵심 프로세스](https://bangjeongbin.github.io/TIL-Blog/posts/til-os-core-windows-processes/)
 - [[Windows] 윈도우의 레지스트리란?](https://bangjeongbin.github.io/TIL-Blog/posts/til-os-core-what-is-windows-registry/)
 
+<br>
+<br>
 <br>
 
 ## Reference
