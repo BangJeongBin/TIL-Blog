@@ -47,6 +47,7 @@ _[그림 1-1]_
 <br>
 
 1. 화면 우측 상단에 스패너 아이콘을 눌러 `설정` 메뉴로 진입
+
 ![image-2](https://lh3.googleusercontent.com/d/1Oaqd-LJvp-wXuniL48xnYI1FsULjCTsm)
 _[그림 2-1]_
 {: .text-center }
@@ -54,12 +55,14 @@ _[그림 2-1]_
 <br>
 
 2. 시스템 설정에서 `Keyboard & Mouse` 설정 진입
+
 ![image-3](https://lh3.googleusercontent.com/d/18715ItT3EOI2B1Hg1IBodQrlgFxT0YhO)
 _[그림 2-2]_
 {: .text-center }
 
 
 3. 나같은 경우는 `Profile - Default`로 설정되어 있었는데 `Mac Profile`로 변경
+
 ![image-4](https://lh3.googleusercontent.com/d/1pM0jhtRfR0ZFzm1IIECOWq1we5bOGUAV)
 _[그림 2-3]_
 {: .text-center }
