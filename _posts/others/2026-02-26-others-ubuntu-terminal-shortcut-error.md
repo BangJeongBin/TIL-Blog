@@ -10,7 +10,7 @@ math: true
 mermaid: true
 ---
 
-> **한줄 요약**
+> **한줄 요약**    
 > "Mac 환경에서 VMware Fusion으로 띄운 Ubuntu Desktop에서 `Ctrl + Alt + T`(터미널 열기) 단축키가 동작 안함. Ubuntu의 Profile 설정으로 간단하게 해결.
 {: .prompt-info }
 
