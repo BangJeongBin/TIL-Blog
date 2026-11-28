@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@BangJeongBin" />
 <meta name="twitter:creator" content="@Jeongbin Bang" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2026-09-17T21:56:42+09:00","datePublished":"2026-02-25T10:00:00+09:00","description":"Windows 핵심 프로세스들의 계층 구조와 기능별 분류","headline":"[Windows] 윈도우의 핵심 프로세스","image":{"alt":"Today I Learnd","url":"https://learn.microsoft.com/ko-kr/windows-hardware/drivers/kernel/images/ntarch.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/til-os-core-windows-processes/"},"url":"http://localhost:4000/posts/til-os-core-windows-processes/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2026-11-23T13:36:30+09:00","datePublished":"2026-02-25T10:00:00+09:00","description":"Windows 핵심 프로세스들의 계층 구조와 기능별 분류","headline":"[Windows] 윈도우의 핵심 프로세스","image":{"alt":"Today I Learnd","url":"https://learn.microsoft.com/ko-kr/windows-hardware/drivers/kernel/images/ntarch.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/til-os-core-windows-processes/"},"url":"http://localhost:4000/posts/til-os-core-windows-processes/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -879,13 +879,13 @@
 
 <time
   
-  data-ts="1789649802"
+  data-ts="1795408590"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Sep 17, 2026
+  Nov 23, 2026
 </time>
 
         </span>
@@ -1009,7 +1009,8 @@
 
 <p>윈도우는 부팅 시 보통 100개 내외의 프로세스가 실행된다. 시스템이 부팅될 때 특정 순서에 따라 핵심 프로세스들이 부모-자식 관계를 형성하며 생성 및 초기화된다.</p>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="간략한-부팅의-순서"><span class="me-2">간략한 부팅의 순서</span><a href="#간략한-부팅의-순서" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1026,7 +1027,11 @@
   <li>초기화 세션 SMSS의 종료: Session 0과 Session 1을 생성한 세션별 <code class="language-plaintext highlighter-rouge">SMSS.EXE</code> 및 로그인 후의 <code class="language-plaintext highlighter-rouge">USERINIT.EXE</code>는 역할을 마치면 자연스럽게 종료(Terminated)된다.</li>
 </ol>
 
-<p><br /></p>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
 
 <h2 id="𝙸𝙸-기능별-프로세스-분류"><span class="me-2">𝙸𝙸. 기능별 프로세스 분류</span><a href="#𝙸𝙸-기능별-프로세스-분류" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
@@ -1053,7 +1058,8 @@
   </li>
 </ul>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="보안--인증"><span class="me-2">보안 · 인증</span><a href="#보안--인증" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1066,7 +1072,8 @@
   </li>
 </ul>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="서비스-관리"><span class="me-2">서비스 관리</span><a href="#서비스-관리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1085,7 +1092,8 @@
   </li>
 </ul>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="사용자-인터페이스"><span class="me-2">사용자 인터페이스</span><a href="#사용자-인터페이스" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1104,7 +1112,8 @@
   </li>
 </ul>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="런타임--지원"><span class="me-2">런타임 · 지원</span><a href="#런타임--지원" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1120,7 +1129,8 @@
   </li>
 </ul>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="백그라운드--모니터링"><span class="me-2">백그라운드 · 모니터링</span><a href="#백그라운드--모니터링" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1139,7 +1149,11 @@
   </li>
 </ul>
 
-<p><br /></p>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
 
 <h2 id="𝙸𝙸𝙸-마무리"><span class="me-2">𝙸𝙸𝙸. 마무리</span><a href="#𝙸𝙸𝙸-마무리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
@@ -1148,6 +1162,10 @@
 <p>공격자는 탐지를 회피하기 위해 <code class="language-plaintext highlighter-rouge">svchost.exe</code>, <code class="language-plaintext highlighter-rouge">explorer.exe</code> 같은 정상 프로세스의 이름을 그대로 사용하는 경우가 많다. 이런 경우에서 악성 프로세스를 트리아지하기 위해선 <strong>1. 파일 경로 확인</strong>, <strong>2. 부모 프로세스 확인</strong>, <strong>3. 디지털 서명</strong> 등의 방법으로 정밀 분석하여 악성 프로세스를 식별할 수 있어야 한다.</p>
 
 <p><br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
@@ -1161,7 +1179,9 @@
   <li><a href="https://bangjeongbin.github.io/TIL-Blog/posts/til-os-windows-registry-deep-dive">[Windows] 윈도우 레지스트리 심화</a></li>
 </ul>
 
-<p><br /></p>
+<p><br />
+<br />
+<br /></p>
 
 <h2 id="footnote"><span class="me-2">Footnote</span><a href="#footnote" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
@@ -1169,7 +1189,9 @@
   <p><a name="footnote_1">ⓐ</a> PID 4: 윈도우 System 프로세스에 항상 고정으로 할당되는 PID 번호. 윈도우 운영체제가 컴퓨터를 구동하고 유지하는 데 필수적인 프로세스이므로, 임의로 종료하거나 없앨 수 없는 특징이 있다.</p>
 </blockquote>
 
-<p><br /></p>
+<p><br />
+<br />
+<br /></p>
 
 <h2 id="reference"><span class="me-2">Reference</span><a href="#reference" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
@@ -1326,35 +1348,35 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/til-os-linux-the-concept-of-sysvinit-and-the-difference-from-systemd/">[Linux] SysVinit의 개념과 systemd와의 차이</a>
+          <a href="/posts/others-ubuntu-terminal-shortcut-error/">Ubuntu 터미널 단축키 장애 해결</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/review-book-algorithms-that-are-everywhere-and-do-anything/">[Book] "어디에나 있고 무엇이든 하는 알고리즘 이야기" Review</a>
+          <a href="/posts/boj-14681/">[BOJ 14681] 사분면 고르기</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/leetcode-145/">[LeetCode 145] Binary Tree Postorder Traversal</a>
+          <a href="/posts/boj-10952/">[BOJ 10952] A+B - 5</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/leetcode-160/">[LeetCode 160] Intersection of Two Linked Lists</a>
+          <a href="/posts/boj-15552/">[BOJ 15552] 빠른 A+B</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/leetcode-168/">[LeetCode 168] Excel Sheet Column Title</a>
+          <a href="/posts/boj-10871/">[BOJ 10871] X보다 작은 수</a>
         </li>
       
     </ul>
@@ -1627,125 +1649,6 @@
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -1755,100 +1658,6 @@
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -1993,90 +1802,70 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -2251,6 +2040,71 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -2290,7 +2144,189 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2367,6 +2403,10 @@
     
     
     
+      
+        
+        
+
   
     
     
@@ -2463,10 +2503,10 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/os/">OS</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/os/">OS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/certificate/">Certificate</a>
@@ -2722,6 +2762,18 @@
 
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -2845,11 +2897,11 @@
 
   
     <a
-      href="/posts/til-os-what-is-windows-registry/"
+      href="/posts/others-ubuntu-terminal-shortcut-error/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
-      <p>[Windows] 윈도우의 레지스트리란?</p>
+      <p>Ubuntu 터미널 단축키 장애 해결</p>
     </a>
   
 </nav>
@@ -3167,125 +3219,6 @@
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -3295,100 +3228,6 @@
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -3533,90 +3372,70 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -3791,6 +3610,71 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -3830,7 +3714,189 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -3907,6 +3973,10 @@
     
     
     
+      
+        
+        
+
   
     
     
@@ -4003,10 +4073,10 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/os/">OS</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/os/">OS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/certificate/">Certificate</a>

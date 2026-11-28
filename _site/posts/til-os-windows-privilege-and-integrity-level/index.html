@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@BangJeongBin" />
 <meta name="twitter:creator" content="@Jeongbin Bang" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2026-09-20T21:46:06+09:00","datePublished":"2026-02-28T10:00:00+09:00","description":"Privilege와 Integrity Level에 대하여","headline":"[Windows] 윈도우의 Privilege와 Integrity Level","image":{"alt":"Today I Learnd","url":"https://www.thewindowsclub.com/wp-content/uploads/2022/05/Mandatory-Integrity-Control-in-Windows.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/til-os-windows-privilege-and-integrity-level/"},"url":"http://localhost:4000/posts/til-os-windows-privilege-and-integrity-level/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeongbin Bang","url":"https://github.com/BangJeongBin"},"dateModified":"2026-11-23T13:40:55+09:00","datePublished":"2026-02-28T10:00:00+09:00","description":"Privilege와 Integrity Level에 대하여","headline":"[Windows] 윈도우의 Privilege와 Integrity Level","image":{"alt":"Today I Learnd","url":"https://www.thewindowsclub.com/wp-content/uploads/2022/05/Mandatory-Integrity-Control-in-Windows.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/til-os-windows-privilege-and-integrity-level/"},"url":"http://localhost:4000/posts/til-os-windows-privilege-and-integrity-level/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -921,13 +921,13 @@
 
 <time
   
-  data-ts="1789908366"
+  data-ts="1795408855"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Sep 20, 2026
+  Nov 23, 2026
 </time>
 
         </span>
@@ -1018,8 +1018,8 @@
 <p><br /></p>
 
 <p>현재 프로세스가 어떤 권한을 갖고 있고 어떤 상태(<strong>Enabled</strong>/<strong>Disabled</strong>)인지는 <code class="language-plaintext highlighter-rouge">whoami /priv</code> 명령어로 확인 가능</p>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -1032,21 +1032,25 @@
 10
 11
 12
-</pre></td><td class="rouge-code"><pre>C:\Windows\ServiceProfiles&gt;whoami /priv
+</pre></td><td class="rouge-code"><pre>C:<span class="se">\W</span>indows<span class="se">\S</span>erviceProfiles&gt;whoami /priv
 
 PRIVILEGES INFORMATION
-----------------------
+<span class="nt">----------------------</span>
 
 Privilege Name               Description                          State
-============================= ==================================== ========
+<span class="o">=============================</span> <span class="o">====================================</span> <span class="o">========</span>
 SeShutdownPrivilege           Shut down the system                 Disabled
 SeChangeNotifyPrivilege        Bypass traverse checking             Enabled
 SeUndockPrivilege              Remove computer from docking station Disabled
-SeIncreaseWorkingSetPrivilege  Increase a process working set       Disabled
-SeTimeZonePrivilege            Change the time zone                 Disabled
+SeIncreaseWorkingSetPrivilege  Increase a process working <span class="nb">set       </span>Disabled
+SeTimeZonePrivilege            Change the <span class="nb">time </span>zone                 Disabled
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><br /></p>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
 
 <h2 id="𝙸𝙸-무결성-수준-integrity-level-il"><span class="me-2">𝙸𝙸. 무결성 수준 (Integrity Level, IL)</span><a href="#𝙸𝙸-무결성-수준-integrity-level-il" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
@@ -1069,7 +1073,8 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
   <p>E.g. 프로세스가 다른 프로세스 안에서 쓰기를 원한다면 최소한 동일한 무결성 수준을 가져야 한다. 이는 낮은 무결성 수준을 가진 프로세스가 중간 무결성 수준을 가진 프로세스에 대해 완전한 접근 권한을 가진 핸들을 열 수 없다는 것을 의미함.</p>
 </blockquote>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="integrity-level-5단계"><span class="me-2">Integrity Level 5단계</span><a href="#integrity-level-5단계" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1111,7 +1116,11 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
   </tbody>
 </table></div>
 
-<p><br /></p>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
 
 <h2 id="𝙸𝙸𝙸-privilege와-il의-동작-방식"><span class="me-2">𝙸𝙸𝙸. Privilege와 IL의 동작 방식</span><a href="#𝙸𝙸𝙸-privilege와-il의-동작-방식" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
@@ -1144,7 +1153,8 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
   </li>
 </ul>
 
-<p><br /></p>
+<p><br />
+<br /></p>
 
 <h3 id="차이점-정리"><span class="me-2">차이점 정리</span><a href="#차이점-정리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <hr />
@@ -1181,6 +1191,10 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
 <br /></p>
 
 <h2 id="related-posts"><span class="me-2">Related Posts</span><a href="#related-posts" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
@@ -1189,7 +1203,9 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
   <li><a href="https://bangjeongbin.github.io/TIL-Blog/posts/til-os-windows-what-is-uac">[Windows] 윈도우의 UAC(User Account Control)란?</a></li>
 </ul>
 
-<p><br /></p>
+<p><br />
+<br />
+<br /></p>
 
 <h2 id="reference"><span class="me-2">Reference</span><a href="#reference" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <hr />
@@ -1354,35 +1370,35 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/til-os-linux-the-concept-of-sysvinit-and-the-difference-from-systemd/">[Linux] SysVinit의 개념과 systemd와의 차이</a>
+          <a href="/posts/others-ubuntu-terminal-shortcut-error/">Ubuntu 터미널 단축키 장애 해결</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/review-book-algorithms-that-are-everywhere-and-do-anything/">[Book] "어디에나 있고 무엇이든 하는 알고리즘 이야기" Review</a>
+          <a href="/posts/boj-14681/">[BOJ 14681] 사분면 고르기</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/leetcode-145/">[LeetCode 145] Binary Tree Postorder Traversal</a>
+          <a href="/posts/boj-10952/">[BOJ 10952] A+B - 5</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/leetcode-160/">[LeetCode 160] Intersection of Two Linked Lists</a>
+          <a href="/posts/boj-15552/">[BOJ 15552] 빠른 A+B</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/leetcode-168/">[LeetCode 168] Excel Sheet Column Title</a>
+          <a href="/posts/boj-10871/">[BOJ 10871] X보다 작은 수</a>
         </li>
       
     </ul>
@@ -1655,125 +1671,6 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -1783,100 +1680,6 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -2021,90 +1824,70 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -2279,6 +2062,71 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -2318,7 +2166,189 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2395,6 +2425,10 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
     
     
     
+      
+        
+        
+
   
     
     
@@ -2491,10 +2525,10 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
         <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/os/">OS</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/os/">OS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/certificate/">Certificate</a>
@@ -2726,6 +2760,18 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
 
   
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
@@ -3195,125 +3241,6 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -3323,100 +3250,6 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -3561,90 +3394,70 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -3819,6 +3632,71 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -3858,7 +3736,189 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -3935,6 +3995,10 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
     
     
     
+      
+        
+        
+
   
     
     
@@ -4031,10 +4095,10 @@ SeTimeZonePrivilege            Change the time zone                 Disabled
         <a class="post-tag btn btn-outline-primary" href="/tags/network/">Network</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/os/">OS</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/os/">OS</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/cs/">CS</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/certificate/">Certificate</a>

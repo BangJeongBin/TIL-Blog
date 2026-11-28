@@ -685,6 +685,15 @@
   },
   
   {
+    "title": "[Linux] systemd란?",
+    "url": "/posts/til-os-linux-what-is-systemd/",
+    "categories": "TIL, OS, Linux",
+    "tags": "OS, Linux, Process, init, systemd",
+    "date": "2026-03-07 10:00:00 +0900",
+    "content": "리눅스의 init 프로세스인 systemd에 대하여"
+  },
+  
+  {
     "title": "[Linux] SysVinit의 개념과 systemd와의 차이",
     "url": "/posts/til-os-linux-the-concept-of-sysvinit-and-the-difference-from-systemd/",
     "categories": "TIL, OS, Linux",
@@ -754,6 +763,15 @@
     "tags": "OS, Windows, Registry",
     "date": "2026-02-26 10:00:00 +0900",
     "content": "윈도우 레지스트리(Registry) 구조 및 핵심 개념 정리"
+  },
+  
+  {
+    "title": "Ubuntu 터미널 단축키 장애 해결",
+    "url": "/posts/others-ubuntu-terminal-shortcut-error/",
+    "categories": "Others",
+    "tags": "Mac, Ubuntu, Ubuntu Desktop, Terminal",
+    "date": "2026-02-26 10:00:00 +0900",
+    "content": "Mac 환경에서 VM으로 Ubuntu Desktop 사용시 터미털 단축키 안되는 현상 해결"
   },
   
   {
